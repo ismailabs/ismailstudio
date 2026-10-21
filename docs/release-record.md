@@ -1,6 +1,6 @@
 # Release record — in progress
 
-**Not released yet.** Do not interpret a successful build, local form receipt or packaging dry run as public production completion.
+**Live; final verification in progress.** Canonical HTTP, redirects and real production inbox delivery passed. A hosting-injected analytics/CSP issue is being repaired before declaring the release complete.
 
 ## Verified so far
 
@@ -36,3 +36,11 @@ Build from the reviewed commit with `RELEASE_COMMIT=<40-character SHA>`, package
 Snapshot any prior version/deployment and relevant website-only DNS/route state. Roll back to that known-good Worker version or restore the exact website route/record from baseline if live verification fails. Never alter MX, SPF, DKIM, DMARC, CAA, unrelated Workers/domains or entire-zone configuration. Code rollback does not restore a provider mailbox or submission records.
 
 If access remains unavailable, finish and preserve all nonblocked work, report the exact missing permission/session and leave the public domain unchanged. Do not declare the definition of done achieved.
+
+## Public evidence so far
+
+Source `f1bf29c3daadb7e7b89f67f207ec80ae5a812e1a` pushed and all three SHA reads matched. Initial site version `884270fc-00d9-4264-9c97-cb065432ad33`; redirect version `b1fb9bf9-8597-4210-b782-4a951bc1e820`. Preview: 34 HTTP checks and five browser tests passed. Public: 38 HTTP checks passed, all four concepts returned 200, real production form accepted and owner confirmed Zoho inbox receipt for `ISM-PRODUCTION-20261021120823`.
+
+All 17 DNS records compared unchanged after route deployment, fingerprint `e655f87c8e32f7951544b2a9f90eeb3633e185b8a84de5191c91a86c06a6da43`. Seven existing Workers and six existing custom domains compared unchanged. Raw DNS remains private; compact receipts under evidence/.
+
+Final public browser suite found automatic Cloudflare Web Analytics injection blocked by the intentional CSP. Its management API is unavailable (403), so no verified analytics property is claimed. A site-only no-transform header prevents injection without changing unrelated analytics or weakening CSP. Recheck final public browser suite and deployed source receipt after this repair.

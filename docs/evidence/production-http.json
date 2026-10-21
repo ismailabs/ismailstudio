@@ -1,0 +1,197 @@
+{
+  "checkedAt": "2026-10-21T12:08:12.441Z",
+  "base": "https://www.ismailstudio.my",
+  "baseline": false,
+  "responses": [
+    {
+      "url": "https://www.ismailstudio.my/",
+      "status": 200,
+      "releaseCommit": "f1bf29c3daadb7e7b89f67f207ec80ae5a812e1a",
+      "headers": {
+        "content-security-policy": "default-src 'self'; script-src 'self' 'sha256-P4OiMrFiVQG8eUFwXc0N3qHP0mu4SjA+aqXpJUT3guQ=' 'sha256-8JQcqHyQGk53NTC0c/yop1VUKCEAGMJGHgSaNg36ATs='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io mailto:; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "strict-transport-security": "max-age=31536000",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/contact-editorial.svg",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/hero-editorial.svg",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kilatmoto-1200.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kilatmoto-400.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kilatmoto-640.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kilatmoto-800.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kopikita-1200.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kopikita-400.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kopikita-640.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kopikita-800.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/makansedap-1200.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/makansedap-400.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/makansedap-640.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/makansedap-800.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/malaysia-1200.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/malaysia-400.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/malaysia-640.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/malaysia-800.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "favicon.ico",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "og-image.png",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "_astro/geist-latin-wght-normal.BgDaEnEv.woff2",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "_astro/index.B3RDbI4s.css",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": ".env",
+      "status": 404
+    },
+    {
+      "path": ".git/config",
+      "status": 404
+    },
+    {
+      "path": "package.json",
+      "status": 404
+    },
+    {
+      "path": "src/pages/index.astro",
+      "status": 404
+    },
+    {
+      "path": "docs/02-copy-final.md",
+      "status": 404
+    },
+    {
+      "path": "_headers",
+      "status": 404
+    },
+    {
+      "path": "unknown-route/",
+      "status": 404
+    },
+    {
+      "url": "https://ismailstudio.my/",
+      "status": 308,
+      "location": "https://www.ismailstudio.my/"
+    },
+    {
+      "url": "http://ismailstudio.my/",
+      "status": 308,
+      "location": "https://www.ismailstudio.my/"
+    },
+    {
+      "url": "https://ismailstudio.my/path/to/page?source=release&x=a%20b",
+      "status": 308,
+      "location": "https://www.ismailstudio.my/path/to/page?source=release&x=a%20b"
+    },
+    {
+      "url": "http://www.ismailstudio.my/?source=release",
+      "status": 308,
+      "location": "https://www.ismailstudio.my/?source=release"
+    }
+  ]
+}

@@ -25,6 +25,8 @@ Native HTML POST with progressive vanilla JS enhancement, using the public owner
 
 Optional public configuration is documented in `.env.example`. `PUBLIC_FORM_ENABLED=false` switches to an explicitly described email-preparation fallback. No personal phone number is used. No draft storage, advertising pixel, speculative analytics event, database, login or custom enquiry backend.
 
+The HTML response uses `no-transform` to prevent Cloudflare from injecting an unverified analytics script that conflicts with the site's CSP. No zone-wide analytics setting is changed. Enabling analytics later requires a verified property, reviewed privacy copy and intentional CSP/network verification.
+
 ## Cloudflare packaging
 
 ```sh

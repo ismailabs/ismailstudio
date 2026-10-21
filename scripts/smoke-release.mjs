@@ -16,6 +16,8 @@ if (baseline) {
   assert.equal(response.status, 200);
   const html = await response.text();
   assert.ok(html.includes('Professional websites for small businesses.'));
+  assert.ok(!html.includes('static.cloudflareinsights.com/beacon.min.js'), 'Unverified analytics was injected');
+  assert.ok(response.headers.get('cache-control')?.includes('no-transform'), 'Missing site-level transform protection');
   assert.ok(html.includes('<link rel="canonical" href="https://www.ismailstudio.my/">'));
   if (process.env.RELEASE_COMMIT) assert.equal(response.headers.get('x-release-commit'), process.env.RELEASE_COMMIT);
   for (const header of ['content-security-policy','strict-transport-security','x-content-type-options','referrer-policy','permissions-policy']) assert.ok(response.headers.get(header), `Missing ${header}`);

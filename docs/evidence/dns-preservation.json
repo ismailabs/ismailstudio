@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-21T12:08:30.760Z",
+  "baselineAt": "2026-10-21T11:54:01.617Z",
+  "currentAt": "2026-10-21T12:08:30.304Z",
+  "zone": "dc2bee92d5853929394633d0a4165093",
+  "recordCount": 17,
+  "allRecordsUnchanged": true,
+  "allRecordsSha256": "e655f87c8e32f7951544b2a9f90eeb3633e185b8a84de5191c91a86c06a6da43",
+  "mailAndCaaCount": 7,
+  "method": "Owner read-only token; DNS list only, no DNS write operation or write probe"
+}

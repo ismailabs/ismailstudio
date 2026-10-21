@@ -15,5 +15,5 @@ const csp = [
 const releaseCommit = process.env.RELEASE_COMMIT;
 if (releaseCommit && !/^[a-f0-9]{40}$/.test(releaseCommit)) throw new Error('Invalid release commit');
 const receipt = releaseCommit ? `  X-Release-Commit: ${releaseCommit}\n` : '';
-await writeFile('dist/_headers', `/*\n  Content-Security-Policy: ${csp}\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: DENY\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  Strict-Transport-Security: max-age=31536000\n${receipt}/_astro/*\n  Cache-Control: public, max-age=31536000, immutable\n/assets/*\n  Cache-Control: public, max-age=86400\n`);
+await writeFile('dist/_headers', `/*\n  Content-Security-Policy: ${csp}\n  Cache-Control: public, max-age=0, must-revalidate, no-transform\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: DENY\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  Strict-Transport-Security: max-age=31536000\n${receipt}/_astro/*\n  Cache-Control: public, max-age=31536000, immutable\n/assets/*\n  Cache-Control: public, max-age=86400\n`);
 console.log(`Production headers generated; ${hashes.length} inline script hash(es).`);

@@ -1,0 +1,11 @@
+{
+  "marker": "ISM-PRODUCTION-20261021120823",
+  "scope": "production",
+  "url": "https://www.ismailstudio.my",
+  "checkedAt": "2026-10-21T12:08:35.107Z",
+  "providerHttp": 200,
+  "providerAccepted": true,
+  "uiState": "success",
+  "zohoReceipt": "OWNER_CONFIRMED_INBOX",
+  "receiptEvidence": "Owner explicitly confirmed production test arrival in the active chat on 2026-10-21"
+}

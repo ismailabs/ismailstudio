@@ -16,5 +16,8 @@ const candidate = scripts.filter((script) => script.id === 'ismailstudio');
 const triggers = [];
 for (const script of candidate) triggers.push({ script: script.id, triggers: await read(`/accounts/${account}/builds/workers/${script.id}/triggers`) });
 await mkdir('.local', { recursive: true });
-await writeFile('.local/cloudflare-routing-baseline.json', JSON.stringify({ capturedAt: new Date().toISOString(), account, zone, scripts, domains, routes, triggers }, null, 2));
+// Baseline must remain historical; repeat inspections use the separate current file.
+let filename = '.local/cloudflare-routing-baseline.json';
+try { await (await import('node:fs/promises')).access(filename); filename = '.local/cloudflare-routing-current.json'; } catch {}
+await writeFile(filename, JSON.stringify({ capturedAt: new Date().toISOString(), account, zone, scripts, domains, routes, triggers }, null, 2));
 console.log(JSON.stringify({ account, zone, scriptCount: scripts.length, domainCount: domains.length, routeCount: routes.length, candidate, websiteDomains: domains.filter((item) => ['www.ismailstudio.my','ismailstudio.my'].includes(item.hostname)), websiteRoutes: routes.filter((item) => /^(https?:\/\/)?(www\.)?ismailstudio\.my\//.test(item.pattern)), triggers }, null, 2));

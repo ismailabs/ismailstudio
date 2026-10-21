@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-21T12:14:32.435Z",
+  "stats": {
+    "startTime": "2026-10-21T12:09:47.532Z",
+    "duration": 211431.42500000002,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 7,
+    "flaky": 0
+  },
+  "reason": "One navigation timeout and six console failures caused by automatic Cloudflare analytics injection blocked by CSP. Assertions retained; site-level no-transform repair follows."
+}

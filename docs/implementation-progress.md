@@ -4,6 +4,8 @@
 
 Approved cinematic + bold contemporary + experimental digital redesign is being implemented on `codex/ismailstudio-v2-creative-redesign` from observed `d9dc2b8`. V2 reference authority is `redesign-v2/START_HERE.md`; current implementation/QA/release evidence is in `redesign/`. All historical V1 entries below remain historical, not V2 verification. No V2 deployment has occurred at this checkpoint.
 
+V2 final checkpoint: implementation and three refinement cycles complete. Runtime 488a88c pushed, upload-only preview 559ca179 verified. [CI 39646381434](https://github.com/ismailabs/ismailstudio/actions/runs/39646381434) passed 31 local + 31 hosted cases and static checks. **IMPLEMENTED, PRODUCTION BLOCKED** pending fresh Zoho receipt for ISM-PREVIEW-V2-20261021173515. Formspree accepted; inbox unverified. V1 remains 100%, infrastructure preserved. Exact continuation in redesign/release-record.md.
+
 ## 2026-10-21 — Phase 0: inspect and protect
 
 - Baseline: `main`, `25ded7b`, remote `https://github.com/ismailabs/ismailstudio.git`. No application or root AGENTS.md; only 19 tracked skills and skills-lock.json. Untracked handoff preserved and integrated without replacing existing work.

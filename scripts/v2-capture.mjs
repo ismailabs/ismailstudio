@@ -11,13 +11,14 @@ const evidence = { at: new Date().toISOString(), base, sha: execFileSync('git',[
 for (const width of [1440,390]) {
   const page = await browser.newPage({ viewport: { width, height: width === 390 ? 844 : 900 }, reducedMotion: 'reduce' });
   await page.route('https://formspree.io/f/mljgyabo', route => route.fulfill({status:200,json:{ok:true}}));
-  await page.goto(base);
+  const response = await page.goto(base);
+  const servedSource = response?.headers()['x-release-commit'] ?? null;
   await page.evaluate(() => document.fonts.ready);
   const capture = async (state, locator) => {
     if (locator) await locator.scrollIntoViewIfNeeded();
     const file = `${folder}/${width}-${state}.png`;
     await page.screenshot({path:file});
-    evidence.captures.push({ width, height: width===390?844:900, state, file, url: page.url() });
+    evidence.captures.push({ width, height: width===390?844:900, state, file, url: page.url(), servedSource });
   };
   await capture('hero');
   for (const [state,selector] of [['work','#work'],['work-second','.project-kopikita'],['process','#process'],['pricing','#services'],['about','#about'],['faq','.faq'],['contact-step1','#contact']]) {

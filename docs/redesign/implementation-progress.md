@@ -24,3 +24,12 @@
 - Six final Lighthouse runs: mobile median LCP 2.143s, CLS 0, TBT 199ms; desktop median LCP 0.673s, CLS 0, TBT 25.5ms. A11y/best-practices/SEO all 100. Conditions/ranges and public-baseline versus local-final boundary documented.
 - Final `npm run check`: 53 files, zero errors/warnings/hints. Preliminary website-only cf dry-run PASS. CLI worker selector must be actual name `ismailstudio`, not Build Output directory `default`; corrected before any remote operation. Site-only artifact excludes apex and trigger mutation.
 - Next: source commit, exact-source clean build/allowlist/dry-run, version URL preview, safe real provider receipt, conditional production action. Production still V1.
+
+## 2026-10-22 — Verified preview; inbox gate
+
+- Runtime 488a88c34a2a78d4ece64636dff14ac4d42e8395 pushed and exact-source built/packaged: 31 files, apex/triggers excluded. cf dry-run PASS; upload-only version 559ca179-d268-4db7-a486-181df5238e66 created. Preview passed 37 HTTP/hash/security checks; four concept URLs remain 200.
+- Real preview enquiry Formspree 200 and UI success: ISM-PREVIEW-V2-20261021173515. Direct Zoho confirmation requested, not yet received. V1 receipt not reused.
+- Windows memory exhaustion (~7MB free) caused retained budget timeouts. Split tests by responsibility, keeping every assertion/timeout. Provenance-reviewed, SHA-pinned official CI runs only on ephemeral Ubuntu, with read-only token, no persisted credentials/secrets/deploy action and isolated enquiries. No workstation/app dependency added.
+- Verification fe3b41f69ce794148740c1da4e6662484ff0948c passed CI 39646381434: full verify, **31/31 local + 31/31 hosted**, zero flaky/skipped/unexpected. Downloaded artifact SHA256 matched; runtime/public/config/packaging diff from 488a88c empty.
+- 27 final hosted captures complete; 108 primary frames total plus matrix/resilience/study captures. Latest infrastructure reads at 17:49 UTC: all 17 DNS records, routes, six domains, apex deployment, eight other Workers and bindings unchanged. V1 version 4317599d remains 100%; main unchanged. Promotion and rollback dry-runs passed, no actual production deployment sent.
+- **IMPLEMENTED, PRODUCTION BLOCKED** only on fresh Zoho receipt. Exact owner action, authorized continuation and rollback documented in release-record.md. User's original skill/lock changes preserved.

@@ -28,4 +28,8 @@ No lint script is configured. `npm test` is the exact Playwright command; `npx p
 
 Known environment limit: this Windows machine has about 4GB physical memory and was observed with only ~28MB free during the slow full run. Retain timeout evidence; do not equate host scheduling delays with a demonstrated production defect or claim a clean single run.
 
+Preview follow-up: combined dialog cases again exhausted their global 30-second budget after earlier assertions passed, and one native integration case reached all assertions but timed out during context cleanup. Split each dialog audit/focus flow from its multi-navigation history/static route flow, and separated native POST from the extra static fallback navigation. Every original assertion remains, with unchanged 5-second expectations and 30-second test budgets. This creates 31 focused cases; no site runtime byte changes. The original preview receipt remains `evidence/browser-preview-combined.json`; focused rerun results follow.
+
+The next host run reached only ~7MB free RAM and timed out in an unchanged 60-second desktop audit. Interrupted it, retained `evidence/browser-preview-constrained-host.json`, and moved final local-plus-hosted verification to the pinned official GitHub Actions workflow. Linux uses Playwright's pinned Chromium; Windows keeps existing Edge. No test assertion or timeout is relaxed. CI has no production access and isolates all enquiry transport. CI results are recorded separately below when complete.
+
 Physical-device testing, screen-reader listening and real-user p75/INP are not verified. Search Console owner actions remain separate. Current synthetic metrics and accessibility samples are not a WCAG certification, field-performance claim or search ranking promise.

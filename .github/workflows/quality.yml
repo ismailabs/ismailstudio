@@ -1,0 +1,74 @@
+name: Website quality
+
+on:
+  push:
+    branches: [main, codex/ismailstudio-v2-creative-redesign]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'tests/**'
+      - 'tests-worker/**'
+      - 'scripts/**'
+      - 'tools/**'
+      - 'package*.json'
+      - 'astro.config.mjs'
+      - 'playwright.config.ts'
+      - '.github/workflows/quality.yml'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      verification_url:
+        description: Optional public deployment URL to verify after the local build
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24.19.0'
+          cache: npm
+      - name: Install locked dependencies without lifecycle scripts
+        run: npm ci --ignore-scripts
+      - name: Install the locked Playwright Chromium in this ephemeral runner
+        run: npx --no-install playwright install --with-deps chromium
+      - name: Verify static build, redirects and all browser cases
+        run: npm run verify
+      - name: Preserve local browser receipt
+        if: always()
+        run: |
+          mkdir -p .local/ci
+          if [ -f .local/test-results.json ]; then cp .local/test-results.json .local/ci/local-results.json; fi
+      - name: Verify the exact public version preview
+        if: success() && (github.ref == 'refs/heads/codex/ismailstudio-v2-creative-redesign' || inputs.verification_url != '')
+        env:
+          TEST_BASE_URL: ${{ inputs.verification_url || 'https://559ca179-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev' }}
+        run: npm test
+      - name: Preserve hosted browser receipt
+        if: always()
+        run: |
+          if [ -f .local/test-results.json ]; then cp .local/test-results.json .local/ci/last-results.json; fi
+      - name: Upload only isolated browser receipts and failure traces
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: website-quality-${{ github.sha }}
+          path: |
+            .local/ci/
+            test-results/
+          include-hidden-files: true
+          retention-days: 7

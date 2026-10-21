@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-21T17:27:21.058Z",
+  "checks": [
+    {
+      "url": "https://www.ismailstudio.my/",
+      "status": 200,
+      "location": null,
+      "source": "74ddae2f873e45f89dc2837456ca7441985be96e"
+    },
+    {
+      "url": "https://ismailstudio.my/path?check=v2",
+      "status": 308,
+      "location": "https://www.ismailstudio.my/path?check=v2",
+      "source": null
+    },
+    {
+      "url": "https://kilatmoto.ismailstudio.my/",
+      "status": 200,
+      "location": null,
+      "source": null
+    },
+    {
+      "url": "https://makansedap.ismailstudio.my/",
+      "status": 200,
+      "location": null,
+      "source": "1c0eb6334fc23a52193ca4f3949163edb1be49df"
+    },
+    {
+      "url": "https://kopikita.ismailstudio.my/",
+      "status": 200,
+      "location": null,
+      "source": null
+    },
+    {
+      "url": "https://malaysia.ismailstudio.my/",
+      "status": 200,
+      "location": null,
+      "source": null
+    }
+  ]
+}

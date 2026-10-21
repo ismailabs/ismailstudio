@@ -5,7 +5,7 @@ const endpoint = 'https://formspree.io/f/mljgyabo';
 test.beforeEach(async ({page}) => { await page.route(endpoint, route => route.fulfill({status:503,json:{error:'Isolated test'}})); });
 
 for (const slug of ['kilatmoto','makansedap','kopikita','malaysia']) {
-  test(`${slug} case supports keyboard, focus, history and accessible fallback`,async ({page,request}) => {
+  test(`${slug} case supports keyboard, focus and accessibility`,async ({page}) => {
     await page.goto('/');
     const trigger=page.locator(`.project-${slug} .project-preview`);
     await trigger.focus(); await page.keyboard.press('Enter');
@@ -20,6 +20,14 @@ for (const slug of ['kilatmoto','makansedap','kopikita','malaysia']) {
     expect(audit.violations).toEqual([]);
     await page.keyboard.press('Escape');
     await expect(dialog).not.toBeVisible(); await expect(trigger).toBeFocused();
+  });
+  test(`${slug} case history, direct entry and static fallback`,async ({page,request}) => {
+    await page.goto('/');
+    await page.locator(`.project-${slug} .project-preview`).click();
+    const dialog=page.locator(`#case-${slug}`);
+    await expect(dialog).toBeVisible();
+    await page.keyboard.press('Escape');
+    await expect(dialog).not.toBeVisible();
     await page.goForward(); await expect(dialog).toBeVisible();
     await page.goBack(); await expect(dialog).not.toBeVisible();
     await page.goto(`/?case=${slug}`); await expect(dialog).toBeVisible();
@@ -85,6 +93,12 @@ test('no-JS full native form sends unchanged provider fields through isolated tr
   await page.getByRole('button',{name:'Send enquiry',exact:true}).click();
   await expect(page.getByRole('heading',{name:'Isolated provider acceptance'})).toBeVisible();
   expect(data).toContain('QA Native'); expect(data).toContain('_gotcha');
+  await context.close();
+});
+
+test('no-JS direct study fallback remains readable',async ({browser})=>{
+  const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});
+  const page=await context.newPage();
   await page.goto((process.env.TEST_BASE_URL||'http://127.0.0.1:4321')+'/work/kilatmoto/');
   await expect(page.locator('h1')).toHaveText('KilatMoto');
   await context.close();

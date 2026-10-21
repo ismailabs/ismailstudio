@@ -1,0 +1,192 @@
+{
+  "checkedAt": "2026-10-21T17:25:30.061Z",
+  "base": "https://559ca179-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev",
+  "baseline": false,
+  "responses": [
+    {
+      "url": "https://559ca179-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "status": 200,
+      "releaseCommit": "488a88c34a2a78d4ece64636dff14ac4d42e8395",
+      "headers": {
+        "content-security-policy": "default-src 'self'; script-src 'self' 'sha256-xRibtZzqnZ8KLdyU6eGtRRTBuhJph2P1jFLNXv4sg4w=' 'sha256-D3dWY7ult04zQ4K+RIlIHcfyGqNrRceq6+6fy78PCzw=' 'sha256-FE1ORF/LepxYkbK5QmcbJtDp4CU+GHl5xUUobEbNKpk=' 'sha256-OeDIOIpfLI0FeMO3GBnQBeAmSg5XlYTGATBJ6YyTLFE=' 'sha256-7N4ooWxt4rawNxke/ivJyWxFWrC7j9StpgeseRD/lKM='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io mailto:; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+        "strict-transport-security": "max-age=31536000",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=(), geolocation=()"
+      }
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kilatmoto-1200.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kilatmoto-400.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kilatmoto-640.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kilatmoto-800.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kopikita-1200.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kopikita-400.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kopikita-640.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/kopikita-800.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/makansedap-1200.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/makansedap-400.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/makansedap-640.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/makansedap-800.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/malaysia-1200.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/malaysia-400.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/malaysia-640.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "assets/projects/malaysia-800.webp",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "favicon.ico",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "og-image.png",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "work/kilatmoto/index.html",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "work/kopikita/index.html",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "work/makansedap/index.html",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "work/malaysia/index.html",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "_astro/BaseLayout.astro_astro_type_script_index_0_lang.BbUEHHm8.js",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "_astro/geist-latin-wght-normal.BgDaEnEv.woff2",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": "_astro/studies.3rhw9r64.css",
+      "status": 200,
+      "sha256Matches": true
+    },
+    {
+      "path": ".env",
+      "status": 404
+    },
+    {
+      "path": ".git/config",
+      "status": 404
+    },
+    {
+      "path": "package.json",
+      "status": 404
+    },
+    {
+      "path": "src/pages/index.astro",
+      "status": 404
+    },
+    {
+      "path": "docs/02-copy-final.md",
+      "status": 404
+    },
+    {
+      "path": "_headers",
+      "status": 404
+    },
+    {
+      "path": "unknown-route/",
+      "status": 404
+    }
+  ]
+}

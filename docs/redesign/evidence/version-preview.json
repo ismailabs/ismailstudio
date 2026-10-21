@@ -1,0 +1,15 @@
+{
+  "sourceCommit": "488a88c34a2a78d4ece64636dff14ac4d42e8395",
+  "worker": "ismailstudio",
+  "version": "559ca179-d268-4db7-a486-181df5238e66",
+  "url": "https://559ca179-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+  "alias": "https://v2-review-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+  "mode": "upload only; zero production traffic",
+  "packaging": "31 allowlisted static files, no apex Worker or trigger configuration",
+  "build": "Astro clean five-page build from sourceCommit with X-Release-Commit header",
+  "dryRun": "PASS using pinned cf beta.19 and actual Worker name ismailstudio",
+  "httpChecks": 37,
+  "servedAssetHashes": "All emitted public assets checked against exact-source artifact",
+  "productionVersionAfterUpload": "4317599d-6080-4ac6-9237-3503bc0971e9",
+  "infrastructureComparison": "PASS; DNS, routes, custom domains, other Workers, apex deployment and bindings unchanged"
+}

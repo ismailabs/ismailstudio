@@ -9,7 +9,7 @@ export default defineConfig({
   use: {
     baseURL: process.env.TEST_BASE_URL || 'http://127.0.0.1:4321',
     browserName: 'chromium',
-    channel: 'msedge',
+    channel: process.platform === 'win32' ? 'msedge' : undefined,
     headless: true,
     trace: 'retain-on-failure',
   },

@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-10-21T12:54:48.525Z",
+  "url": "https://www.ismailstudio.my/",
+  "sourceCommit": "74ddae2f873e45f89dc2837456ca7441985be96e",
+  "scope": "Full canonical suite after header repair",
+  "stats": {
+    "startTime": "2026-10-21T12:17:48.241Z",
+    "duration": 2155233.455,
+    "expected": 16,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "title": "content, layout and accessibility at 360px",
+      "passed": true
+    },
+    {
+      "title": "content, layout and accessibility at 390px",
+      "passed": false
+    },
+    {
+      "title": "content, layout and accessibility at 430px",
+      "passed": true
+    },
+    {
+      "title": "content, layout and accessibility at 768px",
+      "passed": true
+    },
+    {
+      "title": "content, layout and accessibility at 1024px",
+      "passed": true
+    },
+    {
+      "title": "content, layout and accessibility at 1440px",
+      "passed": true
+    },
+    {
+      "title": "content, layout and accessibility at 1920px",
+      "passed": true
+    },
+    {
+      "title": "metadata, anchors, external links and published routes",
+      "passed": true
+    },
+    {
+      "title": "package selection, native FAQ and keyboard skip link",
+      "passed": true
+    },
+    {
+      "title": "mobile menu opens, closes on Escape and follows anchors",
+      "passed": true
+    },
+    {
+      "title": "form rejects invalid, too short and oversized values without network",
+      "passed": true
+    },
+    {
+      "title": "simulated provider acceptance has loading, one request, reset and accessible success",
+      "passed": true
+    },
+    {
+      "title": "simulated provider failure preserves content and offers retry",
+      "passed": true
+    },
+    {
+      "title": "simulated network failure preserves content and offers retry",
+      "passed": true
+    },
+    {
+      "title": "simulated unconfirmed failure preserves content and offers retry",
+      "passed": true
+    },
+    {
+      "title": "no-JavaScript content, navigation, FAQ and native provider POST survive",
+      "passed": true
+    },
+    {
+      "title": "reduced motion, forced colors, 200% equivalent reflow and privacy",
+      "passed": true
+    }
+  ],
+  "note": "16 passed; 390px hit the 60-second global test timeout while checking unchanged Business page scope. Runner reported 33.6 minutes for that test. No assertion or timeout is relaxed; focused rerun follows."
+}

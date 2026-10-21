@@ -2,7 +2,7 @@
 
 Single-page Astro website for an independent Malaysian frontend developer. Approved offers: Starter from RM599 / 1 page / 1 revision; Business from RM1,299 / up to 5 pages / 2 revisions; Premium from RM2,999 / up to 12 pages / 2 revisions. All four portfolio sites are concept projects.
 
-Canonical production target: https://www.ismailstudio.my/. Release state and actual evidence live in [docs/implementation-progress.md](docs/implementation-progress.md) and [docs/release-record.md](docs/release-record.md). A local build is not production verification.
+Live canonical site: https://www.ismailstudio.my/. Apex permanently redirects to HTTPS www. Release evidence and limits are in [docs/release-record.md](docs/release-record.md) and [docs/implementation-progress.md](docs/implementation-progress.md).
 
 ## Local development
 
@@ -21,7 +21,7 @@ The production preview is http://127.0.0.1:4321/ and applies the generated secur
 
 ## Form
 
-Native HTML POST with progressive vanilla JS enhancement, using the public owner-supplied Formspree ID. No API key, React or external SDK. Owner confirmed applicable permission and notification to contact@ismailstudio.my. Real local delivery was accepted by Formspree and confirmed in the Zoho inbox; see docs/evidence/form-local.json. Production delivery must also be tested after deployment.
+Native HTML POST with progressive vanilla JS enhancement, using the public owner-supplied Formspree ID. No API key, React or external SDK. Owner confirmed applicable permission and notification to contact@ismailstudio.my. Real local and canonical-production deliveries were accepted by Formspree and separately confirmed in the Zoho inbox; see docs/evidence/form-local.json and form-production.json.
 
 Optional public configuration is documented in `.env.example`. `PUBLIC_FORM_ENABLED=false` switches to an explicitly described email-preparation fallback. No personal phone number is used. No draft storage, advertising pixel, speculative analytics event, database, login or custom enquiry backend.
 

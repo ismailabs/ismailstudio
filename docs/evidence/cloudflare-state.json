@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-21T12:08:44.199Z",
+  "checkedAt": "2026-10-21T12:54:33.328Z",
   "account": "44214a829e2337ca50cf40e4cd827cba",
   "zone": "dc2bee92d5853929394633d0a4165093",
   "unrelatedWorkersUnchanged": 7,
@@ -18,7 +18,7 @@
       "request_limit_fail_open": false
     },
     {
-      "id": "846e05da978c443890748249747942eb",
+      "id": "e93eb7ccf5b74019bedf670c884bfe8b",
       "pattern": "www.ismailstudio.my/*",
       "script": "ismailstudio",
       "request_limit_fail_open": false
@@ -26,6 +26,18 @@
   ],
   "deployments": {
     "ismailstudio": [
+      {
+        "id": "224c085a-9853-40bd-9943-955c62ef8f7f",
+        "created_on": "2026-10-21T12:17:16.863707Z",
+        "source": "cf_cli",
+        "strategy": "percentage",
+        "versions": [
+          {
+            "version_id": "4317599d-6080-4ac6-9237-3503bc0971e9",
+            "percentage": 100
+          }
+        ]
+      },
       {
         "id": "b5e35fef-a548-45bb-b2f9-c4b3daeed9f9",
         "created_on": "2026-10-21T12:04:26.999697Z",

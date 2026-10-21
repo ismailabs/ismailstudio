@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-21T12:55:08.647Z",
+  "url": "https://www.ismailstudio.my/",
+  "sourceCommit": "74ddae2f873e45f89dc2837456ca7441985be96e",
+  "stats": {
+    "startTime": "2026-10-21T12:54:51.441Z",
+    "duration": 16981.096999999998,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "title": "content, layout and accessibility at 390px",
+      "passed": true
+    }
+  ],
+  "note": "Exact unmodified 390px test, same timeout and assertions. Combined with the full run, all 17 canonical checks have passed."
+}

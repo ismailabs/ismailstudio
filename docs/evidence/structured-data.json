@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-21T13:03:04.044Z",
+  "validator": "https://validator.schema.org/",
+  "method": "Official validator Fetch URL UI against the actual canonical site",
+  "url": "https://www.ismailstudio.my/",
+  "items": 1,
+  "types": [
+    "WebSite"
+  ],
+  "errors": 0,
+  "warnings": 0,
+  "rawScreenshot": ".local/schema-validator-result.png"
+}

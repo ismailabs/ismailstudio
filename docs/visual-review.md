@@ -1,6 +1,6 @@
 # Rendered design review — 2026-10-21
 
-Reviewed the real HTTP-served static build in Edge, with full-page and section captures at 360, 390, 430, 768, 1024, 1440 and 1920 pixels. Local originals are in `.local/screenshots/round1`, `round2` and `round3`. These are browser screenshots, not proposed mockups. Selected empty-form samples are retained under `docs/evidence/screenshots/`.
+Reviewed the real HTTP-served static build in Edge, with full-page and section captures at 360, 390, 430, 768, 1024, 1440 and 1920 pixels. Local originals are in `.local/screenshots/round1`, `round2` and `round3`. Final captures were repeated on the actual canonical deployment under `.local/screenshots/production/`; desktop hero and phone contact were re-read after the header repair. These are browser screenshots, not proposed mockups. The selected empty-form samples under `docs/evidence/screenshots/` now come from production; seven-width measurements are in `evidence/screenshot-measurements-production.json`.
 
 ## Observations and repairs
 

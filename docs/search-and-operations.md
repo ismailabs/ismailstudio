@@ -17,7 +17,7 @@ No Google property access or verification token has been supplied. These are set
 - Do not promise an automatic acknowledgment: none has been verified. Provider acceptance, a delivered notification and a qualified enquiry are separate observations.
 - Enquiry correspondence is for responding/scoping and any agreed project records. Honour deletion/privacy requests subject to legitimate record needs; configure provider retention appropriately. Avoid sensitive details and never copy customer submission contents into Git or analytics.
 - Event model for a future authorized analytics property: `quote_cta_click`, `form_start`, `form_submit_success`, `form_submit_error`, `mailto_click`, `project_open`. Payloads must contain no name/email/message/phone. No event code is shipped because no supporting property has been verified.
-- Cloudflare Web Analytics is optional. No property/token has been configured in source. Host-level automatic analytics injection must be inspected against CSP at deployment; do not weaken security or modify unrelated zone analytics.
+- Cloudflare Web Analytics is optional. No verified property/token is configured in source; its management read API returned 403. Production testing found host-level automatic injection blocked by CSP. The site's `public, no-transform` response header now prevents that injection, following [Cloudflare's documentation](https://developers.cloudflare.com/web-analytics/get-started/). No zone-wide analytics setting changed. Future analytics must use a verified property and intentional CSP/privacy/network checks.
 
 ## Browser and performance evidence limits
 

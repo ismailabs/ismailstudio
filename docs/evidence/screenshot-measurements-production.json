@@ -1,0 +1,366 @@
+[
+  {
+    "width": 360,
+    "pageWidth": 360,
+    "pageHeight": 12196,
+    "h1": {
+      "text": "Professional websites for small businesses.",
+      "fontSize": "39px",
+      "height": 123.984375
+    },
+    "firstQuoteButton": {
+      "x": 20,
+      "y": 464.140625,
+      "width": 320,
+      "height": 54,
+      "top": 464.140625,
+      "right": 340,
+      "bottom": 518.140625,
+      "left": 20
+    },
+    "assets": [
+      {
+        "path": "/assets/hero-editorial.svg",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kilatmoto-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/makansedap-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kopikita-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/malaysia-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/contact-editorial.svg",
+        "visible": false,
+        "loaded": false
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "pageWidth": 390,
+    "pageHeight": 11930,
+    "h1": {
+      "text": "Professional websites for small businesses.",
+      "fontSize": "42.12px",
+      "height": 133.921875
+    },
+    "firstQuoteButton": {
+      "x": 20,
+      "y": 474.078125,
+      "width": 350,
+      "height": 54,
+      "top": 474.078125,
+      "right": 370,
+      "bottom": 528.078125,
+      "left": 20
+    },
+    "assets": [
+      {
+        "path": "/assets/hero-editorial.svg",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kilatmoto-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/makansedap-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kopikita-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/malaysia-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/contact-editorial.svg",
+        "visible": false,
+        "loaded": false
+      }
+    ]
+  },
+  {
+    "width": 430,
+    "pageWidth": 430,
+    "pageHeight": 11725,
+    "h1": {
+      "text": "Professional websites for small businesses.",
+      "fontSize": "46.44px",
+      "height": 147.65625
+    },
+    "firstQuoteButton": {
+      "x": 20,
+      "y": 461.421875,
+      "width": 390,
+      "height": 54,
+      "top": 461.421875,
+      "right": 410,
+      "bottom": 515.421875,
+      "left": 20
+    },
+    "assets": [
+      {
+        "path": "/assets/hero-editorial.svg",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kilatmoto-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/makansedap-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kopikita-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/malaysia-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/contact-editorial.svg",
+        "visible": false,
+        "loaded": false
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "pageWidth": 768,
+    "pageHeight": 8177,
+    "h1": {
+      "text": "Professional websites for small businesses.",
+      "fontSize": "48px",
+      "height": 146.15625
+    },
+    "firstQuoteButton": {
+      "x": 34.5625,
+      "y": 511.921875,
+      "width": 195.203125,
+      "height": 54,
+      "top": 511.921875,
+      "right": 229.765625,
+      "bottom": 565.921875,
+      "left": 34.5625
+    },
+    "assets": [
+      {
+        "path": "/assets/hero-editorial.svg",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kilatmoto-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/makansedap-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kopikita-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/malaysia-400.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/contact-editorial.svg",
+        "visible": true,
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "pageWidth": 1024,
+    "pageHeight": 7801,
+    "h1": {
+      "text": "Professional websites for small businesses.",
+      "fontSize": "59.392px",
+      "height": 180.84375
+    },
+    "firstQuoteButton": {
+      "x": 46.078125,
+      "y": 546.78125,
+      "width": 195.203125,
+      "height": 54,
+      "top": 546.78125,
+      "right": 241.28125,
+      "bottom": 600.78125,
+      "left": 46.078125
+    },
+    "assets": [
+      {
+        "path": "/assets/hero-editorial.svg",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kilatmoto-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/makansedap-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kopikita-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/malaysia-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/contact-editorial.svg",
+        "visible": true,
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "pageWidth": 1440,
+    "pageHeight": 8218,
+    "h1": {
+      "text": "Professional websites for small businesses.",
+      "fontSize": "83.52px",
+      "height": 254.296875
+    },
+    "firstQuoteButton": {
+      "x": 100,
+      "y": 640.234375,
+      "width": 246.09375,
+      "height": 54,
+      "top": 640.234375,
+      "right": 346.09375,
+      "bottom": 694.234375,
+      "left": 100
+    },
+    "assets": [
+      {
+        "path": "/assets/hero-editorial.svg",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kilatmoto-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/makansedap-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kopikita-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/malaysia-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/contact-editorial.svg",
+        "visible": true,
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "pageWidth": 1920,
+    "pageHeight": 8267,
+    "h1": {
+      "text": "Professional websites for small businesses.",
+      "fontSize": "86px",
+      "height": 261.84375
+    },
+    "firstQuoteButton": {
+      "x": 340,
+      "y": 662.78125,
+      "width": 246.09375,
+      "height": 54,
+      "top": 662.78125,
+      "right": 586.09375,
+      "bottom": 716.78125,
+      "left": 340
+    },
+    "assets": [
+      {
+        "path": "/assets/hero-editorial.svg",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kilatmoto-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/makansedap-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/kopikita-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/projects/malaysia-640.webp",
+        "visible": true,
+        "loaded": true
+      },
+      {
+        "path": "/assets/contact-editorial.svg",
+        "visible": true,
+        "loaded": true
+      }
+    ]
+  }
+]

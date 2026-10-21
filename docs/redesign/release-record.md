@@ -1,8 +1,8 @@
 # Ismail Studio V2 — release record
 
-**IMPLEMENTED / TESTED / DEPLOYED — production Zoho receipt pending; final delivery verification remains UNVERIFIED.**
+**IMPLEMENTED / TESTED / DEPLOYED / VERIFIED — all mandatory release gates passed.**
 
-Recorded 2026-10-22, Malaysia time. Implementation, three refinement cycles, source publication, exact-version preview and canonical production browser verification are complete. The owner directly confirmed preview arrival in Zoho, clearing the preproduction delivery gate. The tested immutable version was promoted. A separate production enquiry was accepted; its inbox receipt remains pending, so complete release verification is not claimed.
+Completed 2026-10-22, Malaysia time. Implementation, three refinement cycles, source publication, exact-version preview and canonical production browser verification are complete. The owner directly confirmed preview arrival in Zoho before promotion and independently confirmed the production enquiry arrived in Zoho afterward. Both acceptance and inbox-delivery evidence are recorded; no mandatory release blocker remains. Measurement limits below remain explicit.
 
 ## Source and preview
 
@@ -31,7 +31,7 @@ Recorded 2026-10-22, Malaysia time. Implementation, three refinement cycles, sou
 | Real acceptance | Formspree 200, accepted ok:true, UI success; marker **ISM-PREVIEW-V2-20261021173515**; form-preview-v2.json |
 | Preview inbox | **PASS**; owner directly replied "Arrived in Zoho inbox" for ISM-PREVIEW-V2-20261021173515. Recorded in form-preview-v2.json. |
 | Production HTTP/assets | **41/41 PASS**; canonical V2 source/header/assets/security/private-path and permanent redirects, production-http.json. Root SHA256 also matches the exact preview artifact; all four actual concept URLs return 200, production-integrity.json. |
-| Production real enquiry | Formspree 200, accepted ok:true, UI success; **ISM-PRODUCTION-V2-20261021213408**, form-production-v2.json. Separate inbox confirmation requested. |
+| Production real enquiry | **PASS**: Formspree 200, accepted ok:true, UI success; **ISM-PRODUCTION-V2-20261021213408**. Owner independently replied "Arrived in Zoho inbox" for this exact production marker; form-production-v2.json records direct receipt confirmation. |
 | Publication safety | Targeted staged scan zero findings; staged whitespace PASS; no new app/workstation dependency; CI provenance reviewed/pinned. Not Gitleaks or an exhaustive audit. |
 
 The Windows host reached ~7MB free RAM and produced retained budget timeouts. Tests were separated by responsibility with every assertion and timeout retained. Independent Ubuntu CI then completed all 62 cases cleanly. Hosted captures record local verification SHA separately from observed served runtime SHA.
@@ -42,14 +42,14 @@ https://www.ismailstudio.my/ returns V2, HTTP 200, source **488a88c34a2a78d4ece6
 
 - Active website version **559ca179-d268-4db7-a486-181df5238e66**, deployment `573f6883-09a9-4883-9a34-64be843350bb`, 100% traffic. Prior V1 version **4317599d-6080-4ac6-9237-3503bc0971e9** and deployment `224c085a-9853-40bd-9943-955c62ef8f7f` remain rollback references.
 - Apex version **b1fb9bf9-8597-4210-b782-4a951bc1e820**, deployment `98aa3e69-71d6-4ffe-83f3-45385afd301d`, unchanged.
-- Fresh prepromotion reads at `2026-10-21T21:33:21Z` and **postpromotion comparison at 21:35:55Z PASS**: three routes, six custom domains, all **17 DNS records** (including seven MX/TXT/CAA), eight other Workers (including apex), bindings and build-trigger list unchanged. See infrastructure-after.json. Historical prepromotion receipts remain separately dated.
+- Fresh prepromotion reads at `2026-10-21T21:33:21Z`, postpromotion comparison at 21:35:55Z and **final closure comparison at 21:47:25Z PASS**: three routes, six custom domains, all **17 DNS records** (including seven MX/TXT/CAA), eight other Workers (including apex), bindings and build-trigger list unchanged. See infrastructure-after.json. Historical prepromotion receipts remain separately dated. Final canonical root/hash and all four concept URLs rechecked at 21:48:00Z; production-integrity.json.
 - DNS fingerprint `d627da74614e8feeed07836cc16a35141025ada7a8002cb283ff2f693055153b`; raw data remains ignored in .local/v2.
 - All four concept URLs 200; apex path/query 308 verified. Remote main was normally fast-forwarded from observed baseline `d9dc2b8fdea169742a1951c3690a055af9a02869`, atomically with the feature branch, to release/evidence commit **`bc57e0c9355e27ddaada2618da97ca95aa680cc9`**. Fresh local HEAD, local main, both tracking refs and both advertised remote SHAs matched; app/production-packaging diff from runtime `488a88c` is empty. GitHub reports main unprotected and no rulesets. No history replacement or hosting build trigger; evidence/publication.json records the boundary before this documentation receipt.
 - Only website-version traffic was promoted. No DNS/mail/route/global setting edit, paid enrollment or unrelated deployment. Original user skill/lock changes preserved outside implementation commits.
 
-## Only outstanding release fact
+## Completed delivery verification
 
-Owner: confirm whether **“Ismail Studio delivery check ISM-PRODUCTION-V2-20261021213408”** arrived at `contact@ismailstudio.my` in Zoho. No credentials or message contents are needed. This separate canonical-host evidence is required by `../redesign-v2/docs/07-contact-flow.md` and `13-production-release.md`; provider acceptance alone is insufficient. Preview receipt is already confirmed and is not substituted for this production receipt.
+The owner directly confirmed that **“Ismail Studio delivery check ISM-PRODUCTION-V2-20261021213408”** arrived at `contact@ismailstudio.my` in Zoho, replying **“Arrived in Zoho inbox”** on 2026-10-22 Malaysia time. This is independent of the earlier preview receipt and satisfies the canonical-host requirement in `../redesign-v2/docs/07-contact-flow.md` and `13-production-release.md`. Confirmation-recording time is retained in form-production-v2.json; no arrival timestamp, mailbox screenshot, message body or personal data is inferred or published.
 
 The exact tested version was promoted through the existing authenticated cf path:
 
@@ -57,7 +57,7 @@ The exact tested version was promoted through the existing authenticated cf path
 cf workers deployments create --worker ismailstudio --strategy percentage --versions @.local/v2/production-versions.json
 ```
 
-That ignored file contains version 559ca179-d268-4db7-a486-181df5238e66 at 100%; fresh dry-run inspected immediately beforehand. Canonical HTTP checks, full canonical browser CI, final hosted screenshots and protected-infrastructure comparison passed. One production enquiry was accepted; no second real submission is needed. Once the owner confirms its arrival, record the direct reply, update this record and remaining-issues.md, and push the evidence. Do not send repeated enquiries, redeploy or repeat passing browser suites merely to record the receipt.
+That ignored file contains version 559ca179-d268-4db7-a486-181df5238e66 at 100%; fresh dry-run inspected immediately beforehand. Canonical HTTP checks, full canonical browser CI, final hosted screenshots and protected-infrastructure comparison passed. Exactly one deliberate production enquiry was sent, accepted and owner-confirmed in Zoho. Final receipt closure changes documentation only; no repeat enquiry, runtime change or extra deployment was made. Completion evidence is mapped in completion-audit.md.
 
 ## Rollback and limits
 

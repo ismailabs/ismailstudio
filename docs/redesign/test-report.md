@@ -2,7 +2,7 @@
 
 This report separates current evidence from V1 history. Tests isolate Formspree; their simulated acceptance/failure screenshots do not establish real delivery.
 
-**Final authority:** [preview CI run 39646381434](https://github.com/ismailabs/ismailstudio/actions/runs/39646381434) cleanly passed **31 local-build + 31 exact-preview cases**, zero skipped/unexpected/flaky. After owner-confirmed preview Zoho receipt and exact-version promotion, [production CI run 39680006800](https://github.com/ismailabs/ismailstudio/actions/runs/39680006800) passed **31 fresh local-build + 31 canonical-production cases**, again zero skipped/unexpected/flaky. Both downloaded artifacts were digest-verified; full reports and logs summarized in evidence/ci.json and ci-production.json. Earlier Windows rows retain repair history. Only separate production Zoho receipt remains unverified.
+**Final authority:** [preview CI run 39646381434](https://github.com/ismailabs/ismailstudio/actions/runs/39646381434) cleanly passed **31 local-build + 31 exact-preview cases**, zero skipped/unexpected/flaky. After owner-confirmed preview Zoho receipt and exact-version promotion, [production CI run 39680006800](https://github.com/ismailabs/ismailstudio/actions/runs/39680006800) passed **31 fresh local-build + 31 canonical-production cases**, again zero skipped/unexpected/flaky. Both downloaded artifacts were digest-verified; full reports and logs summarized in evidence/ci.json and ci-production.json. The owner independently confirmed production Zoho arrival on 2026-10-22 Malaysia time. Mandatory release gates are complete; earlier Windows rows retain repair history and measurement limits remain below.
 
 | Gate | Current result | Evidence |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ This report separates current evidence from V1 history. Tests isolate Formspree;
 | Canonical browser | PASS 31/31 in 58.1s; fresh local 31/31 in 44.9s | CI 39680006800; browser-ci-production*.json |
 | Production visual | PASS reviewed; 27 frames; widths exact at 1440/390 | production-final/manifest.json, visual-reviews.md |
 | Protected infrastructure | PASS; DNS/mail/routes/domains/apex/8 other Workers unchanged | infrastructure-after.json |
-| Real delivery | Preview owner-confirmed; production Formspree acceptance/UI PASS, separate inbox receipt pending | form-preview-v2.json, form-production-v2.json |
+| Real delivery | PASS; preview and production each Formspree acceptance/UI success and separate direct owner confirmation of Zoho arrival | form-preview-v2.json, form-production-v2.json |
 
 No lint script is configured. `npm test` is the exact Playwright command; `npx playwright test` was also run explicitly during repair. The old heading/title/gallery-link assumptions were updated to V2; commercial values, zero-overflow, zero-axe, no-console, provider, no-JS and privacy assertions remain. Added 320px, four dialog/history flows, native POST, guided payload/editing, timeout and landscape controls. No assertion was removed to force a pass.
 
@@ -38,6 +38,6 @@ Preview follow-up: combined dialog cases again exhausted their global 30-second 
 
 The next host run reached only ~7MB free RAM and timed out in an unchanged 60-second desktop audit. Interrupted it, retained `evidence/browser-preview-constrained-host.json`, and moved final local-plus-hosted verification to the pinned official GitHub Actions workflow. Linux uses Playwright's pinned Chromium; Windows keeps existing Edge. No test assertion or timeout is relaxed. CI has no production access and isolates all enquiry transport. CI results are recorded separately below when complete.
 
-CI completed: handoff PASS, Astro 53 files with zero errors/warnings/hints, five-page build PASS, redirect units 3/3, local browser 31/31 in 44.3s and hosted preview 31/31 in 60.7s. Verification commit fe3b41f has no runtime/public/config/packaging diff from source 488a88c. Preview HTTP passed 37 checks. Final 27 hosted frames captured; selected hero/review/study compositions inspected against approved references. Real Formspree acceptance separately passed; inbox receipt remains unverified.
+Historical preview CI checkpoint: handoff PASS, Astro 53 files with zero errors/warnings/hints, five-page build PASS, redirect units 3/3, local browser 31/31 in 44.3s and hosted preview 31/31 in 60.7s. Verification commit fe3b41f has no runtime/public/config/packaging diff from source 488a88c. Preview HTTP passed 37 checks. Final 27 hosted frames captured; selected hero/review/study compositions inspected against approved references. At that checkpoint real Formspree acceptance passed and inbox receipt was pending. Subsequent direct owner confirmations and canonical production CI are recorded in the final authority above.
 
 Physical-device testing, screen-reader listening and real-user p75/INP are not verified. Search Console owner actions remain separate. Current synthetic metrics and accessibility samples are not a WCAG certification, field-performance claim or search ranking promise.

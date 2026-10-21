@@ -6,5 +6,8 @@
   "providerHttp": 200,
   "providerAccepted": true,
   "uiState": "success",
-  "zohoReceipt": "PENDING_DIRECT_CONFIRMATION"
+  "zohoReceipt": "OWNER_CONFIRMED_ARRIVED",
+  "zohoReceiptEvidence": "Direct owner reply in this chat: Arrived in Zoho inbox",
+  "confirmationRecordedAt": "2026-10-21T21:47:21.990Z",
+  "confirmationRecordedDateMalaysia": "2026-10-22"
 }

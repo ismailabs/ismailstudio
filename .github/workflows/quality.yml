@@ -53,10 +53,10 @@ jobs:
         run: |
           mkdir -p .local/ci
           if [ -f .local/test-results.json ]; then cp .local/test-results.json .local/ci/local-results.json; fi
-      - name: Verify the exact public version preview
+      - name: Verify the public production website
         if: success() && (github.ref == 'refs/heads/codex/ismailstudio-v2-creative-redesign' || inputs.verification_url != '')
         env:
-          TEST_BASE_URL: ${{ inputs.verification_url || 'https://559ca179-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev' }}
+          TEST_BASE_URL: ${{ inputs.verification_url || 'https://www.ismailstudio.my' }}
         run: npm test
       - name: Preserve hosted browser receipt
         if: always()

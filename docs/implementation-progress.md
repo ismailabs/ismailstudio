@@ -2,9 +2,9 @@
 
 ## 2026-10-22 — Approved V2 execution
 
-Approved cinematic + bold contemporary + experimental digital redesign is being implemented on `codex/ismailstudio-v2-creative-redesign` from observed `d9dc2b8`. V2 reference authority is `redesign-v2/START_HERE.md`; current implementation/QA/release evidence is in `redesign/`. All historical V1 entries below remain historical, not V2 verification. No V2 deployment has occurred at this checkpoint.
+Approved cinematic + bold contemporary + experimental digital redesign is implemented on `codex/ismailstudio-v2-creative-redesign` from observed `d9dc2b8`. V2 reference authority is `redesign-v2/START_HERE.md`; current implementation/QA/release evidence is in `redesign/`. All historical V1 entries below remain historical, not V2 verification.
 
-V2 final checkpoint: implementation and three refinement cycles complete. Runtime 488a88c pushed, upload-only preview 559ca179 verified. [CI 39646381434](https://github.com/ismailabs/ismailstudio/actions/runs/39646381434) passed 31 local + 31 hosted cases and static checks. **IMPLEMENTED, PRODUCTION BLOCKED** pending fresh Zoho receipt for ISM-PREVIEW-V2-20261021173515. Formspree accepted; inbox unverified. V1 remains 100%, infrastructure preserved. Exact continuation in redesign/release-record.md.
+V2 checkpoint: implementation and three refinement cycles complete. Runtime 488a88c pushed; [CI 39646381434](https://github.com/ismailabs/ismailstudio/actions/runs/39646381434) passed 31 local + 31 preview cases and static checks. Owner confirmed preview Zoho receipt. **IMPLEMENTED / DEPLOYED**, exact tested version 559ca179 now 100%, deployment 573f6883-09a9-4883-9a34-64be843350bb. Canonical HTTP checks 41/41 PASS; production enquiry ISM-PRODUCTION-V2-20261021213408 accepted, separate Zoho confirmation pending. Full canonical browser CI, final captures and infrastructure comparison in progress. See redesign/release-record.md.
 
 ## 2026-10-21 — Phase 0: inspect and protect
 

@@ -1,7 +1,7 @@
 # Outstanding V2 issues
 
-**Production blocker: fresh Zoho receipt is UNVERIFIED.** The real preview enquiry was accepted by Formspree (200, UI success), marker `ISM-PREVIEW-V2-20261021173515`. Owner confirmation requested; no authenticated Zoho surface available. Silence is not confirmation. Follow release-record.md after receipt is confirmed; production permission is already granted when mandatory gates pass.
+**Deployed; final canonical verification in progress.** Owner confirmed preview enquiry `ISM-PREVIEW-V2-20261021173515` arrived in Zoho, clearing the preproduction gate. Exact tested V2 version now serves 100% of traffic. Canonical HTTP/assets/security/redirect checks passed 41/41. The single production enquiry was accepted (200, UI success), marker `ISM-PRODUCTION-V2-20261021213408`; its separate inbox confirmation is requested and remains UNVERIFIED. No authenticated Zoho surface is available. Full canonical browser CI, final captures and postpromotion infrastructure comparison are in progress.
 
-Implementation, three visual cycles, facts/images, source push, 31-file preview, 37 HTTP/hash checks, **31 local + 31 hosted CI cases**, typecheck/build/redirect checks and six final lab runs are complete. CI artifact digest verified. V1 remains at 100%; infrastructure unchanged.
+Implementation, three visual cycles, facts/images, source push, 31-file preview, 37 preview HTTP/hash checks, **31 local + 31 preview CI cases**, typecheck/build/redirect checks and six final lab runs are complete. CI artifact digest verified. Known-good V1 version remains available for rollback.
 
 Nonblocking limits: retained Windows memory-exhaustion timeouts superseded by clean independent CI; physical-device/AT listening, field p75/INP and Search Console/analytics not verified. Owner's original skills-lock.json and two local skill folders remain untouched outside implementation commits.

@@ -1,5 +1,13 @@
 # V2 implementation progress
 
+## 2026-10-22 — Production promotion
+
+- Owner directly confirmed preview marker ISM-PREVIEW-V2-20261021173515 arrived in Zoho. Recorded receipt without message contents or personal data.
+- Fresh prepromotion inventory passed at 21:33 UTC; same routes/domains/DNS/apex/other Workers/bindings/build triggers. Existing authorized CLI session refreshed without logging credentials. Fresh exact-version dry-run passed.
+- Promoted only immutable website version 559ca179-d268-4db7-a486-181df5238e66 to 100%, deployment 573f6883-09a9-4883-9a34-64be843350bb. No reupload, trigger, apex or DNS mutation.
+- Canonical source 488a88c and 41 HTTP/hash/security/private-path/redirect checks PASS. One production-host real enquiry accepted by Formspree (200, UI success): ISM-PRODUCTION-V2-20261021213408. Separate owner inbox confirmation requested; no repeat send.
+- Running full canonical browser CI, final production captures and protected infrastructure comparison. Final verification remains in progress.
+
 ## 2026-10-22 — Audit and foundation
 
 - Read approved authority and required V2 documents, both visual boards and stage-specific skill routing. Canonical package copied to `docs/redesign-v2/`; original preserved and ignored. Historical V1 evidence retained.

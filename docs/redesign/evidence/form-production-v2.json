@@ -1,0 +1,10 @@
+{
+  "marker": "ISM-PRODUCTION-V2-20261021213408",
+  "scope": "production-v2",
+  "url": "https://www.ismailstudio.my",
+  "checkedAt": "2026-10-21T21:34:16.499Z",
+  "providerHttp": 200,
+  "providerAccepted": true,
+  "uiState": "success",
+  "zohoReceipt": "PENDING_DIRECT_CONFIRMATION"
+}

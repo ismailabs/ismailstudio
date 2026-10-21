@@ -1,0 +1,58 @@
+{
+  "canonical": "https://www.ismailstudio.my/",
+  "professional_contact": "contact@ismailstudio.my",
+  "packages": [
+    {
+      "name": "Starter",
+      "starting_price_myr": 599,
+      "pages": "1 page",
+      "revision_rounds": 1
+    },
+    {
+      "name": "Business",
+      "starting_price_myr": 1299,
+      "pages": "Up to 5 pages",
+      "revision_rounds": 2
+    },
+    {
+      "name": "Premium",
+      "starting_price_myr": 2999,
+      "pages": "Up to 12 pages",
+      "revision_rounds": 2
+    }
+  ],
+  "projects": [
+    {
+      "slug": "kilatmoto",
+      "name": "KilatMoto",
+      "url": "https://kilatmoto.ismailstudio.my/",
+      "kind": "Concept Project"
+    },
+    {
+      "slug": "makansedap",
+      "name": "MakanSedap",
+      "url": "https://makansedap.ismailstudio.my/",
+      "kind": "Concept Project"
+    },
+    {
+      "slug": "kopikita",
+      "name": "KopiKita",
+      "url": "https://kopikita.ismailstudio.my/",
+      "kind": "Concept Project"
+    },
+    {
+      "slug": "malaysia",
+      "name": "Malaysia — Between Places",
+      "url": "https://malaysia.ismailstudio.my/",
+      "kind": "Concept Project"
+    }
+  ],
+  "source_snapshot": "d9dc2b8fdea169742a1951c3690a055af9a02869",
+  "approved_concepts": [
+    "01 Cinematic Immersion",
+    "02 Bold Contemporary",
+    "03 Experimental Digital"
+  ],
+  "mockups_approved": true,
+  "autonomous_release_scoped": true
+}

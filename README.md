@@ -1,8 +1,8 @@
 # Ismail Studio
 
-Single-page Astro website for an independent Malaysian frontend developer. Approved offers: Starter from RM599 / 1 page / 1 revision; Business from RM1,299 / up to 5 pages / 2 revisions; Premium from RM2,999 / up to 12 pages / 2 revisions. All four portfolio sites are concept projects.
+Astro marketing website for an independent Malaysian frontend developer. V2 uses the approved cinematic, bold contemporary and experimental digital direction, with four case-study dialogs and static `/work/{slug}/` fallbacks. Approved offers: Starter from RM599 / 1 page / 1 revision; Business from RM1,299 / up to 5 pages / 2 revisions; Premium from RM2,999 / up to 12 pages / 2 revisions. All four portfolio sites are concept projects.
 
-Live canonical site: https://www.ismailstudio.my/. Apex permanently redirects to HTTPS www. Release evidence and limits are in [docs/release-record.md](docs/release-record.md) and [docs/implementation-progress.md](docs/implementation-progress.md).
+Canonical site: https://www.ismailstudio.my/. Apex permanently redirects to HTTPS www. V2 release status is in [docs/redesign/release-record.md](docs/redesign/release-record.md), with [visual reviews](docs/redesign/visual-reviews.md) and [implementation progress](docs/implementation-progress.md). [The V1 release record](docs/release-record.md) remains historical evidence.
 
 ## Local development
 
@@ -17,11 +17,11 @@ node scripts/serve-preview.mjs
 npm test
 ```
 
-The production preview is http://127.0.0.1:4321/ and applies the generated security headers. Astro's ordinary preview does not apply Cloudflare `_headers`. The test suite intercepts Formspree requests and never sends real enquiries. It covers seven widths, axe, metadata/routes, keyboard/menu, package choice, native FAQ, no-JS, reduced motion, validation and async outcomes.
+The production preview is http://127.0.0.1:4321/ and applies generated security headers. Restart it after rebuilding to read the current `_headers`. Astro's ordinary preview does not apply them. Tests isolate Formspree and never send real enquiries. Coverage includes eight widths, axe, metadata/routes, keyboard/menu/dialog history and focus, package choice, FAQ, no-JS native POST, reduced motion, validation, provider errors and timeout.
 
 ## Form
 
-Native HTML POST with progressive vanilla JS enhancement, using the public owner-supplied Formspree ID. No API key, React or external SDK. Owner confirmed applicable permission and notification to contact@ismailstudio.my. Real local and canonical-production deliveries were accepted by Formspree and separately confirmed in the Zoho inbox; see docs/evidence/form-local.json and form-production.json.
+Native HTML POST progressively enhanced into identity, project-needs and review steps, retaining the owner-supplied Formspree endpoint and fields. No API key, React or external SDK. Owner confirmed provider permission and contact@ismailstudio.my notification for V1. Historical V1 inbox receipts are in docs/evidence; independent V2 acceptance and delivery status are recorded in docs/redesign/evidence and its release record. Provider acceptance alone does not establish inbox arrival.
 
 Optional public configuration is documented in `.env.example`. `PUBLIC_FORM_ENABLED=false` switches to an explicitly described email-preparation fallback. No personal phone number is used. No draft storage, advertising pixel, speculative analytics event, database, login or custom enquiry backend.
 
@@ -30,7 +30,7 @@ The HTML response uses `no-transform` to prevent Cloudflare from injecting an un
 ## Cloudflare packaging
 
 ```sh
-npm run package:cloudflare
+node scripts/package-cloudflare.mjs --site-only --preview-only
 node node_modules/cf/bin/cf deploy --prebuilt --mode production --dry-run
 ```
 

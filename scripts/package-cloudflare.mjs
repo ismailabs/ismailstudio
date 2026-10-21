@@ -14,13 +14,16 @@ const assets = path.join(output, 'workers/default/assets');
 await mkdir(assets, { recursive: true });
 await cp(dist, assets, { recursive: true });
 const previewOnly = process.argv.includes('--preview-only');
+const siteOnly = process.argv.includes('--site-only');
 const workerSettings = (worker) => previewOnly ? Object.fromEntries(Object.entries(worker).filter(([key]) => key !== 'triggers')) : worker;
 await writeFile(path.join(output, 'config.json'), JSON.stringify({ accountId: config.accountId, buildContext: { isPreview: false, mode: 'production' } }, null, 2));
 await writeFile(path.join(output, 'workers/default/worker.config.json'), JSON.stringify(workerSettings(config.worker), null, 2));
-const apex = path.join(output, 'workers/ismailstudio-apex');
-await mkdir(path.join(apex, 'bundle'), { recursive: true });
-await cp('workers/apex-redirect.mjs', path.join(apex, 'bundle/index.mjs'));
-await writeFile(path.join(apex, 'worker.config.json'), JSON.stringify({ ...workerSettings(apexConfig.worker), manifest: { type: 'complete', mainModule: 'index.mjs', modules: { 'index.mjs': { type: 'esm' } } } }, null, 2));
+if (!siteOnly) {
+  const apex = path.join(output, 'workers/ismailstudio-apex');
+  await mkdir(path.join(apex, 'bundle'), { recursive: true });
+  await cp('workers/apex-redirect.mjs', path.join(apex, 'bundle/index.mjs'));
+  await writeFile(path.join(apex, 'worker.config.json'), JSON.stringify({ ...workerSettings(apexConfig.worker), manifest: { type: 'complete', mainModule: 'index.mjs', modules: { 'index.mjs': { type: 'esm' } } } }, null, 2));
+}
 const files = [];
 async function scan(folder) {
   for (const entry of await readdir(folder, { withFileTypes: true })) {
@@ -38,4 +41,4 @@ async function scan(folder) {
 await scan(assets);
 await mkdir('.local', { recursive: true });
 await writeFile('.local/release-assets.json', JSON.stringify(files, null, 2));
-console.log(`Packaged ${files.length} allowlisted static files plus the isolated apex redirect; website routes ${previewOnly ? 'omitted for workers.dev smoke' : 'included'}.`);
+console.log(`Packaged ${files.length} allowlisted static files${siteOnly ? ' for website only; apex excluded' : ' plus the isolated apex redirect'}; website routes ${previewOnly ? 'omitted for version preview' : 'included'}.`);

@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-21T17:17:35.415Z",
+  "base": "http://127.0.0.1:4321",
+  "browser": "155.0.4283.62",
+  "states": [
+    {
+      "width": 1440,
+      "reducedMotion": "PASS",
+      "pending": "PASS",
+      "providerFailure": "PASS",
+      "runtimeErrors": []
+    },
+    {
+      "width": 390,
+      "reducedMotion": "PASS",
+      "pending": "PASS",
+      "providerFailure": "PASS",
+      "runtimeErrors": []
+    }
+  ]
+}

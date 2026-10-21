@@ -10,10 +10,12 @@ test.beforeEach(async ({ page }) => {
 async function fillEnquiry(page: Page) {
   await page.getByLabel('Name (required)', { exact: true }).fill('Release Test');
   await page.getByLabel('Email (required)', { exact: true }).fill('test@example.com');
+  await page.getByRole('button', { name: 'Next: project needs' }).click();
   await page.getByLabel('What does your business need?', { exact: false }).fill('A clear website to explain our services and project scope.');
+  await page.getByRole('button', { name: 'Review enquiry', exact: true }).click();
 }
 
-for (const width of [360, 390, 430, 768, 1024, 1440, 1920]) {
+for (const width of [320, 360, 390, 430, 768, 1024, 1440, 1920]) {
   test(`content, layout and accessibility at ${width}px`, async ({ page }) => {
     test.setTimeout(60000);
     await page.setViewportSize({ width, height: 900 });
@@ -22,8 +24,8 @@ for (const width of [360, 390, 430, 768, 1024, 1440, 1920]) {
     page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
     await page.goto('/');
     await page.evaluate(async () => document.fonts.ready);
-    await expect(page.getByRole('heading', { level: 1 })).toHaveText('Professional websites for small businesses.');
-    await expect(page.locator('.project .concept-label')).toHaveCount(4);
+    await expect(page.getByRole('heading', { level: 1 })).toHaveText('PROBLEMS.MEETSOLUTIONS.');
+    await expect(page.locator('.project-preview .concept-label')).toHaveCount(4);
     await expect(page.locator('.project-preview img')).toHaveCount(4);
     for (const [name, price, pages, revisions] of [
       ['Starter', 'RM599', '1 page', '1 revision round'],
@@ -55,13 +57,13 @@ for (const width of [360, 390, 430, 768, 1024, 1440, 1920]) {
 
 test('metadata, anchors, external links and published routes', async ({ page, request }) => {
   await page.goto('/');
-  await expect(page).toHaveTitle('Ismail Studio | Web Design for Small Businesses in Malaysia');
+  await expect(page).toHaveTitle('Ismail Studio | Creative Web Design & Development in Malaysia');
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://www.ismailstudio.my/');
   await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', 'https://www.ismailstudio.my/og-image.png');
   const badAnchors = await page.locator('a[href^="#"]').evaluateAll((links) => links.map((link) => link.getAttribute('href') ?? '').filter((href) => !document.getElementById(href.slice(1))));
   expect(badAnchors).toEqual([]);
   for (const slug of ['kilatmoto', 'makansedap', 'kopikita', 'malaysia']) {
-    await expect(page.locator(`a.project-preview[href="https://${slug}.ismailstudio.my/"]`)).toHaveAttribute('rel', 'noopener noreferrer');
+    await expect(page.locator(`a.project-live[href="https://${slug}.ismailstudio.my/"]`)).toHaveAttribute('rel', 'noopener noreferrer');
   }
   for (const path of ['/robots.txt', '/sitemap.xml', '/favicon.svg', '/favicon.ico', '/apple-touch-icon.png', '/og-image.png']) expect((await request.get(path)).status()).toBe(200);
   for (const path of ['/docs/02-copy-final.md', '/.env', '/package.json', '/assets/../.git/config', '/unknown-route/']) expect((await request.get(path)).status()).toBe(404);
@@ -105,20 +107,22 @@ test('form rejects invalid, too short and oversized values without network', asy
   let posts = 0;
   await page.route(endpoint, async (route) => { posts++; await route.fulfill({ status: 200, json: { ok: true } }); });
   await page.goto('/');
-  const send = page.getByRole('button', { name: 'Send enquiry', exact: true });
-  await send.click();
+  const next = page.getByRole('button', { name: 'Next: project needs', exact: true });
+  await next.click();
   await expect(page.getByLabel('Name (required)', { exact: true })).toBeFocused();
   await expect(page.locator('#form-status')).toContainText('Please check');
-  await fillEnquiry(page);
+  await page.getByLabel('Name (required)', { exact: true }).fill('Release Test');
   await page.getByLabel('Email (required)', { exact: true }).fill('bad-email');
-  await send.click();
+  await next.click();
   await expect(page.locator('#email-error')).toContainText('valid email');
   await page.getByLabel('Email (required)', { exact: true }).fill('test@example.com');
+  await next.click();
+  const review = page.getByRole('button', { name: 'Review enquiry', exact: true });
   await page.getByLabel('What does your business need?', { exact: false }).fill('too short');
-  await send.click();
+  await review.click();
   await expect(page.locator('#message-error')).toContainText('at least 20');
   await page.locator('#message').evaluate((field: HTMLTextAreaElement) => { field.value = 'a'.repeat(2001); });
-  await send.click();
+  await review.click();
   await expect(page.locator('#message-error')).toContainText('2000 characters or fewer');
   expect(posts).toBe(0);
 });
@@ -137,7 +141,7 @@ test('simulated provider acceptance has loading, one request, reset and accessib
   resolveRequest?.();
   await expect(page.getByRole('status')).toContainText('your enquiry has been submitted');
   await expect(page.getByLabel('Name (required)', { exact: true })).toHaveValue('');
-  await expect(page.getByRole('button', { name: 'Send enquiry', exact: true })).toBeEnabled();
+  await expect(page.getByRole('button', { name: 'Next: project needs', exact: true })).toBeEnabled();
   expect(posts).toBe(1);
 });
 

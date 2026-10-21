@@ -1,10 +1,10 @@
 ---
 import '../styles/global.css';
 import geistLatin from '@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?url';
-const title = 'Ismail Studio | Web Design for Small Businesses in Malaysia';
-const description = "Professional, mobile-friendly websites for Malaysian small businesses. Explore Ismail Studio's concept projects and packages starting from RM599.";
-const canonical = 'https://www.ismailstudio.my/';
-const schema = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Ismail Studio', url: canonical, description, inLanguage: 'en-MY' };
+interface Props { title?: string; description?: string; path?: string }
+const { title = 'Ismail Studio | Creative Web Design & Development in Malaysia', description = 'Independent web design and frontend development in Malaysia. Explore four concept projects and clear website packages starting from RM599.', path = '/' } = Astro.props;
+const canonical = new URL(path, 'https://www.ismailstudio.my').href;
+const schema = { '@context': 'https://schema.org', '@type': path === '/' ? 'WebSite' : 'WebPage', name: path === '/' ? 'Ismail Studio' : title, url: canonical, description, inLanguage: 'en-MY' };
 ---
 <!doctype html>
 <html lang="en-MY">
@@ -14,7 +14,7 @@ const schema = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Is
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow, max-image-preview:large" />
-    <meta name="theme-color" content="#F6F5F1" />
+    <meta name="theme-color" content="#080D12" />
     <link rel="preload" href={geistLatin} as="font" type="font/woff2" crossorigin />
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -26,14 +26,14 @@ const schema = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'Is
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={`${canonical}og-image.png`} />
+    <meta property="og:image" content="https://www.ismailstudio.my/og-image.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Ismail Studio — professional websites for small businesses in Malaysia" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={`${canonical}og-image.png`} />
+    <meta name="twitter:image" content="https://www.ismailstudio.my/og-image.png" />
     <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   </head>
   <body id="top">

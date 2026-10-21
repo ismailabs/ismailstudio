@@ -1,5 +1,7 @@
 # ISMAIL STUDIO V1 — Codex Desktop execution handoff
 
+> Historical V1 specification. The owner-approved V2 implementation authority is now [docs/redesign-v2/START_HERE.md](docs/redesign-v2/START_HERE.md). V2 supersedes the visual direction below while retaining business, privacy and infrastructure constraints. Current evidence and conditional release status: [docs/redesign/release-record.md](docs/redesign/release-record.md).
+
 **Mission:** Implement, test, commit, push and deploy the finished Ismail Studio single-page site to Cloudflare at **https://www.ismailstudio.my/**; configure **https://ismailstudio.my/** to redirect permanently to the canonical www host. Work autonomously toward the definition of done, including repair cycles, without routine approval checkpoints. Operator preference: **GPT-6.1 Sol, Extra High, Goal Mode** if available in their Codex installation. Treat model/mode names as operator selection, not a capability assumption.
 
 **Implementation repository:** https://github.com/ismailabs/ismailstudio (default branch `main`). The latest read-only snapshot found **19 skills** within `.agents/skills`, and no project `package.json` or root `AGENTS.md`. **Reinspect the actual workspace at startup; do not blindly overwrite new work.**

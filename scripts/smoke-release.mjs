@@ -15,7 +15,7 @@ if (baseline) {
   const response = await fetch(base + '/');
   assert.equal(response.status, 200);
   const html = await response.text();
-  assert.ok(html.includes('Professional websites for small businesses.'));
+  assert.ok(html.includes('PROBLEMS.') && html.includes('SOLUTIONS.'));
   assert.ok(!html.includes('static.cloudflareinsights.com/beacon.min.js'), 'Unverified analytics was injected');
   assert.ok(response.headers.get('cache-control')?.includes('no-transform'), 'Missing site-level transform protection');
   assert.ok(html.includes('<link rel="canonical" href="https://www.ismailstudio.my/">'));
@@ -44,7 +44,7 @@ if (baseline) {
     }
   }
 }
-await mkdir('docs/evidence', { recursive: true });
+await mkdir('docs/redesign/evidence', { recursive: true });
 const scope = baseline ? 'prelaunch-http' : new URL(base).hostname === 'www.ismailstudio.my' ? 'production-http' : 'preview-http';
-await writeFile(`docs/evidence/${scope}.json`, JSON.stringify(evidence, null, 2));
+await writeFile(`docs/redesign/evidence/${scope}.json`, JSON.stringify(evidence, null, 2));
 console.log(JSON.stringify({ scope, checks: evidence.responses.length, passed: true, responses: baseline ? evidence.responses : undefined }));

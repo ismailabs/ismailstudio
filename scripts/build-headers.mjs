@@ -1,11 +1,12 @@
 import { createHash } from 'node:crypto';
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile, writeFile, readdir } from 'node:fs/promises';
 
 // Hash the actual generated inline JSON-LD; no unsafe-inline script exception.
-const html = await readFile('dist/index.html', 'utf8');
-const hashes = [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)]
+const htmlFiles = (await readdir('dist', { recursive: true })).filter(file => file.endsWith('.html'));
+const html = (await Promise.all(htmlFiles.map(file => readFile(`dist/${file}`, 'utf8')))).join('\n');
+const hashes = [...new Set([...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)]
   .map((match) => match[1]).filter(Boolean)
-  .map((content) => `'sha256-${createHash('sha256').update(content).digest('base64')}'`);
+  .map((content) => `'sha256-${createHash('sha256').update(content).digest('base64')}'`))];
 const csp = [
   "default-src 'self'", `script-src 'self' ${hashes.join(' ')}`.trim(),
   "style-src 'self'", "img-src 'self' data:", "font-src 'self'",

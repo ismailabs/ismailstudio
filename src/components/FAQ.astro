@@ -1,4 +1,4 @@
 ---
 import { faq } from '../data/faq';
 ---
-<section class="faq shell section-space" aria-labelledby="faq-heading"><div><p class="eyebrow">Before we begin</p><h2 id="faq-heading" data-reveal>A few useful answers.</h2><p class="faq-aside">Have something else in mind?<br/><a href="#contact" class="inline-link">Let's talk about your website.</a></p></div><div class="faq-list">{faq.map((item) => <details><summary>{item.question}<span aria-hidden="true" class="faq-toggle">+</span></summary><div class="faq-answer"><p>{item.answer}</p></div></details>)}</div></section>
+<section class="faq-band"><div class="faq shell section-space" aria-labelledby="faq-heading"><div><p class="eyebrow">Before we begin</p><h2 id="faq-heading">QUESTIONS?<br/><em>GOOD.</em></h2><p class="faq-aside">Useful details before we start.<br/>Clear communication comes first.</p><a href="#contact" class="inline-link">Discuss your project ↗</a></div><div class="faq-list">{faq.map((item) => <details><summary>{item.question}<span aria-hidden="true" class="faq-toggle">+</span></summary><div class="faq-answer"><p>{item.answer}</p></div></details>)}</div></div></section>

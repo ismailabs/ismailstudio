@@ -1,5 +1,9 @@
 # Implementation progress
 
+## 2026-10-22 — Approved V2 execution
+
+Approved cinematic + bold contemporary + experimental digital redesign is being implemented on `codex/ismailstudio-v2-creative-redesign` from observed `d9dc2b8`. V2 reference authority is `redesign-v2/START_HERE.md`; current implementation/QA/release evidence is in `redesign/`. All historical V1 entries below remain historical, not V2 verification. No V2 deployment has occurred at this checkpoint.
+
 ## 2026-10-21 — Phase 0: inspect and protect
 
 - Baseline: `main`, `25ded7b`, remote `https://github.com/ismailabs/ismailstudio.git`. No application or root AGENTS.md; only 19 tracked skills and skills-lock.json. Untracked handoff preserved and integrated without replacing existing work.

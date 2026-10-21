@@ -1,0 +1,212 @@
+{
+  "at": "2026-10-21T16:53:53.059Z",
+  "base": "http://127.0.0.1:4321",
+  "sha": "d9dc2b8fdea169742a1951c3690a055af9a02869",
+  "dirty": true,
+  "browser": "155.0.4283.62",
+  "captures": [
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "hero",
+      "file": "docs/redesign/evidence/round1/1440-hero.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "work",
+      "file": "docs/redesign/evidence/round1/1440-work.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "work-second",
+      "file": "docs/redesign/evidence/round1/1440-work-second.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "process",
+      "file": "docs/redesign/evidence/round1/1440-process.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "pricing",
+      "file": "docs/redesign/evidence/round1/1440-pricing.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "about",
+      "file": "docs/redesign/evidence/round1/1440-about.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "faq",
+      "file": "docs/redesign/evidence/round1/1440-faq.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact-step1",
+      "file": "docs/redesign/evidence/round1/1440-contact-step1.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact-step2",
+      "file": "docs/redesign/evidence/round1/1440-contact-step2.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact-review",
+      "file": "docs/redesign/evidence/round1/1440-contact-review.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact-success-simulated",
+      "file": "docs/redesign/evidence/round1/1440-contact-success-simulated.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact-error",
+      "file": "docs/redesign/evidence/round1/1440-contact-error.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "case-kilatmoto",
+      "file": "docs/redesign/evidence/round1/1440-case-kilatmoto.png",
+      "url": "http://127.0.0.1:4321/?case=kilatmoto"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "hero",
+      "file": "docs/redesign/evidence/round1/390-hero.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "work",
+      "file": "docs/redesign/evidence/round1/390-work.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "work-second",
+      "file": "docs/redesign/evidence/round1/390-work-second.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "process",
+      "file": "docs/redesign/evidence/round1/390-process.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "pricing",
+      "file": "docs/redesign/evidence/round1/390-pricing.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "about",
+      "file": "docs/redesign/evidence/round1/390-about.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "faq",
+      "file": "docs/redesign/evidence/round1/390-faq.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "contact-step1",
+      "file": "docs/redesign/evidence/round1/390-contact-step1.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "contact-step2",
+      "file": "docs/redesign/evidence/round1/390-contact-step2.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "contact-review",
+      "file": "docs/redesign/evidence/round1/390-contact-review.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "contact-success-simulated",
+      "file": "docs/redesign/evidence/round1/390-contact-success-simulated.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "contact-error",
+      "file": "docs/redesign/evidence/round1/390-contact-error.png",
+      "url": "http://127.0.0.1:4321/"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "case-kilatmoto",
+      "file": "docs/redesign/evidence/round1/390-case-kilatmoto.png",
+      "url": "http://127.0.0.1:4321/?case=kilatmoto"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "menu",
+      "file": "docs/redesign/evidence/round1/390-menu.png",
+      "url": "http://127.0.0.1:4321/"
+    }
+  ],
+  "measurements": [
+    {
+      "width": 1440,
+      "pageWidth": 1440,
+      "pageHeight": 7119,
+      "h1": "110.16px"
+    },
+    {
+      "width": 390,
+      "pageWidth": 390,
+      "pageHeight": 8624,
+      "h1": "49.92px"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "at": "2026-10-21T16:42:40.357Z",
+  "baseCommit": "d9dc2b8fdea169742a1951c3690a055af9a02869",
+  "url": "https://www.ismailstudio.my/",
+  "status": 200,
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cache-control": "public, max-age=0, must-revalidate, no-transform",
+    "cf-cache-status": "HIT",
+    "cf-ray": "a4e1b7920880aa79-NRT",
+    "connection": "keep-alive",
+    "content-length": "32878",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'sha256-P4OiMrFiVQG8eUFwXc0N3qHP0mu4SjA+aqXpJUT3guQ=' 'sha256-8JQcqHyQGk53NTC0c/yop1VUKCEAGMJGHgSaNg36ATs='; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io mailto:; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests",
+    "content-type": "text/html",
+    "date": "Wed, 21 Oct 2026 16:42:42 GMT",
+    "etag": "\"fa6acbad5dabfae8958e41a467500c07\"",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "permissions-policy": "camera=(), microphone=(), geolocation=()",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2BlBOkkGOglRj7lqp1llM7J7VrlvFmcabmZhDKGN6Flcr%2BhgE2ydu0OlqPjNx04cPUBQi38ghDedYC%2F4ZyyGZR5KzAUP1ldbE7XVYPIvrvqEVZ0%2BuDKNw56jeFvd5VnKEEImhBMUB0a9MtpmMQTOuoeZB\"}]}",
+    "server": "cloudflare",
+    "strict-transport-security": "max-age=31536000",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "x-release-commit": "74ddae2f873e45f89dc2837456ca7441985be96e"
+  },
+  "htmlSha256": "b8716e48aa07bb3457aa863f44dff9a3b966a0bf55e23c984bf031deab8fba2f",
+  "screenshots": [
+    "docs/redesign/evidence/baseline/hero-1440.png",
+    "docs/redesign/evidence/baseline/hero-390.png"
+  ],
+  "form": {
+    "action": "https://formspree.io/f/mljgyabo",
+    "method": "post",
+    "fields": [
+      {
+        "name": "name",
+        "required": true,
+        "min": 2,
+        "max": 80
+      },
+      {
+        "name": "business",
+        "required": false,
+        "min": -1,
+        "max": 100
+      },
+      {
+        "name": "email",
+        "required": true,
+        "min": -1,
+        "max": 254
+      },
+      {
+        "name": "package",
+        "required": true
+      },
+      {
+        "name": "timeline",
+        "required": false
+      },
+      {
+        "name": "message",
+        "required": true,
+        "min": 20,
+        "max": 2000
+      },
+      {
+        "name": "_gotcha",
+        "required": false,
+        "min": -1,
+        "max": -1
+      },
+      {
+        "name": "_subject",
+        "required": false,
+        "min": -1,
+        "max": -1
+      }
+    ]
+  }
+}

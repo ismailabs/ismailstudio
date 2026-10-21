@@ -1,0 +1,71 @@
+{
+  "at": "2026-10-21T17:17:07.179Z",
+  "browser": "155.0.4283.62",
+  "base": "http://127.0.0.1:4321",
+  "states": [
+    {
+      "width": 320,
+      "height": 700,
+      "overflow": [],
+      "pageWidth": 320
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "overflow": [],
+      "pageWidth": 768
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "overflow": [],
+      "pageWidth": 1024
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "overflow": [],
+      "pageWidth": 1920
+    },
+    {
+      "width": 1440,
+      "route": "/work/kilatmoto/",
+      "file": "docs/redesign/evidence/matrix/1440-study-kilatmoto.png"
+    },
+    {
+      "width": 1440,
+      "route": "/work/makansedap/",
+      "file": "docs/redesign/evidence/matrix/1440-study-makansedap.png"
+    },
+    {
+      "width": 1440,
+      "route": "/work/kopikita/",
+      "file": "docs/redesign/evidence/matrix/1440-study-kopikita.png"
+    },
+    {
+      "width": 1440,
+      "route": "/work/malaysia/",
+      "file": "docs/redesign/evidence/matrix/1440-study-malaysia.png"
+    },
+    {
+      "width": 390,
+      "route": "/work/kilatmoto/",
+      "file": "docs/redesign/evidence/matrix/390-study-kilatmoto.png"
+    },
+    {
+      "width": 390,
+      "route": "/work/makansedap/",
+      "file": "docs/redesign/evidence/matrix/390-study-makansedap.png"
+    },
+    {
+      "width": 390,
+      "route": "/work/kopikita/",
+      "file": "docs/redesign/evidence/matrix/390-study-kopikita.png"
+    },
+    {
+      "width": 390,
+      "route": "/work/malaysia/",
+      "file": "docs/redesign/evidence/matrix/390-study-malaysia.png"
+    }
+  ]
+}

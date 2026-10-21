@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Original Ismail Studio editorial design">
-<rect width="128" height="128" fill="#F6F5F1"/>
-<g fill="none" stroke="#24463C" stroke-width="11" stroke-linejoin="round" stroke-linecap="square"><path d="M26 18V110M66 18V110M26 18H91V53H66M26 110H91V77H66"/></g><path d="M99 26L115 11" stroke="#C64E39" stroke-width="9" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><rect width="128" height="128" fill="#080d12"/><g fill="none" stroke="#fffaf4" stroke-width="11"><path d="M26 18v92M66 18v92M26 18h65v35H66M26 110h65V77H66"/></g><path d="m99 26 16-15" stroke="#ff5733" stroke-width="9"/></svg>

@@ -1,0 +1,5 @@
+# Suggested compact ROOT `AGENTS.md` routing note — Codex should reconcile, NOT blind append
+
+For the owner-approved Ismail Studio V2 redesign, read `docs/redesign-v2/START_HERE.md` and the approved mockups. This is an existing deployed V1, not a greenfield build. The V2 handoff and its approved 01 + 02 + 03 art direction supersede *visual prescriptions* in `START_HERE.md`, `docs/03-design-system.md` and `docs/design-decisions.md`; keep their factual, safety and infrastructure requirements. Use `$ai-design-engineering` as stage router and specialist skills only for bounded tasks. Implement on an isolated branch, perform real desktop/mobile browser QA and 3 focused repair passes, then release the website autonomously **only after** V2 release gates pass. Do not touch unrelated Cloudflare routes, DNS, mail settings or personal data. Record tested/deployed/unverified outcomes accurately; if mandatory gate fails, stop before production and report exact blocker.
+
+Note: remove/update conflicting older wording in root `AGENTS.md` rather than merely appending two incompatible release contracts.

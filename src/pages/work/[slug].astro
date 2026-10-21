@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { projects } from '../../data/projects';
+import { studies } from '../../data/studies';
+export function getStaticPaths() { return projects.map(project => ({ params: { slug: project.slug }, props: { project } })); }
+const { project } = Astro.props;
+---
+<BaseLayout title={`${project.name} — Concept Project | Ismail Studio`} description={project.description} path={`/work/${project.slug}/`}><header class="study-header shell"><a href="/" class="inline-link">← Ismail Studio</a><span>Project study / Concept Project</span></header><main id="main" class="study-page shell section-space" tabindex="-1"><p class="eyebrow">{project.category}</p><h1>{project.name}</h1><p class="study-intro">{project.description}</p><img src={`/assets/projects/${project.slug}-1200.webp`} alt={project.alt} width="1200" height="825"/><div class="study-details"><p class="concept-label">Concept Project<br/>Self-initiated, not commissioned client work.</p><dl>{studies[project.slug].map(item => <div><dt>{item.title}</dt><dd>{item.text}</dd></div>)}</dl></div><a class="button" href={project.url} target="_blank" rel="noopener noreferrer">Explore the live concept ↗<span class="sr-only"> (opens in a new tab)</span></a><a class="inline-link study-back" href="/#work">Back to selected work</a></main></BaseLayout>

@@ -2,6 +2,9 @@
 
 Scope: the **Ismail Studio** repository only. Refer to `START_HERE.md` and `docs/`. Working agreement: complete an Astro + Tailwind v4 + TypeScript single-page marketing website, verify it in an actual browser, and push/deploy to approved GitHub/Cloudflare targets when gates pass.
 
+## Approved V2 routing
+`docs/redesign-v2/START_HERE.md` and its authority ledger supersede V1 visual rules. Execute the approved cinematic, bold contemporary and experimental digital direction, with three recorded browser critique/repair cycles. Keep all nonnegotiables below. Use `ai-design-engineering` for build/verify/refine, with narrowly scoped specialist skills. The existing `cf` deployment path may update only the `ismailstudio` website after the V2 release gates pass; preserve apex Worker, DNS, mail, routes and unrelated infrastructure. `docs/redesign/` contains implementation evidence. Creative copy may change under V2; protected facts in `docs/02-copy-final.md`, typed data and the V2 protected-facts register still control.
+
 ## Nonnegotiables
 - Public domain `https://www.ismailstudio.my/` (apex redirects); professional mail `contact@ismailstudio.my`; **never publicly expose the supplied personal WhatsApp number**.
 - Prices: RM599 one page; RM1,299 up to five pages; RM2,999 up to 12 pages, each **starting from**. Three public prices; no invented client testimonials, results, registrations or credentials.

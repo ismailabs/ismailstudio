@@ -44,3 +44,9 @@ All earlier visual invariants remain present. Final retest/capture results are a
 ### Repair verification
 
 Final matrix captures (`evidence/matrix/`) show 320/768/1024/1920 hero and all four standalone studies at desktop/mobile. Measured page width now exactly matches each viewport, including 768 and 1024. All 26 functional cases verified across the full 25-pass run and unchanged focused pass. Resilience captures (`evidence/resilience/`) show reduced motion, pending, provider failure and no-JS; runtime errors zero in sampled flows. Pointer motion and live reduced-motion switch are asserted with private traces in `.local/v2/`. No actual form submission is made by these simulated QA scripts.
+
+### Canonical production review — 2026-10-22
+
+The tested immutable version now serves the canonical host. `evidence/production-final/manifest.json` records 27 fresh desktop/mobile captures, their actual URLs and observed runtime source `488a88c34a2a78d4ece64636dff14ac4d42e8395`, separately from the local verification commit. Production HTML and asset hashes match the exact preview artifact.
+
+Inspected desktop/mobile hero, desktop staggered work gallery, desktop/mobile pricing, mobile case dialog, mobile enquiry review and desktop simulated success. Type and portal fit both first screens, the three package facts remain clear, concept disclosures are visible, the dialog close control is reachable and the enquiry review/send control fits the mobile frame. Measured page width equals 1440 and 390 respectively; no new visual defect found. This adds 27 production frames to the 108 prior primary review frames (135 total), without changing the completed three-cycle count. Capture-script provider responses are isolated simulations; the one real production enquiry and separate inbox evidence are recorded independently.

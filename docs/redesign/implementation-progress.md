@@ -6,7 +6,10 @@
 - Fresh prepromotion inventory passed at 21:33 UTC; same routes/domains/DNS/apex/other Workers/bindings/build triggers. Existing authorized CLI session refreshed without logging credentials. Fresh exact-version dry-run passed.
 - Promoted only immutable website version 559ca179-d268-4db7-a486-181df5238e66 to 100%, deployment 573f6883-09a9-4883-9a34-64be843350bb. No reupload, trigger, apex or DNS mutation.
 - Canonical source 488a88c and 41 HTTP/hash/security/private-path/redirect checks PASS. One production-host real enquiry accepted by Formspree (200, UI success): ISM-PRODUCTION-V2-20261021213408. Separate owner inbox confirmation requested; no repeat send.
-- Running full canonical browser CI, final production captures and protected infrastructure comparison. Final verification remains in progress.
+- Full canonical CI 39680006800 PASS: 31 local in 44.9s + 31 production in 58.1s; no skipped/unexpected/flaky. Static/typecheck/build/redirect checks PASS; downloaded artifact SHA256 verified, full reports retained.
+- 27 canonical captures complete (135 primary frames including prior cycles/preview); inspected desktop/mobile hero, gallery, pricing, mobile case/review and simulated success. No new defect; 1440/390 measured widths exact. Production root SHA and all assets match the tested artifact; four concept URLs 200.
+- Postpromotion protected-infrastructure comparison PASS at 21:35:55 UTC: all DNS/mail records/routes/custom domains/apex/other Workers/bindings/build triggers unchanged. Only the website version changed. Rollback V1 remains available.
+- Remaining release fact: separate production marker receipt in Zoho. No duplicate send, new deployment or passing-test repeat is needed when recording the owner reply. Main is a verified ancestor, unprotected, no rulesets; publishing source by normal fast-forward without force-push.
 
 ## 2026-10-22 — Audit and foundation
 

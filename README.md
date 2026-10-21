@@ -34,15 +34,16 @@ node scripts/package-cloudflare.mjs --site-only --preview-only
 node node_modules/cf/bin/cf deploy --prebuilt --mode production --dry-run
 ```
 
-Astro remains static. The packaging script copies only `dist` into the pinned cf Build Output v0 shape, checks for source/secrets paths and symlinks, and records hashes locally. This prerelease format is tied to cf beta.19 in the lockfile. See cloudflare.config.ts. Custom-domain binding is intentionally performed only after account/DNS inspection and independent preview smoke tests. Never change unrelated subdomains or mail DNS.
+Astro remains static. The packaging script copies only `dist` into the pinned cf Build Output v0 shape, checks for source/secrets paths and symlinks, and records hashes locally. This prerelease format is tied to cf beta.19 in the lockfile. See cloudflare.config.ts. The existing canonical route is already established; normal website releases preserve it, apex and mail DNS.
 
-For an initial workers.dev smoke without public route changes, use `node scripts/package-cloudflare.mjs --preview-only`, then `cf deploy --prebuilt --mode production` for the site and the same command with `--worker ismailstudio-apex` for the redirect. Normal packaging includes the three exact-host routes in cloudflare.config.ts; apply them only after preview smoke. `npm run test:redirect` checks the redirect handler. No DNS mutation is required: existing proxied apex A and www CNAME records are preserved. The existing Workers session provides Workers Scripts/Routes Write; the separate owner-provided DNS token is used only for reads and never with a write command.
+V2 was packaged site-only, uploaded without production traffic, tested at its immutable version URL and promoted through `cf workers deployments create --worker ismailstudio --strategy percentage --versions @<reviewed-version-file>`. That file names only the tested website version and its traffic percentage. Inspect the current CLI schema, account, release gates and exact version before use. Do not reapply triggers or deploy `ismailstudio-apex` during a normal website release. Read-only Cloudflare connector inventories establish the protected DNS/mail/routes baseline. `npm run test:redirect` checks the existing redirect handler.
 
-The owner has authorized GitHub push and Cloudflare deployment after gates pass. Check the current release record, correct account, remote changes and mail-record baseline before deployment. Rollback removes only the new exact-host routes or restores a verified prior Worker version.
+The owner has authorized GitHub push and Cloudflare deployment after gates pass. Check the current release record, correct account, remote changes and mail-record baseline before deployment. For the established site, rollback restores the verified prior **website Worker version**; preserve apex, routes and DNS.
 
 ## Evidence and assets
 
-- `docs/00-requirements.md` through `docs/12-risks-and-progress.md`: approved specification.
+- `docs/redesign-v2/START_HERE.md`: approved V2 reference and precedence; `docs/redesign/`: current implementation and release evidence.
+- `docs/00-requirements.md` through `docs/12-risks-and-progress.md`: retained V1 business and infrastructure specification, subject to approved V2 precedence.
 - `docs/design-decisions.md`: copy/research boundaries and art direction.
 - `docs/dependencies-and-provenance.md`: dependency and image origins/licenses.
 - `docs/evidence/`: compact machine receipts; raw reports and original captures remain in ignored `.local/`.

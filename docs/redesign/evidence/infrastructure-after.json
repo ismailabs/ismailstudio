@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-21T21:33:21.067Z",
+  "at": "2026-10-21T21:35:55.924Z",
   "stage": "after",
   "comparison": "PASS",
   "account": "44214a829e2337ca50cf40e4cd827cba",
@@ -64,6 +64,16 @@
   "dnsSha256": "d627da74614e8feeed07836cc16a35141025ada7a8002cb283ff2f693055153b",
   "mailAndCaaCount": 7,
   "deployments": [
+    {
+      "id": "573f6883-09a9-4883-9a34-64be843350bb",
+      "versions": [
+        {
+          "version_id": "559ca179-d268-4db7-a486-181df5238e66",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T21:33:51.14378Z"
+    },
     {
       "id": "224c085a-9853-40bd-9943-955c62ef8f7f",
       "versions": [

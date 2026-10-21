@@ -1,0 +1,111 @@
+{
+  "runId": 39680006800,
+  "jobId": 119499710295,
+  "sourceCommit": "94c72a32e4f6fd1d3fa030651d0a17f529a8dd6b",
+  "runtimeSourceCommit": "488a88c34a2a78d4ece64636dff14ac4d42e8395",
+  "conclusion": "success",
+  "url": "https://github.com/ismailabs/ismailstudio/actions/runs/39680006800",
+  "artifactId": 12384195628,
+  "artifactSha256": "94a644644b0bec4ee76f319d57295535fa8a37d29abe2a934a62bc06673c6e1a",
+  "jobs": [
+    {
+      "id": 119499710295,
+      "name": "verify",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 39680006800,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Install locked dependencies without lifecycle scripts",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Install the locked Playwright Chromium in this ephemeral runner",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Verify static build, redirects and all browser cases",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Preserve local browser receipt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Verify the public production website",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Preserve hosted browser receipt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Upload only isolated browser receipts and failure traces",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Post Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19
+        },
+        {
+          "name": "Post Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 20
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21
+        }
+      ]
+    }
+  ],
+  "logEvidence": [
+    "2026-10-21T21:36:22.1672586Z Result (53 files): ",
+    "2026-10-21T21:36:22.1672920Z - 0 errors",
+    "2026-10-21T21:36:22.1673205Z - 0 warnings",
+    "2026-10-21T21:36:22.1673451Z - 0 hints",
+    "2026-10-21T21:36:23.5827867Z ℹ tests 3",
+    "2026-10-21T21:36:23.5829099Z ℹ pass 3",
+    "2026-10-21T21:37:09.0357515Z   31 passed (44.9s)",
+    "2026-10-21T21:37:09.0922540Z   TEST_BASE_URL: https://www.ismailstudio.my",
+    "2026-10-21T21:38:07.6999124Z   31 passed (58.1s)"
+  ]
+}

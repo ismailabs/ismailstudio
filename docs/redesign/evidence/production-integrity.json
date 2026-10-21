@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-21T21:35:56.991Z",
+  "url": "https://www.ismailstudio.my/",
+  "status": 200,
+  "source": "488a88c34a2a78d4ece64636dff14ac4d42e8395",
+  "sha256": "c8e317747cf9cff76db6d1b54cb85204b8afdcf32c418de76d1e96138eb7732d",
+  "exactArtifactMatch": true,
+  "projects": [
+    {
+      "url": "https://kilatmoto.ismailstudio.my/",
+      "status": 200
+    },
+    {
+      "url": "https://makansedap.ismailstudio.my/",
+      "status": 200
+    },
+    {
+      "url": "https://kopikita.ismailstudio.my/",
+      "status": 200
+    },
+    {
+      "url": "https://malaysia.ismailstudio.my/",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "at": "2026-10-21T21:36:07.358Z",
+  "base": "https://www.ismailstudio.my",
+  "sha": "94c72a32e4f6fd1d3fa030651d0a17f529a8dd6b",
+  "dirty": true,
+  "browser": "155.0.4283.62",
+  "captures": [
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "hero",
+      "file": "docs/redesign/evidence/production-final/1440-hero.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "work",
+      "file": "docs/redesign/evidence/production-final/1440-work.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "work-second",
+      "file": "docs/redesign/evidence/production-final/1440-work-second.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "process",
+      "file": "docs/redesign/evidence/production-final/1440-process.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "pricing",
+      "file": "docs/redesign/evidence/production-final/1440-pricing.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "about",
+      "file": "docs/redesign/evidence/production-final/1440-about.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "faq",
+      "file": "docs/redesign/evidence/production-final/1440-faq.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact-step1",
+      "file": "docs/redesign/evidence/production-final/1440-contact-step1.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact-step2",
+      "file": "docs/redesign/evidence/production-final/1440-contact-step2.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact-review",
+      "file": "docs/redesign/evidence/production-final/1440-contact-review.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact-success-simulated",
+      "file": "docs/redesign/evidence/production-final/1440-contact-success-simulated.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact-error",
+      "file": "docs/redesign/evidence/production-final/1440-contact-error.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "case-kilatmoto",
+      "file": "docs/redesign/evidence/production-final/1440-case-kilatmoto.png",
+      "url": "https://www.ismailstudio.my/?case=kilatmoto",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "hero",
+      "file": "docs/redesign/evidence/production-final/390-hero.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "work",
+      "file": "docs/redesign/evidence/production-final/390-work.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "work-second",
+      "file": "docs/redesign/evidence/production-final/390-work-second.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "process",
+      "file": "docs/redesign/evidence/production-final/390-process.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "pricing",
+      "file": "docs/redesign/evidence/production-final/390-pricing.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "about",
+      "file": "docs/redesign/evidence/production-final/390-about.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "faq",
+      "file": "docs/redesign/evidence/production-final/390-faq.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "contact-step1",
+      "file": "docs/redesign/evidence/production-final/390-contact-step1.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "contact-step2",
+      "file": "docs/redesign/evidence/production-final/390-contact-step2.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "contact-review",
+      "file": "docs/redesign/evidence/production-final/390-contact-review.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "contact-success-simulated",
+      "file": "docs/redesign/evidence/production-final/390-contact-success-simulated.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "contact-error",
+      "file": "docs/redesign/evidence/production-final/390-contact-error.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "case-kilatmoto",
+      "file": "docs/redesign/evidence/production-final/390-case-kilatmoto.png",
+      "url": "https://www.ismailstudio.my/?case=kilatmoto",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "menu",
+      "file": "docs/redesign/evidence/production-final/390-menu.png",
+      "url": "https://www.ismailstudio.my/",
+      "servedSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395"
+    }
+  ],
+  "measurements": [
+    {
+      "width": 1440,
+      "pageWidth": 1440,
+      "pageHeight": 7119,
+      "h1": "110.16px"
+    },
+    {
+      "width": 390,
+      "pageWidth": 390,
+      "pageHeight": 8549,
+      "h1": "49.92px"
+    }
+  ]
+}

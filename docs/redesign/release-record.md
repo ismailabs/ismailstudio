@@ -1,8 +1,8 @@
 # Ismail Studio V2 — release record
 
-**IMPLEMENTED / DEPLOYED — canonical browser verification and production Zoho receipt in progress.**
+**IMPLEMENTED / TESTED / DEPLOYED — production Zoho receipt pending; final delivery verification remains UNVERIFIED.**
 
-Recorded 2026-10-22, Malaysia time. Implementation, three refinement cycles, source publication and exact-version public preview verification are complete. The owner directly confirmed preview arrival in Zoho, clearing the preproduction delivery gate. The tested immutable version was promoted; separate canonical-host verification follows below.
+Recorded 2026-10-22, Malaysia time. Implementation, three refinement cycles, source publication, exact-version preview and canonical production browser verification are complete. The owner directly confirmed preview arrival in Zoho, clearing the preproduction delivery gate. The tested immutable version was promoted. A separate production enquiry was accepted; its inbox receipt remains pending, so complete release verification is not claimed.
 
 ## Source and preview
 
@@ -12,24 +12,25 @@ Recorded 2026-10-22, Malaysia time. Implementation, three refinement cycles, sou
 - Exact preview: https://559ca179-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/
 - Alias: https://v2-review-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/
 - Clean five-page Astro build from runtime SHA; **31 allowlisted static files**. Apex/trigger settings excluded. Actual served source header and asset hashes matched. No internal references, docs, source, submission records or credentials are public assets.
-- Pinned cf beta.19 build validation, exact-version promotion dry-run and rollback dry-run passed. Exact-version promotion returned deployment **`573f6883-09a9-4883-9a34-64be843350bb`** on 2026-10-21 at approximately 21:34 UTC (2026-10-22 05:34 MYT). No reupload or trigger deployment was performed.
+- Pinned cf beta.19 build validation, exact-version promotion dry-run and rollback dry-run passed. Exact-version promotion created deployment **`573f6883-09a9-4883-9a34-64be843350bb`** at **2026-10-21T21:33:51.14378Z** (2026-10-22 05:33:51 MYT). No reupload or trigger deployment was performed.
 
 ## Verified gates
 
 | Gate | Result / evidence |
 | --- | --- |
-| Visual | Three critique/repair cycles, 81 primary captures plus 27 final hosted frames; visual-reviews.md and evidence/round1–3, preview-final |
+| Visual | Three critique/repair cycles, 81 primary captures + 27 final preview + 27 canonical production frames (135 total); visual-reviews.md and evidence/round1–3, preview-final, production-final |
 | Assets/facts | All 16 authentic derivatives byte-identical to V1; four Concept Project disclosures; protected package/project/FAQ/form data unchanged; asset-evidence.json |
 | Build/check | Five pages; Astro 53 files, zero errors/warnings/hints; clean CI npm run verify |
 | Redirect units | 3/3 PASS; actual apex path/query 308 also checked |
 | Browser | **31/31 local + 31/31 exact preview**, no skipped/unexpected/flaky cases; browser-ci-local.json, browser-ci-preview.json |
 | CI | [Run 39646381434](https://github.com/ismailabs/ismailstudio/actions/runs/39646381434), job 119382934975; artifact downloaded and SHA256 verified; evidence/ci.json |
+| Canonical CI | [Run 39680006800](https://github.com/ismailabs/ismailstudio/actions/runs/39680006800), source 94c72a3, job 119499710295; full verify + **31/31 local in 44.9s and 31/31 production in 58.1s**, zero skipped/unexpected/flaky. Downloaded artifact 12384195628 SHA256 verified; ci-production.json and browser-ci-production*.json. |
 | HTTP/assets | 37 preview checks PASS: hashes, source, CSP/security/no-transform, private paths 404; preview-http.json |
 | Resilience | Eight widths, sampled axe, keyboard/dialog focus/history/deep links, guided flow/edit/payload, isolated native POST, no-JS, reduced motion, forced colors, landscape and provider/network/timeout outcomes |
 | Performance | Three mobile + three desktop runs; local median LCP 2.143s / 0.673s, CLS 0; ranges/conditions in performance-review.md |
 | Real acceptance | Formspree 200, accepted ok:true, UI success; marker **ISM-PREVIEW-V2-20261021173515**; form-preview-v2.json |
 | Preview inbox | **PASS**; owner directly replied "Arrived in Zoho inbox" for ISM-PREVIEW-V2-20261021173515. Recorded in form-preview-v2.json. |
-| Production HTTP/assets | **41/41 PASS**; canonical V2 source/header/assets/security/private-path and permanent redirects, production-http.json. |
+| Production HTTP/assets | **41/41 PASS**; canonical V2 source/header/assets/security/private-path and permanent redirects, production-http.json. Root SHA256 also matches the exact preview artifact; all four actual concept URLs return 200, production-integrity.json. |
 | Production real enquiry | Formspree 200, accepted ok:true, UI success; **ISM-PRODUCTION-V2-20261021213408**, form-production-v2.json. Separate inbox confirmation requested. |
 | Publication safety | Targeted staged scan zero findings; staged whitespace PASS; no new app/workstation dependency; CI provenance reviewed/pinned. Not Gitleaks or an exhaustive audit. |
 
@@ -41,12 +42,12 @@ https://www.ismailstudio.my/ returns V2, HTTP 200, source **488a88c34a2a78d4ece6
 
 - Active website version **559ca179-d268-4db7-a486-181df5238e66**, deployment `573f6883-09a9-4883-9a34-64be843350bb`, 100% traffic. Prior V1 version **4317599d-6080-4ac6-9237-3503bc0971e9** and deployment `224c085a-9853-40bd-9943-955c62ef8f7f` remain rollback references.
 - Apex version **b1fb9bf9-8597-4210-b782-4a951bc1e820**, deployment `98aa3e69-71d6-4ffe-83f3-45385afd301d`, unchanged.
-- Fresh prepromotion reads at `2026-10-21T21:33:21Z`: three routes, six custom domains, all **17 DNS records** (including seven MX/TXT/CAA), eight other Workers (including apex), bindings and build-trigger list unchanged. Postpromotion comparison in progress.
+- Fresh prepromotion reads at `2026-10-21T21:33:21Z` and **postpromotion comparison at 21:35:55Z PASS**: three routes, six custom domains, all **17 DNS records** (including seven MX/TXT/CAA), eight other Workers (including apex), bindings and build-trigger list unchanged. See infrastructure-after.json. Historical prepromotion receipts remain separately dated.
 - DNS fingerprint `d627da74614e8feeed07836cc16a35141025ada7a8002cb283ff2f693055153b`; raw data remains ignored in .local/v2.
-- All four concept URLs 200; apex path/query 308 verified. Main remains `d9dc2b8fdea169742a1951c3690a055af9a02869`.
+- All four concept URLs 200; apex path/query 308 verified. Observed remote main baseline `d9dc2b8fdea169742a1951c3690a055af9a02869` is an ancestor of the verified feature branch. GitHub reports main unprotected and no rulesets; source publication uses a normal fast-forward, with no history replacement. No hosting build trigger exists.
 - Only website-version traffic was promoted. No DNS/mail/route/global setting edit, paid enrollment or unrelated deployment. Original user skill/lock changes preserved outside implementation commits.
 
-## Production verification in progress
+## Only outstanding release fact
 
 Owner: confirm whether **“Ismail Studio delivery check ISM-PRODUCTION-V2-20261021213408”** arrived at `contact@ismailstudio.my` in Zoho. No credentials or message contents are needed. This separate canonical-host evidence is required by `../redesign-v2/docs/07-contact-flow.md` and `13-production-release.md`; provider acceptance alone is insufficient. Preview receipt is already confirmed and is not substituted for this production receipt.
 
@@ -56,7 +57,7 @@ The exact tested version was promoted through the existing authenticated cf path
 cf workers deployments create --worker ismailstudio --strategy percentage --versions @.local/v2/production-versions.json
 ```
 
-That ignored file contains version 559ca179-d268-4db7-a486-181df5238e66 at 100%; fresh dry-run inspected immediately beforehand. Canonical HTTP checks and the single real enquiry passed. Full canonical browser CI, final hosted screenshots and postpromotion infrastructure comparison are in progress. No second real submission is needed.
+That ignored file contains version 559ca179-d268-4db7-a486-181df5238e66 at 100%; fresh dry-run inspected immediately beforehand. Canonical HTTP checks, full canonical browser CI, final hosted screenshots and protected-infrastructure comparison passed. One production enquiry was accepted; no second real submission is needed. Once the owner confirms its arrival, record the direct reply, update this record and remaining-issues.md, and push the evidence. Do not send repeated enquiries, redeploy or repeat passing browser suites merely to record the receipt.
 
 ## Rollback and limits
 

@@ -1,0 +1,20 @@
+---
+import { formConfig } from '../lib/form-config';
+import Arrow from './Arrow.astro';
+---
+<section id="contact" class="contact-band" aria-labelledby="contact-heading"><div class="contact shell section-space"><div class="contact-copy"><p class="eyebrow">Let's talk about your website</p><h2 id="contact-heading" data-reveal>Tell me what you want to build.</h2><p>Share a few details about your business and what you need. I'll review your enquiry and reply with the next steps.</p><img class="contact-art" src="/assets/contact-editorial.svg" alt="" width="1200" height="800" loading="lazy"/><p class="email-fallback">Prefer email?<br/><a href="mailto:contact@ismailstudio.my">contact@ismailstudio.my <Arrow diagonal /></a></p></div>
+  <div class="form-panel"><h3>Request a website quote</h3>
+    {!formConfig.active && <p class="form-availability" id="form-availability">Online submissions are currently unavailable. Prepare your enquiry below to send with your email app, or email me directly.</p>}
+    <form id="quote-form" action={formConfig.active ? formConfig.endpoint : `mailto:${formConfig.recipient}`} method="post" enctype={formConfig.active ? 'multipart/form-data' : 'text/plain'} data-endpoint={formConfig.endpoint} aria-describedby="privacy-summary">
+      <div class="form-grid"><div class="field"><label for="name">Name <span>(required)</span></label><input id="name" name="name" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="name-error"/><p class="field-error" id="name-error"></p></div><div class="field"><label for="business">Business name <span>(optional)</span></label><input id="business" name="business" autocomplete="organization" maxlength="100" aria-describedby="business-error"/><p class="field-error" id="business-error"></p></div></div>
+      <div class="field"><label for="email">Email <span>(required)</span></label><input type="email" id="email" name="email" autocomplete="email" spellcheck="false" required maxlength="254" aria-describedby="email-error"/><p class="field-error" id="email-error"></p></div>
+      <div class="form-grid"><div class="field"><label for="package">Package</label><select id="package" name="package" required><option value="Not sure yet">Not sure yet</option><option>Starter</option><option>Business</option><option>Premium</option></select></div><div class="field"><label for="timeline">Target timeline <span>(optional)</span></label><select id="timeline" name="timeline"><option value="">Select a timeline</option><option>Flexible</option><option>Within 1–3 months</option><option>Exploring</option></select></div></div>
+      <div class="field"><label for="message">What does your business need? <span>(required)</span></label><textarea id="message" name="message" rows="4" required minlength="20" maxlength="2000" aria-describedby="message-hint message-error"></textarea><p class="field-hint" id="message-hint">A little about your business, the pages you need and what you'd like to improve. 20–2,000 characters.</p><p class="field-error" id="message-error"></p></div>
+      <div class="honeypot" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" name="_gotcha" tabindex="-1" autocomplete="off"/></div>
+      <input type="hidden" name="_subject" value="Website enquiry — Ismail Studio"/>
+      <p id="privacy-summary" class="privacy-summary">The information you submit is used to respond to your website enquiry. Please don't include sensitive personal information. <a href="#privacy-note" class="inline-link">Privacy details</a></p>
+      <button class="button form-submit" type="submit"><span>{formConfig.active ? 'Send enquiry' : 'Prepare enquiry email'}</span><Arrow diagonal /></button>
+      <p id="form-status" class="form-status" role="status" aria-live="polite" aria-atomic="true"></p>
+      <noscript><p class="field-hint">{formConfig.active ? 'Your enquiry will be sent through Formspree.' : 'Your email app will open to complete your enquiry. You can also email contact@ismailstudio.my directly.'}</p></noscript>
+    </form>
+  </div></div></section>

@@ -1,0 +1,9 @@
+---
+const values = [
+  ["Know what you're getting.", 'Packages outline the starting price and general scope. The final quote explains the details before work begins.'],
+  ['Designed for real visitors.', 'Readable layouts, clear information and contact actions that work across screen sizes.'],
+  ['Work directly with the developer.', 'Discuss your project, review progress and ask questions without an unnecessary chain of handoffs.'],
+  ['AI-assisted, human-reviewed.', 'Development tools support the work; the finished result still needs deliberate design decisions, quality checks and accountability.'],
+];
+---
+<section class="approach-band" aria-labelledby="approach-heading"><div class="approach shell section-space"><div class="approach-heading"><p class="eyebrow">A practical approach</p><h2 id="approach-heading" data-reveal>Thoughtful design. Straightforward communication.</h2><svg class="approach-mark" viewBox="0 0 128 128" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="5"><path d="M26 18v92M66 18v92M26 18h65v35H66M26 110h65V77H66"/></g><path d="m99 26 16-15" stroke="var(--color-accent)" stroke-width="6"/></svg></div><div class="value-list">{values.map(([title, body]) => <div class="value"><h3>{title}</h3><p>{body}</p></div>)}</div></div></section>

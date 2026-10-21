@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-21T11:59:34.286Z",
+  "base": "https://www.ismailstudio.my",
+  "baseline": true,
+  "responses": [
+    {
+      "url": "https://www.ismailstudio.my/",
+      "status": 404,
+      "location": null
+    },
+    {
+      "url": "https://ismailstudio.my/",
+      "status": 404,
+      "location": null
+    },
+    {
+      "url": "http://www.ismailstudio.my/",
+      "status": 308,
+      "location": "https://www.ismailstudio.my/"
+    },
+    {
+      "url": "http://ismailstudio.my/",
+      "status": 308,
+      "location": "https://ismailstudio.my/"
+    }
+  ]
+}

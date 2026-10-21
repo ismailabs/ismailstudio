@@ -1,0 +1,10 @@
+---
+const steps = [
+  ['Discuss', 'Tell me about your business, your goals and the pages you have in mind.'],
+  ['Define', 'We clarify the scope, content responsibilities, price and expected deliverables before work begins.'],
+  ['Build', 'I develop the responsive website and review its content and interactions.'],
+  ['Review', 'You check the work and provide feedback within the agreed revision rounds.'],
+  ['Launch', 'After the necessary approvals, we arrange deployment and handover.'],
+];
+---
+<section id="process" class="process shell section-space" aria-labelledby="process-heading"><div class="section-intro"><div><p class="eyebrow">How it works</p><h2 id="process-heading" data-reveal>A clear process from idea to launch.</h2></div><p>A shared understanding at every stage.<br/>A considered website at the end.</p></div><ol class="process-rail">{steps.map(([title, body], i) => <li><span class="step-number" aria-hidden="true">0{i + 1}</span><h3>{title}</h3><p>{body}</p></li>)}</ol></section>

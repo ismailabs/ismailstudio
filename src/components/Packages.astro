@@ -1,0 +1,15 @@
+---
+import { packages } from '../data/packages';
+import Arrow from './Arrow.astro';
+---
+<section id="services" class="packages shell section-space" aria-labelledby="packages-heading">
+  <div class="section-intro"><div><p class="eyebrow">Services & pricing</p><h2 id="packages-heading" data-reveal>Choose a starting point for your website.</h2></div><p>Every business is different. These packages show the starting price and typical page scope; a final quote is based on your requirements.</p></div>
+  <div class="pricing-canvas">{packages.map((plan, i) => <article class:list={['plan', { 'plan-business': plan.name === 'Business' }]}>
+    <div class="plan-top"><h3>{plan.name}</h3><svg class="plan-motif" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="10" y="10" width="34" height="42"/>{i > 0 && <rect x="17" y="6" width="34" height="42"/>}{i > 1 && <rect x="24" y="2" width="34" height="42"/>}</svg></div>
+    <p class="plan-description">{plan.description}</p><p class="price"><span>From</span> <strong>RM{plan.price}</strong></p><p class="page-scope">{plan.pages}</p>
+    <ul><li>Mobile-responsive {i === 0 ? 'layout' : 'layouts'}</li><li>Basic on-page SEO</li><li>Clear contact actions</li><li>{plan.revisions}</li></ul>
+    <p class="plan-approach">{plan.approach}</p>
+    <a href="#contact" data-package={plan.name} class:list={['button', { 'button-light': i === 1, 'button-outline': i !== 1 }]} aria-label={`Enquire about ${plan.name}`}>Enquire about {plan.name} <Arrow diagonal /></a>
+  </article>)}</div>
+  <p class="pricing-note">Prices are starting estimates in Malaysian ringgit (RM), not fixed quotes. Website content, functionality, complexity and third-party costs are discussed before work starts. Backend systems, databases, e-commerce checkout and operational booking systems are not part of these frontend packages. Domain registration, ongoing maintenance and paid third-party services are separately scoped unless agreed in writing.</p>
+</section>

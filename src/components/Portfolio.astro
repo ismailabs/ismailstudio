@@ -1,0 +1,22 @@
+---
+import { existsSync } from 'node:fs';
+import { projects } from '../data/projects';
+import Arrow from './Arrow.astro';
+---
+<section id="work" class="work shell section-space" aria-labelledby="work-heading">
+  <div class="section-intro"><div><p class="eyebrow">Selected work</p><h2 id="work-heading" data-reveal>A look at what I build.</h2></div><p>Four live concept projects exploring how different businesses and stories can be presented on the web. These are demonstrations of frontend design and development—not commissioned client projects.</p></div>
+  <div class="project-gallery">
+    {projects.map((project) => <article class:list={['project', project.color]}>
+      <a class="project-preview" href={project.url} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.name} live concept (opens in a new tab)`}>
+        {existsSync(`public/assets/projects/${project.slug}-1200.webp`) ? <picture>
+          <source type="image/webp" srcset={`/assets/projects/${project.slug}-400.webp 400w, /assets/projects/${project.slug}-640.webp 640w, /assets/projects/${project.slug}-800.webp 800w, /assets/projects/${project.slug}-1200.webp 1200w`} sizes="(max-width: 600px) calc(100vw - 80px), (max-width: 1280px) 40vw, 538px" />
+          <img src={`/assets/projects/${project.slug}-1200.webp`} srcset={`/assets/projects/${project.slug}-400.webp 400w, /assets/projects/${project.slug}-640.webp 640w, /assets/projects/${project.slug}-800.webp 800w, /assets/projects/${project.slug}-1200.webp 1200w`} sizes="(max-width: 600px) calc(100vw - 80px), (max-width: 1280px) 40vw, 538px" alt={project.alt} width="1200" height="825" loading="lazy" decoding="async" />
+        </picture> : <div class="preview-unavailable"><span>{project.name}</span><p>Preview unavailable. Explore the live concept.</p></div>}
+        <span class="project-open" aria-hidden="true"><Arrow diagonal /></span>
+      </a>
+      <div class="project-meta"><p class="concept-label">Concept Project</p><span class="project-category">{project.category}</span></div>
+      <h3>{project.name}</h3><p class="project-description">{project.description}</p>
+      <a class="text-link" href={project.url} target="_blank" rel="noopener noreferrer" aria-label={`View live concept: ${project.name} (opens in a new tab)`}>View live concept <Arrow diagonal /></a>
+    </article>)}
+  </div>
+</section>

@@ -1,0 +1,11 @@
+{
+  "marker": "ISM-LOCAL-20261021103959",
+  "scope": "local",
+  "url": "http://127.0.0.1:4321",
+  "checkedAt": "2026-10-21T10:40:08.646Z",
+  "providerHttp": 200,
+  "providerAccepted": true,
+  "uiState": "success",
+  "zohoReceipt": "OWNER_CONFIRMED_INBOX",
+  "receiptEvidence": "Owner confirmed receipt in Zoho inbox in the active chat on 2026-10-21"
+}

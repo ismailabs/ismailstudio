@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-10-21T11:51:49.727Z",
+  "scope": "Local production build with generated security headers",
+  "browser": "Installed Microsoft Edge via Playwright 1.64.1",
+  "workers": 1,
+  "stats": {
+    "startTime": "2026-10-21T11:49:08.526Z",
+    "duration": 116579.613,
+    "expected": 17,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "title": "content, layout and accessibility at 360px",
+      "passed": true
+    },
+    {
+      "title": "content, layout and accessibility at 390px",
+      "passed": true
+    },
+    {
+      "title": "content, layout and accessibility at 430px",
+      "passed": true
+    },
+    {
+      "title": "content, layout and accessibility at 768px",
+      "passed": true
+    },
+    {
+      "title": "content, layout and accessibility at 1024px",
+      "passed": true
+    },
+    {
+      "title": "content, layout and accessibility at 1440px",
+      "passed": true
+    },
+    {
+      "title": "content, layout and accessibility at 1920px",
+      "passed": true
+    },
+    {
+      "title": "metadata, anchors, external links and published routes",
+      "passed": true
+    },
+    {
+      "title": "package selection, native FAQ and keyboard skip link",
+      "passed": true
+    },
+    {
+      "title": "mobile menu opens, closes on Escape and follows anchors",
+      "passed": true
+    },
+    {
+      "title": "form rejects invalid, too short and oversized values without network",
+      "passed": true
+    },
+    {
+      "title": "simulated provider acceptance has loading, one request, reset and accessible success",
+      "passed": true
+    },
+    {
+      "title": "simulated provider failure preserves content and offers retry",
+      "passed": true
+    },
+    {
+      "title": "simulated network failure preserves content and offers retry",
+      "passed": true
+    },
+    {
+      "title": "simulated unconfirmed failure preserves content and offers retry",
+      "passed": true
+    },
+    {
+      "title": "no-JavaScript content, navigation, FAQ and native provider POST survive",
+      "passed": true
+    },
+    {
+      "title": "reduced motion, forced colors, 200% equivalent reflow and privacy",
+      "passed": true
+    }
+  ],
+  "note": "All Formspree requests in this suite are isolated mocks. Real delivery is separate."
+}

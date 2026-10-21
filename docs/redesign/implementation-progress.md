@@ -9,7 +9,8 @@
 - Full canonical CI 39680006800 PASS: 31 local in 44.9s + 31 production in 58.1s; no skipped/unexpected/flaky. Static/typecheck/build/redirect checks PASS; downloaded artifact SHA256 verified, full reports retained.
 - 27 canonical captures complete (135 primary frames including prior cycles/preview); inspected desktop/mobile hero, gallery, pricing, mobile case/review and simulated success. No new defect; 1440/390 measured widths exact. Production root SHA and all assets match the tested artifact; four concept URLs 200.
 - Postpromotion protected-infrastructure comparison PASS at 21:35:55 UTC: all DNS/mail records/routes/custom domains/apex/other Workers/bindings/build triggers unchanged. Only the website version changed. Rollback V1 remains available.
-- Remaining release fact: separate production marker receipt in Zoho. No duplicate send, new deployment or passing-test repeat is needed when recording the owner reply. Main is a verified ancestor, unprotected, no rulesets; publishing source by normal fast-forward without force-push.
+- Main and feature were atomically fast-forwarded to bc57e0c9355e27ddaada2618da97ca95aa680cc9. Fresh local HEAD/main/tracking and advertised remote SHAs all matched; runtime/app/packaging diff from 488a88c empty. Publication receipt records this delivery; original local skill/lock changes preserved.
+- Remaining release fact: separate production marker receipt in Zoho. No duplicate send, new deployment or passing-test repeat is needed when recording the owner reply. Browser inventory currently exposes only Ismail Studio tabs, with no authenticated Zoho surface. Owner confirmation is still pending.
 
 ## 2026-10-22 — Audit and foundation
 

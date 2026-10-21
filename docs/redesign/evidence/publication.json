@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-21T21:42:32.816Z",
+  "repository": "https://github.com/ismailabs/ismailstudio",
+  "verifiedReleaseEvidenceCommit": "bc57e0c9355e27ddaada2618da97ca95aa680cc9",
+  "runtimeSourceCommit": "488a88c34a2a78d4ece64636dff14ac4d42e8395",
+  "mainFastForwardFrom": "d9dc2b8fdea169742a1951c3690a055af9a02869",
+  "localHeadMatchesBothTrackingRefs": true,
+  "advertisedRemoteMainAndFeatureMatch": true,
+  "appAndProductionPackagingDiffFromRuntimeSource": "EMPTY",
+  "publicationMethod": "Non-forced atomic fast-forward of main and feature branch",
+  "preservedLocalChanges": [
+    "skills-lock.json",
+    ".agents/skills/ai-design-engineering/",
+    ".agents/skills/wrangler/"
+  ],
+  "scope": "Verified delivery of the release and its evidence. This receipt is a later documentation-only commit; it is not an extra runtime deployment.",
+  "remainingReleaseFact": "Production Zoho receipt for ISM-PRODUCTION-V2-20261021213408"
+}

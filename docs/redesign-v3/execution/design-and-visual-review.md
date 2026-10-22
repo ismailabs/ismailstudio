@@ -16,6 +16,8 @@ Evidence was captured in Chromium/Edge at 1440×900 and 390×844. Each manifest 
 
 No open severity-1/2 visual defect was identified in the inspected final views. This is an evidence-led implementation review, not a new human creative approval or a WCAG certification. Approved visual direction is already recorded; no user acceptance of a final rendered screenshot is invented.
 
+Subsequent final verification includes the deferred-motion regression and short-height menu checks: 38/38 local browser tests and 3/3 redirect units. The immutable hosted preview was also captured in 27 states and a fresh 11-viewport matrix, including a current motion/reduced-motion trace. Desktop hero/offers and mobile hero/contact screenshots were visually inspected again; no additional severity-1/2 defect was identified. These manifests record served runtime source `6393bf7...` separately from the documentation HEAD.
+
 ## Deliberate adaptations
 
 - The approved atmospheric background study is composed as a single optimized hero scene, not a raster homepage. All copy, controls and logo remain real HTML/SVG. Mobile crops prioritize legible content and an unobstructed quote CTA over generative pixel matching.

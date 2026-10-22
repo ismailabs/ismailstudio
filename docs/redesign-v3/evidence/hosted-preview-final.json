@@ -1,0 +1,16 @@
+{
+  "at": "2026-10-22T09:32:43.869Z",
+  "suite": "npx playwright test",
+  "baseURL": "https://b46cfec0-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev",
+  "runtimeSource": "6393bf7ada13c089f3ed7e7c12a781fafb440e50",
+  "stats": {
+    "startTime": "2026-10-22T09:26:32.641Z",
+    "duration": 314631.55000000005,
+    "expected": 38,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "liveFormTransport": "Isolated; zero live posts",
+  "initialResult": "One initial navigation connection reset retained in hosted-preview-first.json; unchanged full rerun passed"
+}

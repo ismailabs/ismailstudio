@@ -1,5 +1,5 @@
 {
-  "uploadedAt": "2026-10-22T09:16:00Z",
+  "uploadedAt": "2026-10-22T09:17:58.542827Z",
   "worker": "ismailstudio",
   "runtimeSource": "6393bf7ada13c089f3ed7e7c12a781fafb440e50",
   "versionId": "b46cfec0-8728-4c4d-8031-92d354f10a19",
@@ -9,5 +9,6 @@
   "packaging": "npm run package:cloudflare -- --site-only --preview-only",
   "productionTrafficChanged": false,
   "apexIncluded": false,
-  "triggersIncluded": false
+  "triggersIncluded": false,
+  "metadataVerifiedAt": "2026-10-22T09:26:42.062Z"
 }

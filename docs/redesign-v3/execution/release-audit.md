@@ -66,3 +66,5 @@ Local source and installed release-command audit is complete. **Current external
 ## Subsequent live refresh
 
 The initial transport and stale CLI-token failures above were resolved during implementation. The existing official CLI session was refreshed without printing credentials or adding permissions. Fresh connector and CLI reads reconfirmed the website and apex versions, zero build triggers, zero bindings and the unchanged protected inventory; see `../evidence/infrastructure-before.json`. The known-good V2 version was reread and remains available for rollback preparation. Initial failures remain preserved as historical execution evidence, not current blockers. Recipient-delivery proof is still a separate gate.
+
+Final outcome: preview and canonical live provider acceptance each passed once, with direct owner confirmation of the exact marker in Zoho. All pre-promotion gates were completed before exact-version website promotion; fresh after-inventory confirms the protected infrastructure is unchanged. Current status and full diagnostics are in `release-record.md`; the earlier blocked state above is historical.

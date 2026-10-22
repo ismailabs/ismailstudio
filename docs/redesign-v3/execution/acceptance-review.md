@@ -1,0 +1,18 @@
+# V3 acceptance review
+
+Authority: `../START_HERE.md`, `../00-AUTHORITY-AND-PROTECTIONS.md`, and the original four approved PNGs. This review maps the immutable acceptance checklist to observed implementation evidence; it does not alter the handoff.
+
+| Area | Evidence and result |
+|---|---|
+| Hero and light-body direction | Semantic `BUILT FOR BIGGER PROBLEMS.` headline, Melaka service context, optimized approved scene, responsive crops and clear primary CTA. Actual browser screenshots in `../evidence/final-local/` and `../evidence/hosted-preview/`; no orange brand treatment. |
+| Identity | Original editable rounded SVG symbol, inline/stacked/standalone monochrome and accent variants, favicons and OG image. Source/usage in `asset-provenance.json`; actual 16–128px render in `comparisons/identity-sizes.png`. |
+| Three visual cycles | `design-and-visual-review.md` records 15 concrete observations and repairs, with before/after folders. Final hosted desktop hero, offers, mobile hero and contact were inspected again. No open severity-1/2 defect was found in these sampled views. |
+| Business facts | Exactly three From prices, protected page/revision counts, one-time basic/technical/advanced on-site SEO scope, explicit scope-dependent quotes and honest exclusions. Tests assert these facts. Three dated provider pages were researched; no unsupported market-range chart was published. See `market-evidence.md`. |
+| Four concepts | All four project cards and permanent routes disclose Concept Project; 16 authentic image assets match baseline bytes. Four live demos returned HTTP 200. See `baseline/live-http-and-demos.json` and `matrix-preview/manifest.json`. |
+| Behavior and accessibility | Complete Playwright suite, axe samples across eight widths and four dialogs, keyboard history/focus, FAQ, mobile disclosure, short landscape, 320px and zoom-equivalent reflow, no-JS, forced colors, reduced motion. Matrix covers 11 viewports with no page error or horizontal overflow. Automated/emulated coverage is not physical-device or assistive-technology certification. |
+| Contact | Original endpoint, fields, three-step enhancement and native POST preserved. Automated tests isolate transport. One actual preview POST received HTTP 200/ok:true and honest success UI; the owner independently confirmed the exact marker in Zoho and unchanged account/recipient. See `form-preview-acceptance.json`. Canonical receipt is recorded separately after promotion. |
+| SEO, privacy and security | All 48 public resources hash-match preview output; private/source paths return 404, canonical metadata and CSP/nosniff are checked. Apex and HTTP routes return the established 308, preserving path/query. Targeted staged pattern/path scan has zero findings; production dependency audit has zero known vulnerabilities. Neither is a full security audit. |
+| Code and performance | Astro check/build, 3 redirect tests, 38 local browser tests and GitHub CI passed. Exact measured V2/V3 comparison, bundle sizes, deferred Motion Mini and host limitations are in `performance-review.md`; no field CWV or ranking claim. |
+| Release boundaries | Preview version `b46cfec0-8728-4c4d-8031-92d354f10a19` serves runtime source `6393bf7ada13c089f3ed7e7c12a781fafb440e50`. Infrastructure snapshots compare all protected resources. Rollback version is readable and payload dry-run passed; no rollback drill or unrelated mutation. Final promotion/canonical state is in `release-record.md`. |
+
+Evidence filenames in the table are relative to `../evidence/` unless otherwise specified. Production status must be read from the final release record; this checklist alone does not assert promotion.

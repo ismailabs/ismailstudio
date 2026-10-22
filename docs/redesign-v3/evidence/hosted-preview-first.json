@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-22T09:28:10.037Z",
+  "baseURL": "https://b46cfec0-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev",
+  "runtimeSource": "6393bf7ada13c089f3ed7e7c12a781fafb440e50",
+  "stats": {
+    "startTime": "2026-10-22T09:18:36.902Z",
+    "duration": 324722.862,
+    "expected": 37,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  },
+  "diagnostic": "37 tests passed; timeout-preservation case could not reach page.goto due to net::ERR_CONNECTION_RESET. No form assertion or application failure was reached. Full unchanged suite rerun initiated, with original failure retained privately.",
+  "liveFormTransport": "Isolated; zero live posts"
+}

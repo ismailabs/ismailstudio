@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-22T09:42:56.291Z",
+  "baseURL": "https://www.ismailstudio.my/",
+  "runtimeSource": "6393bf7ada13c089f3ed7e7c12a781fafb440e50",
+  "fullSuite": {
+    "startTime": "2026-10-22T09:33:26.606Z",
+    "duration": 399718.67699999997,
+    "expected": 37,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  },
+  "focusedRerun": {
+    "startTime": "2026-10-22T09:41:03.758Z",
+    "duration": 25004.194,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "diagnostic": "Initial full run: 37 passed, 1920px case reached the normal 60s test limit while axe was opening a secondary page; trace preserved privately. The unchanged case was rerun alone with the same timeout and assertions. No source or test weakening.",
+  "liveFormTransport": "Isolated in every automated case; zero live posts",
+  "rawTrace": ".local/v3/production-first-timeout.zip"
+}

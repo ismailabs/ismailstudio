@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-22T09:36:18.451Z",
+  "phase": "production",
+  "base": "https://www.ismailstudio.my/",
+  "marker": "ISM-V3-PRODUCTION-20261022093601",
+  "providerStatus": 200,
+  "providerAccepted": true,
+  "browserSuccess": true,
+  "recipientReceipt": "PASS: owner independently confirmed receipt in contact@ismailstudio.my through Zoho for this exact marker in the current chat on 2026-10-22",
+  "evidenceBoundary": "Direct owner inbox confirmation, not agent mailbox access; no mailbox contents or customer submission retained"
+}

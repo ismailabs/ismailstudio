@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-22T09:26:42.071Z",
+  "knownGoodVersion": "559ca179-d268-4db7-a486-181df5238e66",
+  "currentVersionRead": "PASS",
+  "dryRun": "PASS",
+  "scope": "ismailstudio website only",
+  "strategy": "percentage",
+  "versions": [
+    {
+      "version_id": "559ca179-d268-4db7-a486-181df5238e66",
+      "percentage": 100
+    }
+  ],
+  "command": "cf workers deployments create --worker ismailstudio --strategy percentage --versions @.local/v3/rollback-versions.json --dry-run",
+  "actualRollbackPerformed": false,
+  "limit": "Payload validation and readable known-good version; no production rollback drill"
+}

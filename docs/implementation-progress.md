@@ -7,7 +7,7 @@ This is a new V3 progress record. The user's pre-existing V1/V2 documentation de
 - Phase 0: repository/skill/source inspection and fresh Cloudflare baseline complete. Initial transport/auth failures resolved through the existing official session refresh; no new access or DNS changes.
 - Phase 1–3: original SVG identity, optimized cinematic art, light content, offers/SEO, icon approach, floating nav and preserved contact/study interactions implemented.
 - Phase 4: three actual browser critique/repair cycles recorded in `docs/redesign-v3/execution/design-and-visual-review.md`.
-- Local verification: `npm run verify` passed (Astro check/build, 3 redirect tests, 36 browser tests). No lint script configured. Width/state/media evidence is under `docs/redesign-v3/evidence/`.
-- Phase 5: isolated performance comparison, publication review and exact-version preview verification underway. Production promotion remains conditional on all gates, including independent current recipient-delivery evidence.
+- Local verification: `npm run verify` passed (Astro check/build, 3 redirect tests, 38 browser tests; zero skips). No lint script configured. Width/state/media evidence is under `docs/redesign-v3/evidence/`.
+- Phase 5: measured V2/V3 performance comparison complete, with mobile lab headroom limits disclosed. Immutable V3 preview `b46cfec0-8728-4c4d-8031-92d354f10a19` serves runtime source `6393bf7ada13c089f3ed7e7c12a781fafb440e50`; all 48 public assets match the build. One live preview send passed Formspree acceptance, and the owner independently confirmed the exact marker arrived in Zoho and account/recipient remain unchanged. Full hosted tests and final publication checks are underway; production promotion remains conditional on all gates.
 
 Outstanding release gates are maintained in `docs/redesign-v3/execution/release-record.md`. No V3 production deployment is claimed by this progress record.

@@ -24,7 +24,12 @@ for(let offset=0;offset<assets.length;offset+=4) {
 for(const pathname of ['/docs/redesign-v3/START_HERE.md','/.env','/package.json','/src/scripts/site.ts','/.git/config','/_headers','/unknown-v3-route/']) {
   const response=await fetch(new URL(pathname,root));assert.equal(response.status,404,pathname);
 }
-const redirect=await fetch('https://ismailstudio.my/work/kilatmoto/?from=v3-release',{redirect:'manual'});
-assert.equal(redirect.status,301);assert.equal(redirect.headers.get('location'),'https://www.ismailstudio.my/work/kilatmoto/?from=v3-release');
-await writeFile(`docs/redesign-v3/evidence/${phase}-integrity.json`,JSON.stringify({at:new Date().toISOString(),url:root.href,source,assetCount:results.length,results,privatePaths:'404',apexRedirect:'301 with path and query preserved'},null,2));
+const redirects=[];
+for(const host of ['http://ismailstudio.my','https://ismailstudio.my','http://www.ismailstudio.my']) {
+  const url=`${host}/work/kilatmoto/?from=v3-release`;
+  const redirect=await fetch(url,{redirect:'manual'});
+  assert.equal(redirect.status,308);assert.equal(redirect.headers.get('location'),'https://www.ismailstudio.my/work/kilatmoto/?from=v3-release');
+  redirects.push({url,status:redirect.status,location:redirect.headers.get('location')});
+}
+await writeFile(`docs/redesign-v3/evidence/${phase}-integrity.json`,JSON.stringify({at:new Date().toISOString(),url:root.href,source,assetCount:results.length,results,privatePaths:'404',redirects},null,2));
 console.log(JSON.stringify({phase,url:root.href,source,hashedAssets:results.length,privatePaths:'PASS',apex:'PASS'}));

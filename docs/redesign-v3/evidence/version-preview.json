@@ -1,0 +1,13 @@
+{
+  "uploadedAt": "2026-10-22T09:16:00Z",
+  "worker": "ismailstudio",
+  "runtimeSource": "6393bf7ada13c089f3ed7e7c12a781fafb440e50",
+  "versionId": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+  "immutableUrl": "https://b46cfec0-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev",
+  "aliasUrl": "https://v3-review-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev",
+  "command": "cf workers versions create --prebuilt --mode production --preview-alias v3-review --tag 6393bf7 --message <preview-only message>",
+  "packaging": "npm run package:cloudflare -- --site-only --preview-only",
+  "productionTrafficChanged": false,
+  "apexIncluded": false,
+  "triggersIncluded": false
+}

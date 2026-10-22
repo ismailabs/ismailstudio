@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-22T09:20:12.690Z",
+  "phase": "preview",
+  "base": "https://b46cfec0-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev",
+  "marker": "ISM-V3-PREVIEW-20261022091959",
+  "providerStatus": 200,
+  "providerAccepted": true,
+  "browserSuccess": true,
+  "recipientReceipt": "PASS: owner independently confirmed arrival in contact@ismailstudio.my through Zoho for this exact marker in the current chat",
+  "accountEligibility": "Owner confirmed Formspree account and verified recipient unchanged on 2026-10-22",
+  "evidenceBoundary": "Direct owner inbox confirmation, not agent mailbox access; no mailbox contents or customer submission retained"
+}

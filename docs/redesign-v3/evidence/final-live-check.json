@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-22T09:49:57.821Z",
+  "url": "https://www.ismailstudio.my/",
+  "status": 200,
+  "source": "6393bf7ada13c089f3ed7e7c12a781fafb440e50",
+  "sha256": "6f659513743e0c9fed7473f28cb33cc0ae19f2d0891e8ac361822635715b8ab6",
+  "deployment": {
+    "id": "76513860-4004-41d7-ac33-786f0d005a64",
+    "versions": [
+      {
+        "version_id": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+        "percentage": 100
+      }
+    ],
+    "created_on": "2026-10-22T09:32:57.542937Z"
+  }
+}

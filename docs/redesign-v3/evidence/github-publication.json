@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-22T09:47:25.784Z",
+  "repository": "https://github.com/ismailabs/ismailstudio",
+  "verifiedPublicationSha": "0e3d879f23be00b4ebc9eb94b5ea6c73bb23c209",
+  "trackingSha": "0e3d879f23be00b4ebc9eb94b5ea6c73bb23c209",
+  "advertisedRefs": [
+    {
+      "sha": "0e3d879f23be00b4ebc9eb94b5ea6c73bb23c209",
+      "ref": "refs/heads/codex/ismailstudio-v3-redesign"
+    },
+    {
+      "sha": "0e3d879f23be00b4ebc9eb94b5ea6c73bb23c209",
+      "ref": "refs/heads/main"
+    }
+  ],
+  "mainUpdate": "Normal non-force fast-forward from 65d2f51fec8d612882aea2617e6c54ec49d4c23b; main protected=false and no rulesets verified before update",
+  "runtimeSource": "6393bf7ada13c089f3ed7e7c12a781fafb440e50",
+  "runtimeTreeComparison": "No difference in src, public, dependencies, Astro/Cloudflare config or build-headers script",
+  "excludedOwnerWork": "Pre-existing V1/V2 documentation deletions, skills-lock.json change and local skill folders preserved outside staged release files",
+  "followingCommits": "Receipt and closure documentation may be committed after this observed publication SHA; they do not redeploy the pinned runtime"
+}

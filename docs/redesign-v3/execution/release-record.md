@@ -1,12 +1,13 @@
 # V3 release record
 
-Status: **PASS — V3 deployed and canonical verification complete.** GitHub main publication is the remaining administrative closure step. No unresolved mandatory implementation, provider or infrastructure gate.
+Status: **PASS — V3 deployed, canonically verified and published to GitHub main.** No unresolved mandatory implementation, provider or infrastructure gate. Measured limits are retained below.
 
 ## Exact release identity
 
 - Production: https://www.ismailstudio.my/ ; website Worker `ismailstudio` only.
 - Runtime source: `6393bf7ada13c089f3ed7e7c12a781fafb440e50`. The subsequent reviewed release/tooling commit is `3ec35b374a5eb6e2782f975370b62c823d5cdaa5`; a scoped Git diff confirms identical runtime source, public assets, dependencies and build configuration. Later evidence/documentation commits do not change the tested version.
 - Remote branch: `https://github.com/ismailabs/ismailstudio/tree/codex/ismailstudio-v3-redesign`.
+- Main was safely fast-forwarded from `65d2f51...` to release/evidence commit `0e3d879f23be00b4ebc9eb94b5ea6c73bb23c209` without force. Local HEAD, tracking ref and both advertised remote branch SHAs were independently compared; `github-publication.json`. Subsequent closure-receipt commits contain documentation only.
 - Immutable preview: https://b46cfec0-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev ; alias `v3-review-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev`.
 - Tested and promoted version: `b46cfec0-8728-4c4d-8031-92d354f10a19`, uploaded 2026-10-22T09:17:58.542827Z.
 - Production deployment: `76513860-4004-41d7-ac33-786f0d005a64`, 100% traffic, 2026-10-22T09:32:57.542937Z (17:32:57 Malaysia).
@@ -27,7 +28,7 @@ The four original approved PNGs control visual direction. Three critique/repair 
 | Local Playwright | 38/38 PASS, zero skipped/flaky/unexpected; `local-tests-final.json`. |
 | Preview Playwright | 38/38 PASS in the unchanged full final run; `hosted-preview-final.json`. Initial navigation reset retained in `hosted-preview-first.json`, not hidden by retries or weakened assertions. |
 | Canonical Playwright | All 38 cases verified: first full run passed 37 with one normal 60s timeout while axe opened a secondary page; that unchanged 1920px case passed alone in 17.7s with identical timeout/assertions. Zero skipped tests. The initial failure and focused result are both retained in `production-browser.json`; this is not represented as a single clean 38-test production run. |
-| GitHub CI | Reviewed commit `3ec35b3` passed [run 39755193748](https://github.com/ismailabs/ismailstudio/actions/runs/39755193748). Local build/redirect/browser checks ran; the optional hosted CI step was conditionally omitted for this branch, with hosted tests executed directly and recorded separately. |
+| GitHub CI | Reviewed commit `3ec35b3` passed [run 39755193748](https://github.com/ismailabs/ismailstudio/actions/runs/39755193748). Published main commit `0e3d879` also passed [run 39757953387](https://github.com/ismailabs/ismailstudio/actions/runs/39757953387), confirmed 2026-10-22T09:49:01Z; `github-main-ci.json`. Local build/redirect/browser checks ran. The optional hosted CI step was conditionally omitted in these runs; direct hosted suites are recorded separately. |
 | Responsive and accessibility | 11 viewport/landscape sizes, four dialog paths, keyboard/touch-mode/focus/history, no-JS, forced colors, reduced motion, zoom-equivalent reflow, eight-width axe samples; `matrix-preview/manifest.json` and its current motion trace. No page error/horizontal overflow in that matrix. |
 | Hosted bytes / SEO / privacy | All 48 public assets match the selected build on preview and canonical host. HTML source header, CSP/nosniff, canonical metadata and private/source-path 404s pass. Three apex/HTTP routes preserve path/query with 308. `preview-integrity.json`, `production-integrity.json`. |
 | Live demos | Four actual demo links returned HTTP 200; `baseline/live-http-and-demos.json`. |

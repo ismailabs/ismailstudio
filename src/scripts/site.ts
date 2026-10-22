@@ -1,8 +1,17 @@
 import './contact';
-import { animate } from 'motion/mini';
 
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 const header = document.querySelector<HTMLElement>('.site-header');
+let motion: Promise<typeof import('motion/mini')> | undefined;
+const animateNavigation = async (element: HTMLElement) => {
+  if (reducedMotion.matches) return;
+  try {
+    const { animate } = await (motion ??= import('motion/mini'));
+    if (!reducedMotion.matches) animate(element, { transform: ['translateY(-5px)', 'translateY(0px)'] }, { duration: .25, ease: 'easeOut' });
+  } catch (error) {
+    console.warn('Navigation motion unavailable; the static navigation remains usable.', error);
+  }
+};
 const navigationLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>('#primary-nav a[href^="#"]'));
 const sections = navigationLinks.flatMap(link => {
   const section = document.getElementById(link.hash.slice(1));
@@ -15,7 +24,7 @@ const updateNavigation = () => {
   const floated = scrollY > 120;
   if (header.hasAttribute('data-floating') !== floated) {
     header.toggleAttribute('data-floating', floated);
-    if (!reducedMotion.matches) animate(header, { transform: ['translateY(-5px)', 'translateY(0px)'] }, { duration: .25, ease: 'easeOut' });
+    void animateNavigation(header);
   }
   let current: HTMLAnchorElement | undefined;
   for (const { link, section } of sections) if (section.getBoundingClientRect().top <= 180) current = link;
@@ -28,8 +37,6 @@ window.addEventListener('scroll', () => { if (!navigationFrame) navigationFrame 
 window.addEventListener('resize', updateNavigation);
 updateNavigation();
 reducedMotion.addEventListener('change', () => { if (reducedMotion.matches) document.getAnimations().forEach(animation => animation.finish()); });
-const scene = document.querySelector<HTMLElement>('.hero-scene');
-if (scene && !reducedMotion.matches) animate(scene, { transform: ['scale(1.025)', 'scale(1)'] }, { duration: 1.1, ease: 'easeOut' });
 
 const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
 const navigation = document.querySelector<HTMLElement>('#primary-nav');

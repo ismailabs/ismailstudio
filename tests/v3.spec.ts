@@ -22,6 +22,23 @@ test('floating navigation remains reachable and identifies the current section',
   await expect(header).not.toHaveAttribute('data-floating');
 });
 
+test('motion is deferred until navigation interaction and honors reduced motion', async ({ page }) => {
+  const modules: string[] = [];
+  page.on('request', request => { if (/\/_astro\/.*\.js/.test(request.url())) modules.push(request.url()); });
+  await page.goto('/');
+  await page.waitForLoadState('networkidle');
+  expect(modules).toHaveLength(1);
+  await page.locator('#work').scrollIntoViewIfNeeded();
+  await expect.poll(() => modules.length).toBeGreaterThan(1);
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await expect.poll(() => page.evaluate(() => document.getAnimations().filter(a => a.playState === 'running').length)).toBe(0);
+  await page.reload();
+  modules.length = 0;
+  await page.locator('#services').scrollIntoViewIfNeeded();
+  await expect(page.locator('.site-header')).toHaveAttribute('data-floating', '');
+  expect(modules).toHaveLength(0);
+});
+
 test('tablet and mobile navigation opens without obstruction, closes outside and at resize', async ({ page }) => {
   for (const width of [320, 390, 768, 834, 1024]) {
     await page.setViewportSize({ width, height: 900 });

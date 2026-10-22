@@ -28,10 +28,10 @@
 
 ## Dependency provenance
 
-Motion 14.5.0 was read from the official npm registry and motion.dev JS animate documentation. MIT license, official motiondivision/motion repository; reviewed package scripts and optional React peers before `npm install --save-exact motion@14.5.0 --ignore-scripts --no-audit --no-fund`. No lifecycle scripts, React or React DOM installed. Client code imports only `motion/mini` for small transform transitions; lockfile pins all four added packages. Final emitted bytes and Lighthouse costs are recorded separately.
+Motion 14.5.0 was read from the official npm registry and motion.dev JS animate documentation. MIT license, official motiondivision/motion repository; reviewed package scripts and optional React peers before `npm install --save-exact motion@14.5.0 --ignore-scripts --no-audit --no-fund`. No lifecycle scripts, React or React DOM installed. Client code dynamically imports only `motion/mini` on navigation interaction for small transform transitions; lockfile pins all four added packages. Final emitted bytes and Lighthouse costs are recorded separately.
 
 Lucide SVG primitives are copied/adapted as static local SVG under ISC, with notice in public/assets/lucide-LICENSE.txt. No icon executable dependency. Geist remains self-hosted under SIL OFL. Artwork uses only the approved atmospheric study, resized and composed; four project preview families remain byte-identical to baseline.
 
-Optional research and alternative art-direction scripts were not executed. Market-price comparison was omitted under the handoff fallback because no like-for-like current primary-source sample was established; the site explains scoped value without external price claims.
+Optional research and alternative art-direction scripts were not executed. Three current provider pricing pages were reviewed in execution/market-evidence.md. Their scope and recurring inclusions differ, so a numeric market chart was omitted under the handoff fallback; the site explains scoped value without external price claims.
 
 Git retains the handoff CSV original CRLF bytes because its supplied SHA256 manifest is authoritative. The scoped gitattributes rule recognizes CR as its line ending; it does not disable source or staged whitespace checks. All original handoff files were also hash-compared directly with their staged Git blobs.

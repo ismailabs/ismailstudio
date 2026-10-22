@@ -15,6 +15,22 @@ const availablePort=() => new Promise((resolve,reject)=>{
     const address=server.address();const port=address.port;server.close(error=>error?reject(error):resolve(port));
   });
 });
+const closeAuditBrowser = async chrome => {
+  if(!chrome) return;
+  try {
+    // Edge can relaunch its process on Windows. Close the actual browser over
+    // its owned CDP connection before asking the launcher to clean its profile.
+    const version=await (await fetch(`http://127.0.0.1:${chrome.port}/json/version`,{signal:AbortSignal.timeout(5000)})).json();
+    const socket=new WebSocket(version.webSocketDebuggerUrl);
+    await new Promise((resolve,reject)=>{
+      let requested=false;
+      const timeout=setTimeout(()=>{socket.close();reject(Error('Audit browser close timed out'));},5000);
+      socket.addEventListener('open',()=>{requested=true;socket.send(JSON.stringify({id:1,method:'Browser.close'}));});
+      socket.addEventListener('close',()=>{clearTimeout(timeout);resolve();});
+      socket.addEventListener('error',error=>{clearTimeout(timeout);if(requested)resolve();else reject(error);});
+    });
+  } finally { await chrome.kill(); }
+};
 for(const formFactor of ['mobile','desktop'])for(let run=1;run<=3;run++) {
   let complete=false;
   for(let attempt=1;attempt<=2&&!complete;attempt++) {
@@ -37,6 +53,6 @@ for(const formFactor of ['mobile','desktop'])for(let run=1;run<=3;run++) {
       await writeFile(`.local/lighthouse/${phase}-${formFactor}-${run}-failure-${attempt}.json`,JSON.stringify({at:new Date().toISOString(),url,formFactor,run,attempt,error:String(error)},null,2));
       if(attempt===2)throw error;
       console.log(JSON.stringify({formFactor,run,attempt,browserFailure:String(error),retry:'one fresh browser allowed; failed metrics are not counted'}));
-    } finally { if(chrome) await chrome.kill(); }
+    } finally { await closeAuditBrowser(chrome); }
   }
 }

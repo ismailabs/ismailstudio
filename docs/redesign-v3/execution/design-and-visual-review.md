@@ -21,9 +21,9 @@ No open severity-1/2 visual defect was identified in the inspected final views. 
 - The approved atmospheric background study is composed as a single optimized hero scene, not a raster homepage. All copy, controls and logo remain real HTML/SVG. Mobile crops prioritize legible content and an unobstructed quote CTA over generative pixel matching.
 - The paired rounded vector symbol is original, with consistent standalone/stacked/inline assets. It follows the approved character without claiming a supplied editable vector or registered trademark. Actual header wordmark uses self-hosted Geist; editable export wordmarks use common Arial fallback.
 - Two wide work columns and stacked mobile previews replace generated project photography. Every work item discloses Concept Project. Project media is unchanged and hash-verified.
-- The invented market graph and “Most Popular” ribbon are omitted. A transparent scope explanation uses no unsupported competitor figures. Three starting prices, page limits and revisions are exact.
+- The invented market graph and “Most Popular” ribbon are omitted. Three primary provider pages were checked (see market-evidence.md); scope and recurring costs were not like-for-like. A transparent scope explanation uses no unsupported competitor figures. Three starting prices, page limits and revisions are exact.
 - SEO scopes are one-time setup/check work. No ranking, indexing, sales, response-time, turnaround, ownership or recurring-maintenance promise has been invented.
-- Motion Mini animates a small hero scale and floated-nav state transition. Text starts visible, no repeated reveals, no scroll hijacking, reduced motion cancels movement. Actual trace: `evidence/matrix/motion-and-reduced-motion.zip`.
+- Motion Mini is loaded on the first navigation interaction to animate its floated state transition. Initial hero motion was removed after profiling put mobile LCP near 2.55s; the cinematic artwork remains immediately visible and static. Text starts visible, no repeated reveals, no scroll hijacking, reduced motion cancels movement. Actual trace: `evidence/matrix/motion-and-reduced-motion.zip`.
 
 ## Coverage and limits
 

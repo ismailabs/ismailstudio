@@ -1,0 +1,20 @@
+{
+  "recordedAt": "2026-10-22T09:05:19.016Z",
+  "suite": "npm run verify",
+  "sourceBase": "f996be01599144fc794c90080792587d80c820d5",
+  "workingChanges": "Deferred Motion import and focused regression test",
+  "stats": {
+    "startTime": "2026-10-22T08:23:55.733Z",
+    "duration": 344306.298,
+    "expected": 38,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "playwright": "1.64.1",
+  "baseURL": "http://127.0.0.1:4321",
+  "liveFormTransport": "Isolated in all tests; zero real posts",
+  "redirectTests": 3,
+  "astro": "check/build passed",
+  "lint": "Not configured"
+}

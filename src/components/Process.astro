@@ -1,10 +1,11 @@
 ---
+import Icon from './Icon.astro';
 const steps = [
-  ['Discuss', 'Your business, the problem and what people need to find.'],
-  ['Define', 'Scope, content, responsibilities and a clear quote.'],
-  ['Build', 'Responsive pages with a considered visual direction.'],
-  ['Review', 'Your feedback, refined within the agreed revision rounds.'],
-  ['Launch', 'Final checks, deployment and a practical handover.'],
-];
+  { name: 'Discover', description: 'Understand your business and what people need to find.', icon: 'messages' },
+  { name: 'Define', description: 'Agree the scope, content and a clear written quote.', icon: 'clipboard' },
+  { name: 'Design & build', description: 'Bring the content, visual direction and responsive code together.', icon: 'code' },
+  { name: 'Review', description: 'Refine the details within your agreed revision rounds.', icon: 'eye' },
+  { name: 'Launch', description: 'Complete the checks, deployment and practical handover.', icon: 'rocket' },
+] as const;
 ---
-<section id="process" class="process shell section-space" aria-labelledby="process-heading"><p class="eyebrow">The approach</p><h2 id="process-heading">FROM THE PROBLEM<br/><em>FORWARD.</em></h2><ol class="process-track">{steps.map(([name,description],i) => <li data-process><span class="step-number">0{i+1}</span><h3>{name}</h3><p>{description}</p></li>)}</ol></section>
+<section id="process" class="process shell section-space" aria-labelledby="process-heading"><p class="eyebrow">The approach</p><h2 id="process-heading">A clear way<br/><span class="text-muted">from idea to website.</span></h2><ol class="process-track">{steps.map(step => <li data-process><Icon name={step.icon}/><h3>{step.name}</h3><p>{step.description}</p></li>)}</ol></section>

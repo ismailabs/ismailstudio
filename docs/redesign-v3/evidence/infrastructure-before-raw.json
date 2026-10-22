@@ -1,0 +1,112 @@
+{
+  "at": "2026-10-22T03:42:12.245Z",
+  "stage": "before",
+  "comparison": "baseline",
+  "account": "44214a829e2337ca50cf40e4cd827cba",
+  "zone": "dc2bee92d5853929394633d0a4165093",
+  "workerCount": 9,
+  "customDomainCount": 6,
+  "otherWorkers": [
+    {
+      "id": "civolyn",
+      "modified_on": "2026-10-17T07:06:22.104107Z"
+    },
+    {
+      "id": "ismailstudio-apex",
+      "modified_on": "2026-10-21T12:08:00.449595Z"
+    },
+    {
+      "id": "kilatmoto",
+      "modified_on": "2026-10-17T01:12:04.327506Z"
+    },
+    {
+      "id": "kopikita",
+      "modified_on": "2026-10-20T07:28:15.082794Z"
+    },
+    {
+      "id": "makansedap",
+      "modified_on": "2026-10-20T14:15:29.707302Z"
+    },
+    {
+      "id": "malaysia-between-places",
+      "modified_on": "2026-10-19T19:51:24.695211Z"
+    },
+    {
+      "id": "malaysia-between-places-preview",
+      "modified_on": "2026-10-19T19:45:02.101441Z"
+    },
+    {
+      "id": "proworks",
+      "modified_on": "2026-10-17T07:39:14.241234Z"
+    }
+  ],
+  "routes": [
+    {
+      "id": "9c8c90fe1b81492fb236b10be8bd81b9",
+      "pattern": "http://www.ismailstudio.my/*",
+      "script": "ismailstudio-apex",
+      "request_limit_fail_open": false
+    },
+    {
+      "id": "69b87e8c352248dc9ac8143067f9e982",
+      "pattern": "ismailstudio.my/*",
+      "script": "ismailstudio-apex",
+      "request_limit_fail_open": false
+    },
+    {
+      "id": "e93eb7ccf5b74019bedf670c884bfe8b",
+      "pattern": "www.ismailstudio.my/*",
+      "script": "ismailstudio",
+      "request_limit_fail_open": false
+    }
+  ],
+  "dnsCount": 17,
+  "dnsSha256": "d627da74614e8feeed07836cc16a35141025ada7a8002cb283ff2f693055153b",
+  "mailAndCaaCount": 7,
+  "deployments": [
+    {
+      "id": "573f6883-09a9-4883-9a34-64be843350bb",
+      "versions": [
+        {
+          "version_id": "559ca179-d268-4db7-a486-181df5238e66",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T21:33:51.14378Z"
+    },
+    {
+      "id": "224c085a-9853-40bd-9943-955c62ef8f7f",
+      "versions": [
+        {
+          "version_id": "4317599d-6080-4ac6-9237-3503bc0971e9",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T12:17:16.863707Z"
+    },
+    {
+      "id": "b5e35fef-a548-45bb-b2f9-c4b3daeed9f9",
+      "versions": [
+        {
+          "version_id": "884270fc-00d9-4264-9c97-cb065432ad33",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T12:04:26.999697Z"
+    }
+  ],
+  "apexDeployments": [
+    {
+      "id": "98aa3e69-71d6-4ffe-83f3-45385afd301d",
+      "versions": [
+        {
+          "version_id": "b1fb9bf9-8597-4210-b782-4a951bc1e820",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T12:05:42.020535Z"
+    }
+  ],
+  "bindings": [],
+  "buildTriggerCount": 0
+}

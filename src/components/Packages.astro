@@ -1,14 +1,16 @@
 ---
 import { packages } from '../data/packages';
 import Arrow from './Arrow.astro';
+import Icon from './Icon.astro';
 ---
 <section id="services" class="packages shell section-space" aria-labelledby="packages-heading">
-  <div class="section-intro"><div><p class="eyebrow">Services & pricing</p><h2 id="packages-heading">A STARTING POINT.<br/><em>SHAPED TO FIT.</em></h2></div><p>Three starting packages. Your requirements determine the final scope, deliverables and quote.</p></div>
-  <div class="pricing-canvas">{packages.map((plan, i) => <article class:list={['plan', { 'plan-business': plan.name === 'Business' }]}>
-    <div class="plan-title"><span class="plan-index" aria-hidden="true">{String(i+1).padStart(2,'0')}</span><div><h3>{plan.name}</h3><p>{plan.description}</p></div></div>
-    <p class="price"><span>From</span> <strong>RM{plan.price}</strong></p><div class="plan-scope"><p class="page-scope">{plan.pages}</p><p>{plan.revisions}</p></div>
-    <a href="#contact" data-package={plan.name} class="plan-link" aria-label={`Enquire about ${plan.name}`}><Arrow diagonal/></a>
+  <div class="section-intro"><div><p class="eyebrow">Offers</p><h2 id="packages-heading">Built for your<br/><span class="text-muted">next chapter.</span></h2></div><p>A focused first page or a broader business website. Choose a starting point; we’ll agree the scope together.</p></div>
+  <div class="pricing-canvas">{packages.map((plan) => <article class:list={['plan', { 'plan-business': plan.name === 'Business' }]}>
+    <div class="plan-title"><span class="plan-icon"><Icon name={plan.icon}/></span><div><h3>{plan.name}</h3><p>{plan.description}</p></div></div>
+    <p class="price"><span>From</span> <strong>RM{plan.price}</strong></p><div class="plan-scope"><p class="page-scope">{plan.pages}</p><p>{plan.revisions}</p><p class="seo-tier">{plan.seo}</p></div>
+    <details class="seo-details"><summary>One-time SEO scope <span aria-hidden="true">+</span></summary><p>{plan.seoDetail}</p></details>
+    <a href="#contact" data-package={plan.name} class="plan-link" aria-label={`Enquire about ${plan.name}`}>Enquire about {plan.name} <Arrow diagonal/></a>
   </article>)}</div>
-  <div class="pricing-details"><p>Every package includes mobile-responsive layouts, basic on-page SEO and clear contact actions.</p><p>Starter uses template-informed design; Business and Premium allow more extensive reusable layouts. All packages cover frontend websites.</p></div>
+  <div class="scope-context"><h3>Clear scope.<br/>A considered quote.</h3><p>Every package includes responsive layouts and clear contact actions. Starter uses template-informed design; Business and Premium allow more extensive reusable layouts.</p><p>SEO is one-time work for the agreed pages. Search engines control indexing and rankings; results are not guaranteed.</p></div>
   <p class="pricing-note">Prices are starting estimates in Malaysian ringgit (RM), not fixed quotes. Content, complexity and functionality affect the final quote. Backend systems, databases, e-commerce checkout and operational booking systems are excluded. Domain registration, hosting and recurring third-party costs, ongoing maintenance and paid services are separately scoped unless agreed in writing. Search engine rankings are not guaranteed.</p>
 </section>

@@ -1,0 +1,79 @@
+{
+  "approval_date_malaysia": "2026-10-22",
+  "site": "https://www.ismailstudio.my/",
+  "repository": "ismailabs/ismailstudio",
+  "location": "Melaka, Malaysia",
+  "headline": "BUILT FOR BIGGER PROBLEMS.",
+  "design": {
+    "hero": "dramatic cinematic mountains + distinctive iridescent sculpture; bold readable type",
+    "body": "predominantly light minimalist spacious sections",
+    "no_new_orange_branding": true,
+    "palette": [
+      "black",
+      "white",
+      "silver",
+      "grey",
+      "blue",
+      "violet",
+      "magenta"
+    ],
+    "corner_radius_px_guide": [
+      12,
+      20
+    ],
+    "motion": "motion JavaScript; reduced motion required",
+    "icon_system": "Lucide icons with meaningful text and accessible names",
+    "logo": "new original scalable mark + wordmark + favicon"
+  },
+  "offers": [
+    {
+      "name": "Starter",
+      "from_myr": 599,
+      "pages_max": 1,
+      "revision_rounds": 1,
+      "one_time_seo": "Basic On-Page"
+    },
+    {
+      "name": "Business",
+      "from_myr": 1299,
+      "pages_max": 5,
+      "revision_rounds": 2,
+      "one_time_seo": "Technical"
+    },
+    {
+      "name": "Premium",
+      "from_myr": 2999,
+      "pages_max": 12,
+      "revision_rounds": 2,
+      "one_time_seo": "Advanced On-Site"
+    }
+  ],
+  "concepts": [
+    {
+      "slug": "kilatmoto",
+      "url": "https://kilatmoto.ismailstudio.my/"
+    },
+    {
+      "slug": "makansedap",
+      "url": "https://makansedap.ismailstudio.my/"
+    },
+    {
+      "slug": "kopikita",
+      "url": "https://kopikita.ismailstudio.my/"
+    },
+    {
+      "slug": "malaysia",
+      "url": "https://malaysia.ismailstudio.my/"
+    }
+  ],
+  "protected": {
+    "contact_email": "contact@ismailstudio.my",
+    "do_not_publish_personal_phone": true,
+    "site_worker_only": "ismailstudio",
+    "no_apex_or_dns_change": true,
+    "projects_are_concepts": true,
+    "no_unsupported_client_results": true,
+    "no_seo_ranking_guarantees": true,
+    "no_blanket_cheapest_claim": true
+  }
+}

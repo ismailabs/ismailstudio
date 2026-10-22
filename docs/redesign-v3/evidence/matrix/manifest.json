@@ -1,0 +1,191 @@
+{
+  "at": "2026-10-22T03:40:30.254Z",
+  "base": "http://127.0.0.1:4321",
+  "sha": "65d2f51fec8d612882aea2617e6c54ec49d4c23b",
+  "dirty": true,
+  "browser": "155.0.4283.62",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 700,
+      "scrollWidth": 320,
+      "h1": "43.52px",
+      "cta": 515.359375
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "scrollWidth": 375,
+      "h1": "51px",
+      "cta": 536.5
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "h1": "53.04px",
+      "cta": 542.265625
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "scrollWidth": 430,
+      "h1": "58.48px",
+      "cta": 557.59375
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "h1": "81.408px",
+      "cta": 592.578125
+    },
+    {
+      "width": 834,
+      "height": 1112,
+      "scrollWidth": 834,
+      "h1": "70.056px",
+      "cta": 537.921875
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "scrollWidth": 1024,
+      "h1": "86.016px",
+      "cta": 581
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "scrollWidth": 1280,
+      "h1": "95.36px",
+      "cta": 606.21875
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "h1": "107.28px",
+      "cta": 638.421875
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scrollWidth": 1920,
+      "h1": "118px",
+      "cta": 735.34375
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "scrollWidth": 844,
+      "h1": "70.896px",
+      "cta": 540.171875
+    }
+  ],
+  "states": [
+    {
+      "width": 390,
+      "mode": "no-js",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "mode": "forced-colors",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "mode": "no-js",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "mode": "forced-colors",
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "projectAssets": [
+    {
+      "path": "public/assets/projects/kilatmoto-1200.webp",
+      "sha256": "d10fdbcb97b2bfb6675df831bd514b255f30816d771dc24ea9e0600988bc3dc4",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/kilatmoto-400.webp",
+      "sha256": "c9e32c568ca5969d7e84e378c8c31650b97dfdc596881947658a8967bbe6ffdd",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/kilatmoto-640.webp",
+      "sha256": "1c06cccc5ef762d96db2ae0e22f106015be3503c2278f3b56f84ff07e9afc3f1",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/kilatmoto-800.webp",
+      "sha256": "2476c6c74de0348983b32a348ec3cdb3b87fb3d8a3ba53b6cd2b4ccdfee61fea",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/kopikita-1200.webp",
+      "sha256": "4851857e140652d21eb6d3d718ff66615d64086f3dbf9cf553f4bb2823045e17",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/kopikita-400.webp",
+      "sha256": "58dd21f62257da0c75890f9cd3e123d1e913b69b835f416a942a9cf90ebbbf16",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/kopikita-640.webp",
+      "sha256": "729fb6e86319711a9487fe5c1028b97a3710b561b70c15f5e176af13d4b08123",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/kopikita-800.webp",
+      "sha256": "714f48c47e0363f6921942a0bdb5eb89d86212263cfdef84e26948a94cdf42a8",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/makansedap-1200.webp",
+      "sha256": "424efac32a2188158361bf55656b6656e3254286256764fbe5278ae608a0e837",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/makansedap-400.webp",
+      "sha256": "690d82f31c68922840ea507fa19a4aff62da9818d970ef7b831b3a0561ee3a25",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/makansedap-640.webp",
+      "sha256": "0002a11518f3905bc833dda6f1059da92489f408c5b83b6e86872cdee9017035",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/makansedap-800.webp",
+      "sha256": "b048e7cbbbc2b1b8e8e119824aa9d5959a56b1052cdaa935104aafece02d93ca",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/malaysia-1200.webp",
+      "sha256": "a89ef07c30b0b952f363ea9cb4adfa2904495e2dd24cfff0a667e37823e53ed5",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/malaysia-400.webp",
+      "sha256": "cd87bb600f44d5920c1249567d25fd1acbe31e2502c9c5909ccd6023ca7822bb",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/malaysia-640.webp",
+      "sha256": "0e02d329bd6232669be9902d3682d238b731fa0f2afeb081e785e3e0da4f4f24",
+      "matchesBaseline": true
+    },
+    {
+      "path": "public/assets/projects/malaysia-800.webp",
+      "sha256": "4769b8c1e782ecb8da2e199adae0a0f2c7c7d83efe145fda4f786ab8117707d5",
+      "matchesBaseline": true
+    }
+  ]
+}

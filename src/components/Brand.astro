@@ -2,7 +2,7 @@
 interface Props { large?: boolean; }
 const { large = false } = Astro.props;
 ---
-<a href="#top" class:list={['brand', { 'brand-large': large }]}>
-  <svg width="38" height="38" viewBox="0 0 128 128" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="11" stroke-linejoin="round"><path d="M26 18v92M66 18v92M26 18h65v35H66M26 110h65V77H66"/></g><path d="m99 26 16-15" stroke="var(--color-accent)" stroke-width="9"/></svg>
-  <span>ismail <span class="brand-second">studio</span></span><span class="sr-only"> home</span>
+<a href="/#top" class:list={['brand', { 'brand-large': large }]} aria-label="Ismail Studio home">
+  <svg width="48" height="52" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path data-brand-mark fill="currentColor" d="M10 5h7c8 0 13 6 13 14v33h-7c-8 0-13-6-13-14V5Zm24 23c0-9 5-15 13-15h7v46h-7c-8 0-13-6-13-14V28Z"/></svg>
+  <span>ismail <span class="brand-second">studio</span></span>
 </a>

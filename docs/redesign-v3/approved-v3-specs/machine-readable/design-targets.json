@@ -1,0 +1,79 @@
+{
+  "status": "V3 visual references approved; comprehensive requirement summary pending",
+  "primaryHeadline": "BUILT FOR BIGGER PROBLEMS.",
+  "tokens": {
+    "darkCanvas": "#080D17",
+    "darkSurface": "#111927",
+    "lightCanvas": "#FFFFFF",
+    "lightSurface": "#F7F8FB",
+    "lightText": "#111827",
+    "darkText": "#F8FAFF",
+    "mutedTextLight": "#616D7D",
+    "iceBlue": "#6FB7FF",
+    "violet": "#9169F5",
+    "pink": "#D95BDA",
+    "accentGradient": "linear-gradient(105deg,#D95BDA 0%,#9169F5 48%,#6FB7FF 100%)",
+    "standardCardRadiusPx": [
+      12,
+      20
+    ]
+  },
+  "typography": {
+    "desktopHeroPx": [
+      72,
+      132
+    ],
+    "mobileHeroPx": [
+      44,
+      70
+    ],
+    "desktopBodyPx": [
+      18,
+      21
+    ],
+    "mobileBodyPx": [
+      16,
+      18
+    ],
+    "navPx": [
+      15,
+      19
+    ],
+    "processIconPx": [
+      40,
+      58
+    ]
+  },
+  "packages": [
+    {
+      "name": "Starter",
+      "fromRM": 599,
+      "pages": 1,
+      "revisionRounds": 1,
+      "seo": "Basic On-Page (one-time)"
+    },
+    {
+      "name": "Business",
+      "fromRM": 1299,
+      "pages": "up to 5",
+      "revisionRounds": 2,
+      "seo": "Technical (one-time)"
+    },
+    {
+      "name": "Premium",
+      "fromRM": 2999,
+      "pages": "up to 12",
+      "revisionRounds": 2,
+      "seo": "Advanced On-Site setup/audit (one-time)"
+    }
+  ],
+  "blockedClaims": [
+    "Real client results",
+    "Guaranteed SEO ranking",
+    "Unverified popular tier",
+    "Response within 24h",
+    "Market statistics without dated sources",
+    "Generated replacement project thumbnails"
+  ],
+  "productionAuthority": "NOT GRANTED BY THIS PACK; separate approved handoff and gated Codex workflow required"
+}

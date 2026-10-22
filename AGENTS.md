@@ -2,8 +2,8 @@
 
 Scope: the **Ismail Studio** repository only. Refer to `START_HERE.md` and `docs/`. Working agreement: complete an Astro + Tailwind v4 + TypeScript single-page marketing website, verify it in an actual browser, and push/deploy to approved GitHub/Cloudflare targets when gates pass.
 
-## Approved V2 routing
-`docs/redesign-v2/START_HERE.md` and its authority ledger supersede V1 visual rules. Execute the approved cinematic, bold contemporary and experimental digital direction, with three recorded browser critique/repair cycles. Keep all nonnegotiables below. Use `ai-design-engineering` for build/verify/refine, with narrowly scoped specialist skills. The existing `cf` deployment path may update only the `ismailstudio` website after the V2 release gates pass; preserve apex Worker, DNS, mail, routes and unrelated infrastructure. `docs/redesign/` contains implementation evidence. Creative copy may change under V2; protected facts in `docs/02-copy-final.md`, typed data and the V2 protected-facts register still control.
+## Approved V3 routing
+`docs/redesign-v3/START_HERE.md` and `00-AUTHORITY-AND-PROTECTIONS.md` supersede earlier visual rules. Execute the approved cinematic dark hero and predominantly light editorial body, with three recorded browser critique/repair cycles. Use `ai-design-engineering` for build/verify/refine, with narrowly scoped specialists. Preserve all nonnegotiables below; typed data and the V3 corrected fact registers control claims. Read deleted historical V1/V2 records from Git without restoring user deletions. The existing `cf` version upload/preview/promotion path may update only the `ismailstudio` website after V3 gates pass; preserve apex Worker, DNS, mail, routes and unrelated infrastructure. Record current evidence under `docs/redesign-v3/evidence/`.
 
 ## Nonnegotiables
 - Public domain `https://www.ismailstudio.my/` (apex redirects); professional mail `contact@ismailstudio.my`; **never publicly expose the supplied personal WhatsApp number**.

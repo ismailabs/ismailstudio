@@ -24,7 +24,7 @@ for (const width of [320, 360, 390, 430, 768, 1024, 1440, 1920]) {
     page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
     await page.goto('/');
     await page.evaluate(async () => document.fonts.ready);
-    await expect(page.getByRole('heading', { level: 1 })).toHaveText('PROBLEMS.MEETSOLUTIONS.');
+    await expect(page.getByRole('heading', { level: 1 })).toHaveText('BUILT FOR BIGGER PROBLEMS.');
     await expect(page.locator('.project-preview .concept-label')).toHaveCount(4);
     await expect(page.locator('.project-preview img')).toHaveCount(4);
     for (const [name, price, pages, revisions] of [
@@ -57,7 +57,7 @@ for (const width of [320, 360, 390, 430, 768, 1024, 1440, 1920]) {
 
 test('metadata, anchors, external links and published routes', async ({ page, request }) => {
   await page.goto('/');
-  await expect(page).toHaveTitle('Ismail Studio | Creative Web Design & Development in Malaysia');
+  await expect(page).toHaveTitle('Ismail Studio | Web Design & Frontend Development in Melaka, Malaysia');
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://www.ismailstudio.my/');
   await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', 'https://www.ismailstudio.my/og-image.png');
   const badAnchors = await page.locator('a[href^="#"]').evaluateAll((links) => links.map((link) => link.getAttribute('href') ?? '').filter((href) => !document.getElementById(href.slice(1))));
@@ -98,7 +98,7 @@ test('mobile menu opens, closes on Escape and follows anchors', async ({ page })
   await expect(toggle).toBeFocused();
   await expect(toggle).toHaveAttribute('aria-expanded', 'false');
   await toggle.click();
-  await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Services', exact: true }).click();
+  await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Offers', exact: true }).click();
   expect(new URL(page.url()).hash).toBe('#services');
   await expect(toggle).toHaveAttribute('aria-expanded', 'false');
 });

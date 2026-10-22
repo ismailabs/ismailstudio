@@ -4,7 +4,7 @@ import { studies } from '../data/studies';
 import Arrow from './Arrow.astro';
 ---
 <section id="work" class="work-band" aria-labelledby="work-heading"><div class="shell section-space">
-  <div class="section-intro work-intro"><div><p class="eyebrow">Selected work / Four explorations</p><h2 id="work-heading">IDEAS GIVEN<br/><em>DIGITAL FORM.</em></h2></div><p>Four concept projects. Four different approaches to design and development.<br/><strong>Self-initiated concepts, not commissioned client work.</strong></p></div>
+  <div class="section-intro work-intro"><div><p class="eyebrow">Selected work</p><h2 id="work-heading">Different ideas.<br/><span class="text-muted">Distinctive websites.</span></h2></div><p>Four self-initiated concept projects exploring what a website can be.<br/><strong>Concept work, not commissioned client results.</strong></p></div>
   <div class="project-grid">{projects.map((project, i) => <article class={`project project-${project.slug}`}>
     <a class="project-preview" href={`/work/${project.slug}/`} data-case={project.slug} aria-label={`Concept Project: read the ${project.name} study`}>
       <img src={`/assets/projects/${project.slug}-800.webp`} srcset={[400,640,800,1200].map(w => `/assets/projects/${project.slug}-${w}.webp ${w}w`).join(', ')} sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 720px" alt={project.alt} width="1200" height="825" loading="lazy"/>

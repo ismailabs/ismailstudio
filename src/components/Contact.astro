@@ -2,7 +2,7 @@
 import { formConfig } from '../lib/form-config';
 import Arrow from './Arrow.astro';
 ---
-<section id="contact" class="contact-band" aria-labelledby="contact-heading"><div class="contact shell section-space"><div class="contact-copy"><p class="eyebrow">Start a conversation</p><h2 id="contact-heading">HAVE A PROBLEM<br/>WORTH<br/><em>SOLVING?</em></h2><p>Tell me about your business and what your website needs to do. I’ll review your enquiry and reply with the next steps.</p><p class="email-fallback">Prefer email?<br/><a href="mailto:contact@ismailstudio.my">contact@ismailstudio.my <Arrow diagonal/></a></p></div>
+<section id="contact" class="contact-band" aria-labelledby="contact-heading"><div class="contact shell section-space"><div class="contact-copy"><p class="eyebrow">Let’s build something</p><h2 id="contact-heading">Your next website<br/>starts with<br/><em>a conversation.</em></h2><p>Tell me about your business and what your website needs to do. I’ll review your enquiry and reply with the next steps.</p><p class="email-fallback">Prefer email?<br/><a href="mailto:contact@ismailstudio.my">contact@ismailstudio.my <Arrow diagonal/></a></p></div>
   <div class="form-panel"><h3 class="sr-only">Request a website quote</h3>
     {!formConfig.active && <p class="form-availability">Online submissions are currently unavailable. Prepare your enquiry below to send with your email app, or email me directly.</p>}
     <form id="quote-form" action={formConfig.active ? formConfig.endpoint : `mailto:${formConfig.recipient}`} method="post" enctype={formConfig.active ? 'multipart/form-data' : 'text/plain'} data-endpoint={formConfig.endpoint} aria-describedby="privacy-summary">

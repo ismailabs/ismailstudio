@@ -1,0 +1,27 @@
+{
+  "authority": "historical only; not a fresh API snapshot",
+  "source": "git show 65d2f51fec8d612882aea2617e6c54ec49d4c23b:docs/redesign/evidence/infrastructure-after.json and release-record.md",
+  "observedAt": "2026-10-21T21:47:25.344Z",
+  "runtimeSource": "488a88c34a2a78d4ece64636dff14ac4d42e8395",
+  "website": {
+    "worker": "ismailstudio",
+    "version": "559ca179-d268-4db7-a486-181df5238e66",
+    "deployment": "573f6883-09a9-4883-9a34-64be843350bb",
+    "percentage": 100
+  },
+  "protectedApex": {
+    "worker": "ismailstudio-apex",
+    "version": "b1fb9bf9-8597-4210-b782-4a951bc1e820",
+    "deployment": "98aa3e69-71d6-4ffe-83f3-45385afd301d"
+  },
+  "workerCount": 9,
+  "customDomainCount": 6,
+  "routeCount": 3,
+  "dnsCount": 17,
+  "dnsSha256": "d627da74614e8feeed07836cc16a35141025ada7a8002cb283ff2f693055153b",
+  "mailAndCaaCount": 7,
+  "websiteBindings": [],
+  "websiteBuildTriggerCount": 0,
+  "v2ProviderAcceptanceAndOwnerZohoConfirmation": true,
+  "validForV3CurrentInventoryOrRecipientGate": false
+}

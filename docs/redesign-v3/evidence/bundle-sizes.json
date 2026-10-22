@@ -1,0 +1,39 @@
+{
+  "at": "2026-10-22T05:55:45.493Z",
+  "motion": "14.5.0",
+  "reactInstalled": false,
+  "assets": [
+    {
+      "name": "BaseLayout.astro_astro_type_script_index_0_lang.B5lUfMWv.js",
+      "bytes": 16083,
+      "gzipBytes": 6185
+    },
+    {
+      "name": "geist-latin-wght-normal.BgDaEnEv.woff2",
+      "bytes": 29400,
+      "gzipBytes": 29428
+    },
+    {
+      "name": "studies.BjJDdagW.css",
+      "bytes": 30804,
+      "gzipBytes": 7787
+    }
+  ],
+  "baselineAssets": [
+    {
+      "name": "BaseLayout.astro_astro_type_script_index_0_lang.BbUEHHm8.js",
+      "bytes": 7545,
+      "gzipBytes": 2983
+    },
+    {
+      "name": "geist-latin-wght-normal.BgDaEnEv.woff2",
+      "bytes": 29400,
+      "gzipBytes": 29428
+    },
+    {
+      "name": "studies.3rhw9r64.css",
+      "bytes": 30513,
+      "gzipBytes": 7806
+    }
+  ]
+}

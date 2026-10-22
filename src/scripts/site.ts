@@ -1,4 +1,35 @@
 import './contact';
+import { animate } from 'motion/mini';
+
+const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+const header = document.querySelector<HTMLElement>('.site-header');
+const navigationLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>('#primary-nav a[href^="#"]'));
+const sections = navigationLinks.flatMap(link => {
+  const section = document.getElementById(link.hash.slice(1));
+  return section ? [{ link, section }] : [];
+});
+let navigationFrame = 0;
+const updateNavigation = () => {
+  navigationFrame = 0;
+  if (!header) return;
+  const floated = scrollY > 120;
+  if (header.hasAttribute('data-floating') !== floated) {
+    header.toggleAttribute('data-floating', floated);
+    if (!reducedMotion.matches) animate(header, { transform: ['translateY(-5px)', 'translateY(0px)'] }, { duration: .25, ease: 'easeOut' });
+  }
+  let current: HTMLAnchorElement | undefined;
+  for (const { link, section } of sections) if (section.getBoundingClientRect().top <= 180) current = link;
+  for (const link of navigationLinks) {
+    if (link === current) link.setAttribute('aria-current', 'location');
+    else link.removeAttribute('aria-current');
+  }
+};
+window.addEventListener('scroll', () => { if (!navigationFrame) navigationFrame = requestAnimationFrame(updateNavigation); }, { passive: true });
+window.addEventListener('resize', updateNavigation);
+updateNavigation();
+reducedMotion.addEventListener('change', () => { if (reducedMotion.matches) document.getAnimations().forEach(animation => animation.finish()); });
+const scene = document.querySelector<HTMLElement>('.hero-scene');
+if (scene && !reducedMotion.matches) animate(scene, { transform: ['scale(1.025)', 'scale(1)'] }, { duration: 1.1, ease: 'easeOut' });
 
 const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
 const navigation = document.querySelector<HTMLElement>('#primary-nav');
@@ -11,7 +42,14 @@ if (toggle && navigation) {
     toggle.setAttribute('aria-expanded', String(open));
     navigation.toggleAttribute('data-open', open);
   });
-  navigation.addEventListener('click', event => { if (event.target instanceof HTMLAnchorElement) closeMenu(); });
+  navigation.addEventListener('click', event => {
+    if (event.target instanceof HTMLAnchorElement) {
+      closeMenu();
+      const target = document.getElementById(event.target.hash.slice(1));
+      target?.setAttribute('tabindex', '-1');
+      target?.focus({ preventScroll: true });
+    }
+  });
   document.addEventListener('click', event => { if (event.target instanceof Node && !navigation.contains(event.target) && !toggle.contains(event.target)) closeMenu(); });
   document.addEventListener('keydown', event => { if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { closeMenu(); toggle.focus(); } });
   matchMedia('(min-width: 801px)').addEventListener('change', closeMenu);
@@ -55,21 +93,7 @@ document.querySelectorAll<HTMLDialogElement>('.case-dialog').forEach(dialog => {
 window.addEventListener('popstate', syncCase);
 syncCase();
 
-const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(entries => entries.forEach(entry => entry.target.classList.toggle('is-current', entry.isIntersecting)), { threshold: .8 });
   document.querySelectorAll('[data-process]').forEach(element => observer.observe(element));
-}
-const hero = document.querySelector<HTMLElement>('.hero');
-const glyph = document.querySelector<SVGGElement>('.glyph-object');
-if (hero && glyph && matchMedia('(hover: hover) and (pointer: fine)').matches) {
-  let frame = 0;
-  hero.addEventListener('pointermove', event => {
-    if (reducedMotion.matches) return;
-    cancelAnimationFrame(frame);
-    frame = requestAnimationFrame(() => { const box = hero.getBoundingClientRect(); const x = (event.clientX - box.left) / box.width - .5; const y = (event.clientY - box.top) / box.height - .5; glyph.style.transform = `translate(${x*12}px, ${y*10}px) rotate(${x*3}deg)`; });
-  });
-  const resetGlyph = () => { cancelAnimationFrame(frame); glyph.style.transform = ''; };
-  hero.addEventListener('pointerleave', resetGlyph);
-  reducedMotion.addEventListener('change', resetGlyph);
 }

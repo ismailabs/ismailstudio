@@ -1,11 +1,13 @@
 ---
 import Arrow from './Arrow.astro';
-import StudioGlyph from './StudioGlyph.astro';
 ---
-<section class="hero shell" aria-labelledby="hero-heading">
-  <p class="eyebrow hero-eyebrow">Independent creative developer <span>/ Malaysia</span></p>
-  <h1 id="hero-heading">PROBLEMS.<br/>MEET<br/><em>SOLUTIONS.</em></h1>
-  <div class="hero-art" aria-hidden="true"><StudioGlyph/><span class="glyph-coordinate">IS / A different way through.</span></div>
-  <div class="hero-bottom"><div class="hero-description"><p>I design and build distinctive websites that help businesses make their offer clear and give people a straightforward next step.</p><div class="hero-actions"><a class="button" href="#work">Explore the work <Arrow diagonal/></a><a class="button button-outline" href="#contact">Start a project <Arrow diagonal/></a></div><p class="starting-note">Frontend websites, starting from RM599.</p></div><p class="hero-thesis">An idea.<br/>A point of view.<br/>A useful website.</p></div>
-  <div class="hero-foot"><span>IDEA / DESIGN / BUILD</span><a href="#work">Scroll to explore ↓</a></div>
+<section class="hero" aria-labelledby="hero-heading">
+  <picture class="hero-scene" aria-hidden="true"><source media="(max-width: 600px)" srcset="/assets/hero-mobile.webp" width="750" height="1000"/><img src="/assets/hero-desktop.webp" width="1800" height="770" alt="" fetchpriority="high" loading="eager"/></picture>
+  <div class="hero-content shell"><p class="hero-eyebrow">Ambitious frontend development <span>Melaka, Malaysia</span></p>
+    <h1 id="hero-heading"><span>BUILT FOR</span> <span class="iridescent">BIGGER</span> <span>PROBLEMS.</span></h1>
+    <p class="hero-description">I design and build websites that make your business easier to understand, trust and contact.</p>
+    <div class="hero-actions"><a class="button" href="#contact">Get a website quote <Arrow diagonal/></a><a class="explore-link" href="#work"><span class="explore-icon" aria-hidden="true">↘</span> Explore my work</a></div>
+    <p class="hero-location">Based in Melaka. Serving businesses across Malaysia.</p>
+  </div>
+  <div class="hero-foot shell"><span>Ideas. Interfaces. Solutions.</span><a href="#work">Discover the work <span aria-hidden="true">↓</span></a></div>
 </section>

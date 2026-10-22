@@ -1,0 +1,14 @@
+area,state,viewport,acceptance_criteria,status,visual_reference
+Hero,Desktop,1440x900,Dark cinematic art; oversized headline; two CTAs; logo readable,Primary target,01-hero
+Hero,Mobile,390x844,H1 2-4 lines; important artwork visible; no CTA overlap,Primary target,04-mobile
+Navigation,Desktop scrolled,1440x900,Floating translucent pill; keyboard/anchor stable,Functional target,02-work
+Navigation,Mobile expanded,390x844,"Accessible menu overlay; no overflow, Escape dismiss",Functional target,04-mobile
+Work,Desktop,1440x900,"Bright section, real project previews, concept disclosures",Primary target,02-work
+Work,Mobile,390x844,"Large stacked real project cards, true captions",Functional target,04-mobile
+Study,Dialog,Desktop/mobile,"Readable authentic details, focus and Escape restore",Functional target,02-work
+Offers,Desktop,1440x900,"Light, airy, readable three packages/SEO scopes",Primary target,03-offers
+Offers,Mobile,390x844,"Stacked cards, no tiny table, each CTA clear",Functional target,04-mobile
+FAQ,Desktop/mobile,Multiple,Light concise accessible accordions with real questions,Functional target,04-mobile
+Contact,Identity/Needs/Review,Desktop/mobile,"Preserve existing fields/form semantics, no fake success",Functional target,04-mobile
+Reduced Motion,All,All,Static legible state without transforms/parallax,QA target,01-04
+No JavaScript,All,All,"Content, sections, native form/enquiry route remain useful",QA target,01-04

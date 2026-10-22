@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-10-22T03:23:35.920Z",
+  "artwork": "Owner-approved generated atmospheric study; no text or UI in image; not presented as project photography.",
+  "identity": "Original hand-authored paired rounded forms, inspired by approved character. No third-party logo traced.",
+  "font": "Self-hosted Geist Variable 5.3.0, SIL OFL",
+  "assets": [
+    {
+      "path": "docs/redesign-v3/approved-v3-specs/assets/approved-background-study/cinematic-art-right.webp",
+      "bytes": 150770,
+      "sha256": "c05033eeb2dbdc880a600ffa91c07aa6a61fad1aeb3c973bd27405367917106c"
+    },
+    {
+      "path": "public/assets/hero-desktop.webp",
+      "bytes": 131966,
+      "sha256": "1a48edf3ccc91d8477fdce1f905a62d046296185341d6464b349ce0da276d995"
+    },
+    {
+      "path": "public/assets/hero-mobile.webp",
+      "bytes": 76302,
+      "sha256": "2a5f7e53356b6f04208951f6544fc0465be8089ef1605451b6e967c600fb3a7f"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 308,
+      "sha256": "2d523729c506c73375bfc37a593097e9937a6f8513c4ffb25293bd3afe5f6503"
+    },
+    {
+      "path": "public/og-image.png",
+      "bytes": 51935,
+      "sha256": "8822179ee71ffbe414a109a9746b0816a840da76f9b0f4bc0241164f3f67452f"
+    }
+  ]
+}

@@ -4,3 +4,5 @@
 *.webp binary
 *.ico binary
 *.woff2 binary
+# Owner-approved handoff manifests hash original bytes, including CSV line endings.
+docs/redesign-v3/approved-v3-specs/machine-readable/state-matrix.csv -text whitespace=cr-at-eol

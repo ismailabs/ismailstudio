@@ -1,0 +1,191 @@
+[
+  {
+    "skill": "accessibility",
+    "path": ".agents/skills/accessibility/SKILL.md",
+    "sha256": "267fb2a0707d6142f2871f22688203a42ba21291a2aa200fb740936e41362b5d",
+    "bytes": 14822,
+    "role": "Axe, label-in-name repair, keyboard/focus/menu/dialog/no-JS/reduced motion testing.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "ai-design-engineering",
+    "path": ".agents/skills/ai-design-engineering/SKILL.md",
+    "sha256": "3306109531436971b9914327e9dfe3182fbd53341b94182366e3bb8eecb0160c",
+    "bytes": 8092,
+    "role": "Orchestrator: approved references, three actual browser critique and repair cycles.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "astro-best-practices",
+    "path": ".agents/skills/astro-best-practices/SKILL.md",
+    "sha256": "63b3e2f49db8ea664c84ecd2148659b75f0a01a48f0c718f5761b9fc88e202f4",
+    "bytes": 3180,
+    "role": "Static Astro components and four preserved static study routes; no new UI framework.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "best-practices",
+    "path": ".agents/skills/best-practices/SKILL.md",
+    "sha256": "9d1f10a08cd7a94176ce160ec860dbd3ecfadad75d46546001883f1f907c5c3e",
+    "bytes": 13199,
+    "role": "CSP/header/dependency/source/privacy checks; no claim that Lighthouse certifies security.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "cf-cli",
+    "path": ".agents/skills/cf-cli/SKILL.md",
+    "sha256": "0043a1ae53d9009a031d58435d4c32121794401261dffacccf5d4c2fc5bf79ea",
+    "bytes": 6731,
+    "role": "Pinned cf version upload preview and exact-version promotion; no generic deploy.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "cloudflare",
+    "path": ".agents/skills/cloudflare/SKILL.md",
+    "sha256": "336a55878f37551d14b6d8dddabfe0c97362fd5414380083a365802568fb39b7",
+    "bytes": 27314,
+    "role": "Existing Worker and protected routes/DNS inventory; no new infrastructure.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "copywriting",
+    "path": ".agents/skills/copywriting/SKILL.md",
+    "sha256": "13c580c2432a4499e9dfdcf5d553df7aa6589e90cf5bd869fb4fbde5caf9f567",
+    "bytes": 15859,
+    "role": "Situation B: preserve grounded direct voice; concise service proposition, honest concept disclosure and bounded offers.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "core-web-vitals",
+    "path": ".agents/skills/core-web-vitals/SKILL.md",
+    "sha256": "731aa78c0347e8b3e191b75962175bee058ce73817278e610ac0fe546e685914",
+    "bytes": 10004,
+    "role": "Reference: distinguish synthetic lab LCP/CLS/TBT from field p75 and INP.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "customer-research",
+    "path": ".agents/skills/customer-research/SKILL.md",
+    "sha256": "905e65e67268448d88b3b96cf045c6b3615cdd87c1060e129b148a31aa627669",
+    "bytes": 15474,
+    "role": "Reviewed only: no interview/review corpus supplied; no fabricated research and no external outreach.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "design-taste-frontend",
+    "path": ".agents/skills/design-taste-frontend/SKILL.md",
+    "sha256": "d955dae4ba8ab2d994f4bb06b4bf412a1d9875433a8597939c391f4bae91dd7a",
+    "bytes": 38987,
+    "role": "Scoped rendered screenshot critic; random direction draw conflicts with approved art and is not run.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "frontend-design",
+    "path": ".agents/skills/frontend-design/SKILL.md",
+    "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+    "bytes": 9461,
+    "role": "Implementation: cinematic art focal point and restrained light editorial body; approved gradient overrides generic avoidance.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "marketing-psychology",
+    "path": ".agents/skills/marketing-psychology/SKILL.md",
+    "sha256": "573bbe4f6e300e7fb75299e314f56e26382d284782caa2ae0e0f33eb2e646548",
+    "bytes": 22339,
+    "role": "Scoped ethical clarity review: transparent starting prices and deliberate package selection; no fake urgency/popularity.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "performance",
+    "path": ".agents/skills/performance/SKILL.md",
+    "sha256": "b0c220185d88c61f7770eb127d8facf86c86d2dd1fd82b86e15a4965a0137265",
+    "bytes": 14210,
+    "role": "Responsive art, eager LCP media, self-hosted font, repeatable Lighthouse mobile/desktop.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "playwright-cli",
+    "path": ".agents/skills/playwright-cli/SKILL.md",
+    "sha256": "9bba755285a4c9ad72a4a41b9c7baef6fb516d329c0b44ed0573715f4479b906",
+    "bytes": 15428,
+    "role": "Existing direct Playwright library/tests used as authorized alternative, no CLI installation.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "seo",
+    "path": ".agents/skills/seo/SKILL.md",
+    "sha256": "57cd16566c2c706186b643644dec2884da89c42f296843364c65a40a4d566ae6",
+    "bytes": 14386,
+    "role": "Canonical/robots/sitemap/semantic HTML and truthful Melaka metadata; no search ranking guarantee.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "tailwind-design-system",
+    "path": ".agents/skills/tailwind-design-system/SKILL.md",
+    "sha256": "b6577edb7b7f71a6954f68b80c7eea1748ccdf31862759f864bce558fb2bcf83",
+    "bytes": 5476,
+    "role": "Retained Tailwind v4 CSS-first @theme, semantic tokens and responsive container strategy.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "typescript-guidelines",
+    "path": ".agents/skills/typescript-guidelines/SKILL.md",
+    "sha256": "d103164137f08255b493caa5fa80a33c95be39aba4d69e54a823043cfd0c6f56",
+    "bytes": 4357,
+    "role": "Typed native DOM interaction, feature detection and exact form/provider contract.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "ui-ux-pro-max",
+    "path": ".agents/skills/ui-ux-pro-max/SKILL.md",
+    "sha256": "e5baf9400d4347e5ed3eb1f6b99cd0b9ba545b8b0e507aabb2b87397bbf73ea1",
+    "bytes": 55451,
+    "role": "Scoped behavior reference: 44px targets, disclosure menus, focus and progressive form steps.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "web-design-guidelines",
+    "path": ".agents/skills/web-design-guidelines/SKILL.md",
+    "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+    "bytes": 1270,
+    "role": "Reviewed; redundant broad reviewer, not separately activated; dedicated a11y/SEO/QA own checks.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "web-quality-audit",
+    "path": ".agents/skills/web-quality-audit/SKILL.md",
+    "sha256": "1903cfb4dcba987d50dc7a51f6c19ec43830ff924c2c8f78979d8775fbe20f91",
+    "bytes": 10659,
+    "role": "Consolidated runtime, accessibility, SEO, security and performance evidence.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  },
+  {
+    "skill": "wrangler",
+    "path": ".agents/skills/wrangler/SKILL.md",
+    "sha256": "7884f560509c08ac29ee0d3cfe1b5259855fd6790acf0c5292f4d1c54db7c191",
+    "bytes": 11697,
+    "role": "Reviewed; alternative not activated. Existing cf release path retained; existing official session refresh only.",
+    "scriptsExecuted": false,
+    "reviewScope": "Metadata and task-relevant entrypoint instructions; full file hashed for provenance. Optional skill scripts not executed."
+  }
+]

@@ -1,6 +1,6 @@
 {
-  "utc": "2026-10-23T14:41:33.587Z",
-  "authority": "Owner-supplied Monolithic Landscape, 23 October 2026; local hero-only replacement",
+  "utc": "2026-10-23T15:25:35.137Z",
+  "authority": "Owner-supplied Monolithic Landscape, 23 October 2026; approved hero-only amendment under the original conditional release gates",
   "source": "src/assets/hero/monolithic-landscape.png",
   "sourceSha256": "8096e7eb92492c8d630efda52bba969bf898db0dd91f84f342c9847d8810d886",
   "sourceBytes": 2017119,
@@ -16,26 +16,39 @@
       "width": 1672,
       "height": 941,
       "framing": "Full approved landscape; no crop",
-      "bytes": 107190,
-      "sha256": "cd0f99118556de7bdf19c3351ecfa2141d9ff38f31a97b885c821c25785dbcc7",
       "encoding": {
         "format": "webp",
         "quality": 80,
         "effort": 6
-      }
+      },
+      "bytes": 107190,
+      "sha256": "cd0f99118556de7bdf19c3351ecfa2141d9ff38f31a97b885c821c25785dbcc7"
     },
     {
       "output": "public/assets/hero-mobile.webp",
+      "width": 768,
+      "height": 576,
+      "framing": "Right-aligned 4:3 crop, mountain on the right",
+      "encoding": {
+        "format": "webp",
+        "quality": 75,
+        "effort": 6
+      },
+      "bytes": 42842,
+      "sha256": "8ec34401a392f5038f8489242c1187ee4b69d07db0f83a77e53fcdc04bf1986e"
+    },
+    {
+      "output": "public/assets/hero-mobile-large.webp",
       "width": 960,
       "height": 720,
-      "framing": "Right-aligned 4:3 crop, mountain on the right",
-      "bytes": 73404,
-      "sha256": "f9872ee0144f413379a2a98c8c52e92e17d38553917ca6f03cbee1f2b1b37df5",
+      "framing": "Same right-aligned crop for higher pixel-density mobile screens",
       "encoding": {
         "format": "webp",
         "quality": 80,
         "effort": 6
-      }
+      },
+      "bytes": 73404,
+      "sha256": "f9872ee0144f413379a2a98c8c52e92e17d38553917ca6f03cbee1f2b1b37df5"
     }
   ]
 }

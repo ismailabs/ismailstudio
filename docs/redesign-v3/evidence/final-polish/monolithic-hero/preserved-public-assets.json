@@ -1,0 +1,159 @@
+{
+  "result": "PASS",
+  "preserved": [
+    {
+      "path": "public/apple-touch-icon.png",
+      "sha256": "acc32038c72475cc9d03e23c17c645103d9b7fa564a0df9ec2aee1a6c54e2826"
+    },
+    {
+      "path": "public/assets/brand/symbol-accent.svg",
+      "sha256": "27d93d01713c9322821a436ab6e1609ae5b4324a84089b53ece19f31b3fad87a"
+    },
+    {
+      "path": "public/assets/brand/symbol-black.svg",
+      "sha256": "d66462effd0002526bffbbc1ad86593a3637f8be032ccc7774e903214e3eaff9"
+    },
+    {
+      "path": "public/assets/brand/symbol-white.svg",
+      "sha256": "a29ac86f6c4d5a1985e435e4f02bbc78b1099d846458f3de73b323b26cecc46f"
+    },
+    {
+      "path": "public/assets/brand/wordmark-inline-accent.svg",
+      "sha256": "47d44865b72c1304b7d2329df7fc885ba75c6042322dd203a5b41f261d941441"
+    },
+    {
+      "path": "public/assets/brand/wordmark-inline-black.svg",
+      "sha256": "e1ce1f10a92ee857d3c59360583e34d30e1156f4943e8a044990a1b3f60fb6e1"
+    },
+    {
+      "path": "public/assets/brand/wordmark-inline-white.svg",
+      "sha256": "bc1ef1faf88f7eec278ca73d68d74b025e7809f75cdde608aec5f5574a1feb31"
+    },
+    {
+      "path": "public/assets/brand/wordmark-stacked-accent.svg",
+      "sha256": "53e7df3d4c72aaebd6926b927779512da108faa5f4aa93c684b478892707812f"
+    },
+    {
+      "path": "public/assets/brand/wordmark-stacked-black.svg",
+      "sha256": "9719b23555f56cb8707c1eb9a686b0d09fe03f4c24433c0bde28bd572d561756"
+    },
+    {
+      "path": "public/assets/brand/wordmark-stacked-white.svg",
+      "sha256": "aabc93d9f92cb0a8fde0ad75a1252905066b31495e1eeaa318fe4d75a0291c5e"
+    },
+    {
+      "path": "public/assets/lucide-LICENSE.txt",
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "public/assets/projects/kilatmoto-1200.webp",
+      "sha256": "d10fdbcb97b2bfb6675df831bd514b255f30816d771dc24ea9e0600988bc3dc4"
+    },
+    {
+      "path": "public/assets/projects/kilatmoto-400.webp",
+      "sha256": "c9e32c568ca5969d7e84e378c8c31650b97dfdc596881947658a8967bbe6ffdd"
+    },
+    {
+      "path": "public/assets/projects/kilatmoto-640.webp",
+      "sha256": "1c06cccc5ef762d96db2ae0e22f106015be3503c2278f3b56f84ff07e9afc3f1"
+    },
+    {
+      "path": "public/assets/projects/kilatmoto-800.webp",
+      "sha256": "2476c6c74de0348983b32a348ec3cdb3b87fb3d8a3ba53b6cd2b4ccdfee61fea"
+    },
+    {
+      "path": "public/assets/projects/kopikita-1200.webp",
+      "sha256": "4851857e140652d21eb6d3d718ff66615d64086f3dbf9cf553f4bb2823045e17"
+    },
+    {
+      "path": "public/assets/projects/kopikita-400.webp",
+      "sha256": "58dd21f62257da0c75890f9cd3e123d1e913b69b835f416a942a9cf90ebbbf16"
+    },
+    {
+      "path": "public/assets/projects/kopikita-640.webp",
+      "sha256": "729fb6e86319711a9487fe5c1028b97a3710b561b70c15f5e176af13d4b08123"
+    },
+    {
+      "path": "public/assets/projects/kopikita-800.webp",
+      "sha256": "714f48c47e0363f6921942a0bdb5eb89d86212263cfdef84e26948a94cdf42a8"
+    },
+    {
+      "path": "public/assets/projects/makansedap-1200.webp",
+      "sha256": "424efac32a2188158361bf55656b6656e3254286256764fbe5278ae608a0e837"
+    },
+    {
+      "path": "public/assets/projects/makansedap-400.webp",
+      "sha256": "690d82f31c68922840ea507fa19a4aff62da9818d970ef7b831b3a0561ee3a25"
+    },
+    {
+      "path": "public/assets/projects/makansedap-640.webp",
+      "sha256": "0002a11518f3905bc833dda6f1059da92489f408c5b83b6e86872cdee9017035"
+    },
+    {
+      "path": "public/assets/projects/makansedap-800.webp",
+      "sha256": "b048e7cbbbc2b1b8e8e119824aa9d5959a56b1052cdaa935104aafece02d93ca"
+    },
+    {
+      "path": "public/assets/projects/malaysia-1200.webp",
+      "sha256": "a89ef07c30b0b952f363ea9cb4adfa2904495e2dd24cfff0a667e37823e53ed5"
+    },
+    {
+      "path": "public/assets/projects/malaysia-400.webp",
+      "sha256": "cd87bb600f44d5920c1249567d25fd1acbe31e2502c9c5909ccd6023ca7822bb"
+    },
+    {
+      "path": "public/assets/projects/malaysia-640.webp",
+      "sha256": "0e02d329bd6232669be9902d3682d238b731fa0f2afeb081e785e3e0da4f4f24"
+    },
+    {
+      "path": "public/assets/projects/malaysia-800.webp",
+      "sha256": "4769b8c1e782ecb8da2e199adae0a0f2c7c7d83efe145fda4f786ab8117707d5"
+    },
+    {
+      "path": "public/favicon-16.png",
+      "sha256": "0c77ee534958574f54f0acc27018b7c1c7b79a5ebc738a40e3fda4c92ffcb584"
+    },
+    {
+      "path": "public/favicon-32.png",
+      "sha256": "99ef9e66bfe7eb16e7532f4c0834a29e0bf7f362fe2439813e109d1bf80f3780"
+    },
+    {
+      "path": "public/favicon-48.png",
+      "sha256": "d09cc4119774c133bbbf009b3245be7cab27b69ae7d1ae89b2bd2f7a9d53f159"
+    },
+    {
+      "path": "public/favicon.ico",
+      "sha256": "111fdf67d9840430517a978b0f40a71cb3f683a4b75125a2b7bb196b1b4dee8c"
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "2d523729c506c73375bfc37a593097e9937a6f8513c4ffb25293bd3afe5f6503"
+    },
+    {
+      "path": "public/icon-192.png",
+      "sha256": "bc068596433bceaa4d925f816627b0cff545932b9884e558104cb5d2894ced43"
+    },
+    {
+      "path": "public/icon-512.png",
+      "sha256": "2d25ead2fad8b3f08a0529e81b14209d4624e9114ab1d663ea5e0ed7fb953a88"
+    },
+    {
+      "path": "public/og-image.png",
+      "sha256": "8822179ee71ffbe414a109a9746b0816a840da76f9b0f4bc0241164f3f67452f"
+    },
+    {
+      "path": "public/robots.txt",
+      "sha256": "b20f577766720a628dcdb1277af17de84a54fb3cf233b16575ad001af871220f"
+    },
+    {
+      "path": "public/sitemap.xml",
+      "sha256": "cde945b92fb066639f628ca89f29900fcf28d301a994af6cfe8a14ceb188bf8b"
+    }
+  ],
+  "onlyAllowedHeroPaths": [
+    "public/assets/hero-desktop.webp",
+    "public/assets/hero-mobile-large.webp",
+    "public/assets/hero-mobile.webp"
+  ],
+  "onlyNewPublicAsset": "public/assets/hero-mobile-large.webp"
+}

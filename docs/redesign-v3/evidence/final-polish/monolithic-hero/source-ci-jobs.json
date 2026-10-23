@@ -1,0 +1,137 @@
+{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 120490236676,
+      "run_id": 39975886243,
+      "workflow_name": "Website quality",
+      "head_branch": "codex/ismailstudio-v3-final-polish",
+      "run_url": "https://api.github.com/repos/ismailabs/ismailstudio/actions/runs/39975886243",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVRyQJM8AAAAcDccbBA",
+      "head_sha": "00696413f20940d73eafbfc308c7cf1044811fd0",
+      "url": "https://api.github.com/repos/ismailabs/ismailstudio/actions/jobs/120490236676",
+      "html_url": "https://github.com/ismailabs/ismailstudio/actions/runs/39975886243/job/120490236676",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-23T15:09:48Z",
+      "started_at": "2026-10-23T15:09:51Z",
+      "completed_at": "2026-10-23T15:12:03Z",
+      "name": "verify",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-23T15:09:51Z",
+          "completed_at": "2026-10-23T15:09:53Z"
+        },
+        {
+          "name": "Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-23T15:09:53Z",
+          "completed_at": "2026-10-23T15:10:04Z"
+        },
+        {
+          "name": "Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-23T15:10:04Z",
+          "completed_at": "2026-10-23T15:10:10Z"
+        },
+        {
+          "name": "Install locked dependencies without lifecycle scripts",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-23T15:10:10Z",
+          "completed_at": "2026-10-23T15:10:17Z"
+        },
+        {
+          "name": "Install the locked Playwright Chromium in this ephemeral runner",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-23T15:10:17Z",
+          "completed_at": "2026-10-23T15:10:42Z"
+        },
+        {
+          "name": "Verify static build, redirects and all browser cases",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-23T15:10:42Z",
+          "completed_at": "2026-10-23T15:11:59Z"
+        },
+        {
+          "name": "Preserve local browser receipt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-23T15:11:59Z",
+          "completed_at": "2026-10-23T15:11:59Z"
+        },
+        {
+          "name": "Verify the public production website",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 8,
+          "started_at": "2026-10-23T15:11:59Z",
+          "completed_at": "2026-10-23T15:11:59Z"
+        },
+        {
+          "name": "Preserve hosted browser receipt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-23T15:11:59Z",
+          "completed_at": "2026-10-23T15:11:59Z"
+        },
+        {
+          "name": "Upload only isolated browser receipts and failure traces",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-23T15:11:59Z",
+          "completed_at": "2026-10-23T15:12:00Z"
+        },
+        {
+          "name": "Post Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2026-10-23T15:12:00Z",
+          "completed_at": "2026-10-23T15:12:01Z"
+        },
+        {
+          "name": "Post Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 20,
+          "started_at": "2026-10-23T15:12:01Z",
+          "completed_at": "2026-10-23T15:12:01Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21,
+          "started_at": "2026-10-23T15:12:01Z",
+          "completed_at": "2026-10-23T15:12:01Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/ismailabs/ismailstudio/check-runs/120490236676",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000000637,
+      "runner_name": "GitHub Actions 1000000637",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}

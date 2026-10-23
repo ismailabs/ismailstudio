@@ -1,16 +1,17 @@
-# Measured performance and evidence limits
+# Current measured performance
 
-Fresh controlled baseline exports the exact starting runtime b65a208 into an ignored snapshot, with the same locked dependencies and preview server as the candidate. No owner historical file was restored. Pinned Lighthouse13.5.0 used fresh Edge155 profiles/ports, three cold mobile and three cold desktop runs per variant. The first12alternating runs are retained in lighthouse-controlled.json. After the final menu-wrap repair, six fresh candidate navigations are retained in lighthouse-final-polish-final.json; each records the served HTML hash. No concurrent browser suite ran during these measurements.
+The final approved Monolithic Landscape uses the same pinned toolchain as the starting runtime. Twelve alternating cold baseline/candidate Lighthouse runs are retained in lighthouse-monolithic-controlled.json. A bounded mobile layer experiment is retained in lighthouse-monolithic-mobile-frame.json. It preserved the visible composition but did not materially improve LCP. Final density-aware exports and the image layer were measured in six fresh cold runs, three mobile and three desktop, in lighthouse-monolithic-responsive-final.json. Each final run records the actual served HTML hash; all match the final build. No concurrent local browser suite ran during measurement.
 
-| Lab median | Starting runtime | Final candidate |
+| Lab median | Starting runtime | Final responsive hero |
 |---|---:|---:|
-| Mobile LCP |2.507s|2.327s|
-| Mobile TBT |308.5ms|278.6ms|
-| Desktop LCP |0.648s|0.621s|
-| Desktop TBT |28.8ms|20.3ms|
+| Mobile LCP |2.567s|2.359s|
+| Mobile TBT |342.0ms|375.5ms|
+| Mobile CLS |0.0147|0.0112|
+| Desktop LCP |0.651s|0.645s|
+| Desktop TBT |27.50ms|27.56ms|
 
-Final mobile LCP range2.273-2.357s; TBT238.3-1018.9ms. The first alternating candidate mobile run had TBT2196.5ms; it is retained as a noisy diagnostic, not erased. Its long-task/bootup audit showed large page/instrumentation costs, while subsequent equivalent runs and all desktop repetitions were materially lower. Do not call a lab TBT result field INP. Mobile headroom remains a measured limitation rather than a guaranteed score.
+The first landscape candidate had mobile LCP2.738s. LCP attribution changed from baseline headline text to the semantic decorative image. A smaller768w mobile variant reduced its payload from73,404to42,842bytes;960w remains available to denser screens. Desktop is107,190bytes. Actual requests select exactly one image; the same approved crop/composition is preserved. No client JavaScript or dependency was added.
 
-Accessibility, SEO and best-practices Lighthouse categories score100 in all final repetitions; that is automated subset evidence, not WCAG certification or ranking proof. Final CLS remains between0and0.0112mobile and around0.0016desktop. See performance-summary.json for exact ranges, settings/evidence pointers and resource measurements. The two hero exports are99,264desktop/45,380mobile bytes, both smaller than the starting images. Brand, project previews, fonts and favicon assets are unchanged. The initial JS remains one small module; Motion Mini is interaction-deferred, and reveals use native transforms with readable text throughout. Only the selected hero word has ambient gradient movement.
+Final mobile LCP range2.308–2.995s, TBT292.1–909.5ms. The initial frame experiment's4.257s/938.7ms outlier is retained. Final desktop LCP0.639–0.652s, TBT12.73–31.13ms. Final mobile CLS ranges0–0.17497; the starting baseline also recorded the same0.17497 maximum. The final median improves; the outlier remains an explicit loading-layout limitation rather than being omitted. The raw layout-shift audit is retained for diagnosis.
 
-Assessment: no significant median loading/interactivity regression established. Field CWV, physical mobile hardware, real traffic and Search Console remain unmeasured. All raw Lighthouse JSON stays private under .local/lighthouse; current summarized receipts contain no customer or mailbox data.
+Assessment: final loading median improves, desktop remains stable, and no material regression is established. Mobile TBT median is33.5ms higher with broad overlapping ranges and unchanged JavaScript; low-end interactivity headroom remains a limitation. Final automated accessibility/SEO/best-practices categories score100 in all six runs; mobile performance scores80/91/70 and all desktop scores100 are reported without replacing them with a preferred run. This is lab evidence, not field INP/CWV, WCAG certification or ranking evidence. Physical hardware/assistive technology and Search Console remain unmeasured. Exact statistics/settings/raw pointers are in monolithic-hero/performance-summary.json. Earlier V3/first-polish records remain historical.

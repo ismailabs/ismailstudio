@@ -1,0 +1,88 @@
+{
+  "at": "2026-10-23T15:33:02.692796+00:00",
+  "method": "Pinned Lighthouse13.5.0/Edge155, fresh profile+port each cold navigation,3runs/form factor; initial12 baseline/candidate alternating runs,3frame diagnostics,6final candidate runs; no concurrent local browser suite",
+  "baselineSource": "b65a208f03dfd01d535eb4a865ad00e2d8fc4146",
+  "finalHtmlSha256": "b90ed1a8832398561d02112d3e3a59b2c14fde8c83dca07b27c10b01e31d1618",
+  "metrics": {
+    "mobile": {
+      "baseline": {
+        "largest-contentful-paint": {
+          "median": 2567.3010000000004,
+          "min": 2514.965,
+          "max": 2599.398
+        },
+        "total-blocking-time": {
+          "median": 342,
+          "min": 20,
+          "max": 607.0994999999998
+        },
+        "cumulative-layout-shift": {
+          "median": 0.01469194231350937,
+          "min": 0.01469194231350937,
+          "max": 0.1749696233292831
+        }
+      },
+      "final": {
+        "largest-contentful-paint": {
+          "median": 2358.9125999999997,
+          "min": 2307.5016588629096,
+          "max": 2995.0312999999996
+        },
+        "total-blocking-time": {
+          "median": 375.4999999999998,
+          "min": 292.1254147157274,
+          "max": 909.5
+        },
+        "cumulative-layout-shift": {
+          "median": 0.01117685104255956,
+          "min": 0,
+          "max": 0.1749696233292831
+        }
+      }
+    },
+    "desktop": {
+      "baseline": {
+        "largest-contentful-paint": {
+          "median": 651.0069547582407,
+          "min": 639.724982383354,
+          "max": 656.9619758178558
+        },
+        "total-blocking-time": {
+          "median": 27.50347737912034,
+          "min": 24.86249119167701,
+          "max": 33.48098790892783
+        },
+        "cumulative-layout-shift": {
+          "median": 0.002480793183977236,
+          "min": 0.002480793183977236,
+          "max": 0.002480793183977236
+        }
+      },
+      "final": {
+        "largest-contentful-paint": {
+          "median": 645.2306055404208,
+          "min": 638.9149444061181,
+          "max": 652.2571540364709
+        },
+        "total-blocking-time": {
+          "median": 27.564288509117716,
+          "min": 12.728736101529535,
+          "max": 31.134697229789595
+        },
+        "cumulative-layout-shift": {
+          "median": 0.001519094727320589,
+          "min": 0.001266717193321282,
+          "max": 0.001571054807849858
+        }
+      }
+    }
+  },
+  "assessment": "Final LCP median improves and desktop remains stable. Mobile TBT median increases33.5ms amid overlapping broad ranges and unchanged served JavaScript; no material regression established. Retain shared-host headroom and CLS outlier as measured limitations, not field compliance.",
+  "rawPrivate": ".local/lighthouse/monolithic-*",
+  "diagnosticPublic": [
+    "../lighthouse-monolithic-controlled.json",
+    "../lighthouse-monolithic-mobile-frame.json",
+    "../lighthouse-monolithic-responsive-final.json"
+  ],
+  "fieldCwvMeasured": false
+}

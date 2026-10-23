@@ -7,8 +7,8 @@
       "geometryCopyNavigationGradientUnchanged": true,
       "selectedImage": {
         "url": "/assets/hero-mobile.webp",
-        "naturalWidth": 960,
-        "naturalHeight": 720,
+        "naturalWidth": 320,
+        "naturalHeight": 240,
         "fetchPriority": "high",
         "alt": "",
         "loading": "eager"
@@ -16,8 +16,8 @@
       "imageRequests": [
         {
           "url": "/assets/hero-mobile.webp",
-          "bytes": 73404,
-          "duration": 311.3999999985099
+          "bytes": 42842,
+          "duration": 95.19999999925494
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -28,8 +28,8 @@
       "geometryCopyNavigationGradientUnchanged": true,
       "selectedImage": {
         "url": "/assets/hero-mobile.webp",
-        "naturalWidth": 960,
-        "naturalHeight": 720,
+        "naturalWidth": 390,
+        "naturalHeight": 292,
         "fetchPriority": "high",
         "alt": "",
         "loading": "eager"
@@ -37,8 +37,8 @@
       "imageRequests": [
         {
           "url": "/assets/hero-mobile.webp",
-          "bytes": 73404,
-          "duration": 59.099999997764826
+          "bytes": 42842,
+          "duration": 47.899999998509884
         }
       ],
       "axeViolations": 0
@@ -49,8 +49,8 @@
       "geometryCopyNavigationGradientUnchanged": true,
       "selectedImage": {
         "url": "/assets/hero-mobile.webp",
-        "naturalWidth": 960,
-        "naturalHeight": 720,
+        "naturalWidth": 430,
+        "naturalHeight": 322,
         "fetchPriority": "high",
         "alt": "",
         "loading": "eager"
@@ -58,8 +58,8 @@
       "imageRequests": [
         {
           "url": "/assets/hero-mobile.webp",
-          "bytes": 73404,
-          "duration": 62.19999999925494
+          "bytes": 42842,
+          "duration": 37.70000000298023
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -80,7 +80,7 @@
         {
           "url": "/assets/hero-desktop.webp",
           "bytes": 107190,
-          "duration": 54.400000002235174
+          "duration": 47.899999998509884
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -101,7 +101,7 @@
         {
           "url": "/assets/hero-desktop.webp",
           "bytes": 107190,
-          "duration": 41.600000001490116
+          "duration": 37.600000001490116
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -122,7 +122,7 @@
         {
           "url": "/assets/hero-desktop.webp",
           "bytes": 107190,
-          "duration": 52.599999997764826
+          "duration": 47.30000000074506
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -143,7 +143,7 @@
         {
           "url": "/assets/hero-desktop.webp",
           "bytes": 107190,
-          "duration": 34.80000000074506
+          "duration": 39.79999999701977
         }
       ],
       "axeViolations": 0
@@ -164,7 +164,7 @@
         {
           "url": "/assets/hero-desktop.webp",
           "bytes": 107190,
-          "duration": 48.19999999925494
+          "duration": 41
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -176,9 +176,6 @@
   "ownerOriginalCheckoutUnchanged": true,
   "nothingStaged": true,
   "changedTrackedPaths": [
-    "README.md",
-    "docs/redesign-v3/evidence/final-polish/form-preview-acceptance.json",
-    "public/assets/hero-desktop.webp",
     "public/assets/hero-mobile.webp",
     "scripts/prepare-final-polish-assets.mjs",
     "src/components/Hero.astro",

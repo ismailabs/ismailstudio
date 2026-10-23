@@ -43,12 +43,12 @@ test('tablet and mobile navigation opens without obstruction, closes outside and
   for (const width of [320, 390, 768, 834, 1024]) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto('/');
-    const toggle = page.getByRole('button', { name: 'Menu' });
+    const toggle = page.locator('.menu-toggle');
     if (width <= 800) {
       await toggle.click();
       await expect(toggle).toHaveAttribute('aria-expanded', 'true');
       await expect(page.locator('#primary-nav')).toBeInViewport();
-      await page.locator('.hero-location').click();
+      await page.locator('.menu-backdrop').click({ position: { x: 4, y: 450 } });
       await expect(toggle).toHaveAttribute('aria-expanded', 'false');
       await toggle.click();
       await page.setViewportSize({ width: 1100, height: 900 });
@@ -80,14 +80,14 @@ test('short-height mobile disclosure keeps the final link and Escape reachable',
   for (const [width, height] of [[390, 320], [700, 390]]) {
     await page.setViewportSize({ width, height });
     await page.goto('/');
-    await page.getByRole('button', { name: 'Menu' }).click();
+    await page.getByRole('button', { name: 'Open menu', exact: true }).click();
     const contact = page.locator('#primary-nav').getByRole('link', { name: 'Contact', exact: true });
     await contact.focus();
     await expect(contact).toBeInViewport();
     const panel = await page.locator('#primary-nav').boundingBox();
     expect(panel!.y + panel!.height).toBeLessThanOrEqual(height);
     await page.keyboard.press('Escape');
-    await expect(page.getByRole('button', { name: 'Menu' })).toBeFocused();
+    await expect(page.getByRole('button', { name: 'Open menu', exact: true })).toBeFocused();
   }
 });
 

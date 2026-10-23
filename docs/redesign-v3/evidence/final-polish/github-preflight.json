@@ -1,0 +1,90 @@
+{
+  "capturedAt": "2026-10-23T09:46:27.186Z",
+  "repository": "ismailabs/ismailstudio",
+  "repositoryId": 1427935268,
+  "repositoryVisibility": "public",
+  "connectionRepositoryPermissions": {"admin":true,"maintain":true,"pull":true,"push":true,"triage":true},
+  "currentHeadCheckRunCount": 0,
+  "branches": [
+    {
+      "name": "codex/ismailstudio-v2-creative-redesign",
+      "commit": {
+        "sha": "65d2f51fec8d612882aea2617e6c54ec49d4c23b",
+        "url": "https://api.github.com/repos/ismailabs/ismailstudio/commits/65d2f51fec8d612882aea2617e6c54ec49d4c23b"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/ismailstudio-v3-redesign",
+      "commit": {
+        "sha": "b65a208f03dfd01d535eb4a865ad00e2d8fc4146",
+        "url": "https://api.github.com/repos/ismailabs/ismailstudio/commits/b65a208f03dfd01d535eb4a865ad00e2d8fc4146"
+      },
+      "protected": false
+    },
+    {
+      "name": "main",
+      "commit": {
+        "sha": "b65a208f03dfd01d535eb4a865ad00e2d8fc4146",
+        "url": "https://api.github.com/repos/ismailabs/ismailstudio/commits/b65a208f03dfd01d535eb4a865ad00e2d8fc4146"
+      },
+      "protected": false
+    }
+  ],
+  "ruleSets": [],
+  "protectionEndpoint": {
+    "status": 403,
+    "reason": "Resource not accessible by integration",
+    "branchListReportsProtected": false
+  },
+  "latestRuns": [
+    {
+      "id": 39757953387,
+      "headBranch": "main",
+      "headSha": "0e3d879f23be00b4ebc9eb94b5ea6c73bb23c209",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "push",
+      "url": "https://github.com/ismailabs/ismailstudio/actions/runs/39757953387",
+      "updatedAt": "2026-10-22T09:48:41Z"
+    },
+    {
+      "id": 39755193748,
+      "headBranch": "codex/ismailstudio-v3-redesign",
+      "headSha": "3ec35b374a5eb6e2782f975370b62c823d5cdaa5",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "push",
+      "url": "https://github.com/ismailabs/ismailstudio/actions/runs/39755193748",
+      "updatedAt": "2026-10-22T09:26:20Z"
+    },
+    {
+      "id": 39680006800,
+      "headBranch": "codex/ismailstudio-v2-creative-redesign",
+      "headSha": "94c72a32e4f6fd1d3fa030651d0a17f529a8dd6b",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "push",
+      "url": "https://github.com/ismailabs/ismailstudio/actions/runs/39680006800",
+      "updatedAt": "2026-10-21T21:38:12Z"
+    },
+    {
+      "id": 39646381434,
+      "headBranch": "codex/ismailstudio-v2-creative-redesign",
+      "headSha": "fe3b41f69ce794148740c1da4e6662484ff0948c",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "push",
+      "url": "https://github.com/ismailabs/ismailstudio/actions/runs/39646381434",
+      "updatedAt": "2026-10-21T17:46:39Z"
+    }
+  ],
+  "currentSourceHasFreshCI": false,
+  "workflowPushBranches": [
+    "main",
+    "codex/ismailstudio-v2-creative-redesign",
+    "codex/ismailstudio-v3-redesign"
+  ],
+  "conditionalHostedStep": "Only V2 branch or nonempty workflow_dispatch verification_url; direct new-version verification remains required.",
+  "mutationsPerformed": []
+}

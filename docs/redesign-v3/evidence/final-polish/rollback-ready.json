@@ -1,0 +1,19 @@
+{
+  "receiptCreatedAt": "2026-10-23T09:49:41.660Z",
+  "worker": "ismailstudio",
+  "versionId": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+  "percentage": 100,
+  "versionGetReadable": true,
+  "installedCliVersion": "1.0.0-beta.19",
+  "dryRun": {
+    "exitCode": 0,
+    "command": "cf workers deployments create --worker ismailstudio --strategy percentage --versions @.local/final-polish/rollback-versions.json --dry-run",
+    "method": "POST",
+    "path": "/accounts/<approved-account>/workers/scripts/ismailstudio/deployments",
+    "query": {},
+    "body": {"strategy":"percentage","versions":[{"version_id":"b46cfec0-8728-4c4d-8031-92d354f10a19","percentage":100}]},
+    "networkMutationSent": false
+  },
+  "liveRollbackDrillPerformed": false,
+  "useCondition": "Only on a confirmed website regression, after reconfirming version readability and exact deployment state; repeat the reviewed request without dry-run. Never use bypass-deployment-checks, generic deploy, trigger deploy, apex or DNS changes."
+}

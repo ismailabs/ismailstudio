@@ -1,0 +1,312 @@
+{
+  "utc": "2026-10-23T09:51:53.881Z",
+  "base": "http://127.0.0.1:4327",
+  "sha": "b65a208f03dfd01d535eb4a865ad00e2d8fc4146",
+  "diffSha256": "44622f16ac6b605279fdefe3da022e0c8d7b17efd9c5ef7f6cccb151051b91b7",
+  "browser": "155.0.4283.62",
+  "captures": [
+    {
+      "width": 320,
+      "height": 700,
+      "state": "hero",
+      "file": "320-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "state": "menu",
+      "file": "320-menu.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "hero",
+      "file": "390-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "work",
+      "file": "390-work.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "offers",
+      "file": "390-offers.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "about",
+      "file": "390-about.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "faq",
+      "file": "390-faq.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "contact",
+      "file": "390-contact.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "study",
+      "file": "390-study.png",
+      "url": "http://127.0.0.1:4327/?case=kilatmoto",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-kilatmoto",
+      "file": "390-page-kilatmoto.png",
+      "url": "http://127.0.0.1:4327/work/kilatmoto/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-makansedap",
+      "file": "390-page-makansedap.png",
+      "url": "http://127.0.0.1:4327/work/makansedap/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-kopikita",
+      "file": "390-page-kopikita.png",
+      "url": "http://127.0.0.1:4327/work/kopikita/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-malaysia",
+      "file": "390-page-malaysia.png",
+      "url": "http://127.0.0.1:4327/work/malaysia/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "form-needs",
+      "file": "390-form-needs.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "form-review",
+      "file": "390-form-review.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "form-success-MOCK",
+      "file": "390-form-success-MOCK.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "menu",
+      "file": "390-menu.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "hero",
+      "file": "768-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "menu",
+      "file": "768-menu.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "hero",
+      "file": "1440-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "work",
+      "file": "1440-work.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "offers",
+      "file": "1440-offers.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "about",
+      "file": "1440-about.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "faq",
+      "file": "1440-faq.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact",
+      "file": "1440-contact.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "study",
+      "file": "1440-study.png",
+      "url": "http://127.0.0.1:4327/?case=kilatmoto",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-kilatmoto",
+      "file": "1440-page-kilatmoto.png",
+      "url": "http://127.0.0.1:4327/work/kilatmoto/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-makansedap",
+      "file": "1440-page-makansedap.png",
+      "url": "http://127.0.0.1:4327/work/makansedap/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-kopikita",
+      "file": "1440-page-kopikita.png",
+      "url": "http://127.0.0.1:4327/work/kopikita/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-malaysia",
+      "file": "1440-page-malaysia.png",
+      "url": "http://127.0.0.1:4327/work/malaysia/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "form-needs",
+      "file": "1440-form-needs.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "form-review",
+      "file": "1440-form-review.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "form-success-MOCK",
+      "file": "1440-form-success-MOCK.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    }
+  ],
+  "errors": [],
+  "outputs": [
+    {
+      "file": "index.html",
+      "sha256": "8d7e453861c798942601015e9979762e8511838a3f852a37a2de3e5b5745aee1"
+    },
+    {
+      "file": "_astro\\BaseLayout.astro_astro_type_script_index_0_lang.CDDUPsCy.js",
+      "sha256": "b72e0915aa4391f411f34d7da4741785ec7fc9cb9df91b6474612922c63189ff"
+    },
+    {
+      "file": "_astro\\mini.BUt3Uaz0.js",
+      "sha256": "a30bb69c78e19426745c38c33856f5b97444187d84030281106a5e7dba7b703a"
+    },
+    {
+      "file": "_astro\\studies.B_i6yg3k.css",
+      "sha256": "25d4bcc4c6857b8cbcd4a4d4ffb5e60ca14da99cc29a591e6a79c18f3ba7af5b"
+    },
+    {
+      "file": "work\\malaysia\\index.html",
+      "sha256": "6a6f8d79f89b755271f1c8463e87b0ec9e6aff5bc30653ae430f5119ae258c82"
+    },
+    {
+      "file": "work\\makansedap\\index.html",
+      "sha256": "866af1ae1efa5c4006d001a44f6e43f94539854f6f4eefaac61089a44621d3de"
+    },
+    {
+      "file": "work\\kopikita\\index.html",
+      "sha256": "9cb9ed2d4a4bab252d202bf3b0d9abe00215190f1bf4d702a65c51f22e88ae8a"
+    },
+    {
+      "file": "work\\kilatmoto\\index.html",
+      "sha256": "dfe00b4fba0130ac132f5be0783b7df0ed5b41d8948ca452588d0cf86560f9c1"
+    }
+  ]
+}

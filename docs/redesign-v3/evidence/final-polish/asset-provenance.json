@@ -1,0 +1,70 @@
+{
+  "utc": "2026-10-23T09:47:39.838Z",
+  "encoder": {
+    "aom": "3.15.1",
+    "archive": "3.8.9",
+    "cairo": "1.18.6",
+    "cgif": "0.5.4",
+    "exif": "0.6.26",
+    "expat": "2.8.5",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.17",
+    "glib": "2.90.0",
+    "harfbuzz": "14.5.0",
+    "heif": "1.23.5",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.63.2",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.7",
+    "webp": "1.6.0",
+    "xml2": "2.15.4",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.5"
+  },
+  "authority": "Owner-approved desktop 01+06 and mobile option A, 23 October 2026. Illustrated scenery; not an office photograph or project screenshot.",
+  "transformations": "WebP encoding only; no crop, redraw, recolor, UI overlay or generated replacement. Source originals preserved byte-for-byte.",
+  "assets": [
+    {
+      "source": "docs/ismailstudio-v3-final-polish/assets/hero-desktop-approved-original.png",
+      "sourceSha256": "1b65fd0024b9011e966b7c90e8babdfee2cc1cba890e871d943aec897141bbd6",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "output": "public/assets/hero-desktop.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 99264,
+      "sha256": "d09d18fef49f3b36d298b545c86ecf08f09f5d5daf9f9c9a018d00ace60234e6",
+      "encoding": {
+        "format": "webp",
+        "quality": 82,
+        "effort": 6
+      }
+    },
+    {
+      "source": "docs/ismailstudio-v3-final-polish/assets/hero-mobile-option-A-background.png",
+      "sourceSha256": "4b7f7ec88e1c5a4f898addd8fef61c5c25e24ad48fcec72d218a01e22c9a6739",
+      "sourceWidth": 750,
+      "sourceHeight": 1500,
+      "output": "public/assets/hero-mobile.webp",
+      "width": 750,
+      "height": 1500,
+      "bytes": 45380,
+      "sha256": "b84e0e1608e4066d56b50a977a6b32f5c57100fd7ecec1559c166086ead9ef32",
+      "encoding": {
+        "format": "webp",
+        "quality": 82,
+        "effort": 6
+      }
+    }
+  ]
+}

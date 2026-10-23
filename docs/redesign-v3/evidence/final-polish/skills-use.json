@@ -1,0 +1,181 @@
+{
+  "utc": "2026-10-23T10:04:09.601701+00:00",
+  "skillCount": 21,
+  "primary": "ai-design-engineering",
+  "scope": "Approved final polish only; owner facts and permissions override generic skill art-direction/install/publication rules",
+  "specialists": [
+    "content_polish:8 assigned content files + actual live demo verification",
+    "qa_polish:20 added cases + compatibility of existing assertions",
+    "release_preflight:read-only infrastructure/GitHub/CLI state"
+  ],
+  "skills": [
+    {
+      "name": "accessibility",
+      "path": ".agents/skills/accessibility/SKILL.md",
+      "sha256": "5f96552e41db945f7672deee9b9aa307eb5b72d950f29a52b87b07114ad95b11",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Keyboard, focus, reduced motion and axe",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "ai-design-engineering",
+      "path": ".agents/skills/ai-design-engineering/SKILL.md",
+      "sha256": "3306109531436971b9914327e9dfe3182fbd53341b94182366e3bb8eecb0160c",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Primary approved build/verify/refine router",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "astro-best-practices",
+      "path": ".agents/skills/astro-best-practices/SKILL.md",
+      "sha256": "cb1c7e2d179a1512b59e67b785259d1a7b374aeb700322f76ff86c29afb9c049",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Static Astro and minimal progressive JS",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "best-practices",
+      "path": ".agents/skills/best-practices/SKILL.md",
+      "sha256": "32e323b87b8b7866a63d3e03466099676516e1ebf3b8ed5c88adc4acf0e91e09",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Reviewed candidate; not invoked because current configured workflows cover its role without extra scope",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "cf-cli",
+      "path": ".agents/skills/cf-cli/SKILL.md",
+      "sha256": "e101cac1e668ba54c33fe3afd89f91d64fdee74ab7256458ccde546dff51b842",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Installed beta.19 help/schema; website-only preview/promotion",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "cloudflare",
+      "path": ".agents/skills/cloudflare/SKILL.md",
+      "sha256": "1e1c601fba80770efe973a59c254ccb210fba1d9e2f933729c7b78c82c7f593f",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Preserved existing Workers Static Assets architecture",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "copywriting",
+      "path": ".agents/skills/copywriting/SKILL.md",
+      "sha256": "6e90506cb53d1b38efdb55ac8bd395ba78e16310b8e3d08c88d606820f00f705",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Protected factual offers, About and FAQ",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "core-web-vitals",
+      "path": ".agents/skills/core-web-vitals/SKILL.md",
+      "sha256": "32f87ca8b7993ae924cb36d1640d9b4cc62fc48d01abafffeb0c4b944065e1f0",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Measurement boundaries reference; no field claim",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "customer-research",
+      "path": ".agents/skills/customer-research/SKILL.md",
+      "sha256": "fdca4d8bfca510faa4aca7a9c2ba365c9e7cf24f833808381b09b66dda0faa98",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Reviewed candidate; not invoked because current configured workflows cover its role without extra scope",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "design-taste-frontend",
+      "path": ".agents/skills/design-taste-frontend/SKILL.md",
+      "sha256": "3b3b99bfa39a3c8872ac397be7944cfd8d2a7b80d752bfded6c96bb25d41cf5e",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Bounded rendered critique only; no new direction draw",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "frontend-design",
+      "path": ".agents/skills/frontend-design/SKILL.md",
+      "sha256": "b8009ae690dfa69edc7f08bb8715f32db8817112cfa4388741dbaf876c237df8",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Preserved approved composition and hierarchy",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "marketing-psychology",
+      "path": ".agents/skills/marketing-psychology/SKILL.md",
+      "sha256": "f02e4fe8370d629d914032f5f8a3a988e2825e5bdae08215cf08cfb4ff07de73",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Reviewed candidate; not invoked because current configured workflows cover its role without extra scope",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "performance",
+      "path": ".agents/skills/performance/SKILL.md",
+      "sha256": "3abf4a1dbcb60143dcc351f85093bcf01420d274583ceeceaad8dcf6c6024de1",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Controlled cold lab comparison and asset cost",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "playwright-cli",
+      "path": ".agents/skills/playwright-cli/SKILL.md",
+      "sha256": "9bba755285a4c9ad72a4a41b9c7baef6fb516d329c0b44ed0573715f4479b906",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Reviewed candidate; not invoked because current configured workflows cover its role without extra scope",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "seo",
+      "path": ".agents/skills/seo/SKILL.md",
+      "sha256": "29598896bc085d1491f0b3f5bc78b04dc228d582a108a0179e919e3908fd3541",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Rendered titles/canonicals/schema and honest search scope",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "tailwind-design-system",
+      "path": ".agents/skills/tailwind-design-system/SKILL.md",
+      "sha256": "dc3723ef5db351ff9bd725f121789a4b30c7e73109c6546d7787d7563474d4d6",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Existing v4 tokens and responsive consistency",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "typescript-guidelines",
+      "path": ".agents/skills/typescript-guidelines/SKILL.md",
+      "sha256": "7090aa73fa5d7e444d8cbc7dd11bf57bfa8a2343870ef534689671964291fe51",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Typed data and DOM behavior",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "path": ".agents/skills/ui-ux-pro-max/SKILL.md",
+      "sha256": "e5baf9400d4347e5ed3eb1f6b99cd0b9ba545b8b0e507aabb2b87397bbf73ea1",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Reviewed candidate; not invoked because current configured workflows cover its role without extra scope",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "web-design-guidelines",
+      "path": ".agents/skills/web-design-guidelines/SKILL.md",
+      "sha256": "17e48da905f83a19c174079b50760a98c069527ba50079239b3c187236627c29",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Reviewed candidate; not invoked because current configured workflows cover its role without extra scope",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "web-quality-audit",
+      "path": ".agents/skills/web-quality-audit/SKILL.md",
+      "sha256": "4c3b04c727c11a819910b28056834ec7ae6e891ce5a16ca216f5a1a490f961a3",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Distinct browser/security/content release gates",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    },
+    {
+      "name": "wrangler",
+      "path": ".agents/skills/wrangler/SKILL.md",
+      "sha256": "89684e5c984c41c9b370999aa1d4030a638585c988a766351c7566ff8784ef9a",
+      "review": "Metadata/provenance inventoried; stage-specific content read where invoked",
+      "disposition": "Reviewed candidate; not invoked because current configured workflows cover its role without extra scope",
+      "ownerChanges": "Preserved; no install/delete/lock mutation"
+    }
+  ]
+}

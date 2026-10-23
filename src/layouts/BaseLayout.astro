@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import geistLatin from '@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?url';
 interface Props { title?: string; description?: string; path?: string }
-const { title = 'Ismail Studio | Web Design & Frontend Development in Melaka, Malaysia', description = 'Distinctive frontend websites, designed and built in Melaka for businesses across Malaysia. Explore four concept projects and website packages from RM599.', path = '/' } = Astro.props;
+const { title = 'Ismail Studio', description = 'Website design and frontend development in Melaka for businesses across Malaysia. Explore four live concept projects and packages starting from RM599.', path = '/' } = Astro.props;
 const canonical = new URL(path, 'https://www.ismailstudio.my').href;
 const schema = { '@context': 'https://schema.org', '@type': path === '/' ? 'WebSite' : 'WebPage', name: path === '/' ? 'Ismail Studio' : title, url: canonical, description, inLanguage: 'en-MY' };
 ---

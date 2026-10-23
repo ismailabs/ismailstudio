@@ -1,0 +1,95 @@
+{
+  "utc": "2026-10-23T10:03:15.554Z",
+  "base": "http://127.0.0.1:4327",
+  "sha": "b65a208f03dfd01d535eb4a865ad00e2d8fc4146",
+  "diffSha256": "4a0d5b1f9408d12eb9320d27ee16a46847f09795758342a22cb773175592bca5",
+  "browser": "155.0.4283.62",
+  "captures": [
+    {
+      "width": 320,
+      "height": 700,
+      "state": "hero",
+      "file": "320-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "state": "menu",
+      "file": "320-menu.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "hero",
+      "file": "390-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "work",
+      "file": "390-work.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "offers",
+      "file": "390-offers.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "about",
+      "file": "390-about.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "faq",
+      "file": "390-faq.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "contact",
+      "file": "390-contact.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "offer-deliverables",
+      "file": "390-offer-deliverables.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "integrations-open",
+      "file": "390-integrations-open.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    }
+  ],
+  "errors": [
+    "Capture harness timeout: duration FAQ getByText exact locator did not match summary plus child; repaired with uniquely scoped details filter. See round2-repaired for completed evidence."
+  ],
+  "complete": false
+}

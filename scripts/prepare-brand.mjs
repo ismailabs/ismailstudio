@@ -1,16 +1,2 @@
-import sharp from 'sharp';
-import { writeFile, mkdir, copyFile } from 'node:fs/promises';
-await mkdir('public', { recursive: true });
-await mkdir('docs/licenses', { recursive: true });
-const mark = `<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><rect width="128" height="128" fill="#080d12"/><g fill="none" stroke="#fffaf4" stroke-width="11"><path d="M26 18v92M66 18v92M26 18h65v35H66M26 110h65V77H66"/></g><path d="m99 26 16-15" stroke="#ff5733" stroke-width="9"/></svg>`;
-await writeFile('public/favicon.svg', mark);
-await sharp(Buffer.from(mark)).resize(180, 180).png().toFile('public/apple-touch-icon.png');
-const png = await sharp(Buffer.from(mark)).resize(32, 32).png().toBuffer();
-const ico = Buffer.alloc(22);
-ico.writeUInt16LE(1, 2); ico.writeUInt16LE(1, 4); ico[6] = 32; ico[7] = 32;
-ico.writeUInt16LE(1, 10); ico.writeUInt16LE(32, 12); ico.writeUInt32LE(png.length, 14); ico.writeUInt32LE(22, 18);
-await writeFile('public/favicon.ico', Buffer.concat([ico, png]));
-const cover = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"><rect width="1200" height="630" fill="#080d12"/><path d="M64 110h1072M64 550h1072" stroke="#38434d"/><g font-family="Segoe UI,Arial,sans-serif" fill="#fffaf4"><text x="64" y="74" font-size="25" font-weight="700">ismail studio</text><text x="64" y="238" font-size="88" font-weight="800" letter-spacing="-4">PROBLEMS.</text><text x="64" y="337" font-size="88" font-weight="800" letter-spacing="-4">MEET</text><text x="64" y="436" fill="#ff5733" font-size="88" font-weight="800" letter-spacing="-4">SOLUTIONS.</text><text x="66" y="505" font-size="22">Independent web design &amp; development / Malaysia</text><text x="64" y="590" font-size="18">www.ismailstudio.my</text><text x="950" y="590" font-size="18">From RM599</text></g><g transform="translate(950 170) scale(1.2)" fill="none" stroke="#c3cfff" stroke-width="3"><path d="M0 0h120v180H0zM22 22h120v180H22z"/><path d="M120 0h22v22" stroke="#ff5733" stroke-width="7"/></g></svg>`;
-await sharp(Buffer.from(cover)).png().toFile('public/og-image.png');
-await copyFile('node_modules/@fontsource-variable/geist/LICENSE', 'docs/licenses/geist-OFL.txt');
-console.log('V2 identity icons and original 1200×630 Open Graph artwork generated.');
+// Historical implementation remains in Git history; never regenerate obsolete artwork.
+throw new Error('Historical V1 identity generator disabled. Preserve the approved V3 logo, favicons and social artwork.');

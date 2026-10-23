@@ -36,30 +36,60 @@ const updateNavigation = () => {
 window.addEventListener('scroll', () => { if (!navigationFrame) navigationFrame = requestAnimationFrame(updateNavigation); }, { passive: true });
 window.addEventListener('resize', updateNavigation);
 updateNavigation();
-reducedMotion.addEventListener('change', () => { if (reducedMotion.matches) document.getAnimations().forEach(animation => animation.finish()); });
+reducedMotion.addEventListener('change', () => { if (reducedMotion.matches) document.getAnimations().forEach(animation => animation.cancel()); });
 
 const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
 const navigation = document.querySelector<HTMLElement>('#primary-nav');
 if (toggle && navigation) {
   document.documentElement.classList.add('js-nav');
   toggle.hidden = false;
-  const closeMenu = () => { toggle.setAttribute('aria-expanded', 'false'); navigation.removeAttribute('data-open'); };
+  const backdrop = document.querySelector<HTMLButtonElement>('.menu-backdrop');
+  const mobile = matchMedia('(max-width: 800px)');
+  // Only elements outside the header become inert; preserve any existing state.
+  const background = Array.from(document.body.children).filter((node): node is HTMLElement => node instanceof HTMLElement && node !== header && !node.matches('script'));
+  const inertBefore = new Map<HTMLElement, boolean>();
+  const closeMenu = (restoreFocus = true) => {
+    const wasOpen = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', 'Open menu');
+    navigation.removeAttribute('data-open');
+    document.documentElement.classList.remove('menu-open');
+    if (backdrop) backdrop.hidden = true;
+    for (const [node, inert] of inertBefore) node.inert = inert;
+    inertBefore.clear();
+    if (wasOpen && restoreFocus && mobile.matches) toggle.focus({ preventScroll: true });
+  };
   toggle.addEventListener('click', () => {
-    const open = toggle.getAttribute('aria-expanded') !== 'true';
-    toggle.setAttribute('aria-expanded', String(open));
-    navigation.toggleAttribute('data-open', open);
+    if (toggle.getAttribute('aria-expanded') === 'true') { closeMenu(); return; }
+    if (!mobile.matches) return;
+    toggle.setAttribute('aria-expanded', 'true');
+    toggle.setAttribute('aria-label', 'Close menu');
+    navigation.setAttribute('data-open', '');
+    document.documentElement.classList.add('menu-open');
+    if (backdrop) backdrop.hidden = false;
+    for (const node of background) { inertBefore.set(node, node.inert); node.inert = true; }
+    navigation.querySelector<HTMLAnchorElement>('a')?.focus({ preventScroll: true });
   });
+  backdrop?.addEventListener('click', () => closeMenu());
   navigation.addEventListener('click', event => {
     if (event.target instanceof HTMLAnchorElement) {
-      closeMenu();
+      closeMenu(false);
       const target = document.getElementById(event.target.hash.slice(1));
       target?.setAttribute('tabindex', '-1');
       target?.focus({ preventScroll: true });
     }
   });
-  document.addEventListener('click', event => { if (event.target instanceof Node && !navigation.contains(event.target) && !toggle.contains(event.target)) closeMenu(); });
-  document.addEventListener('keydown', event => { if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') { closeMenu(); toggle.focus(); } });
-  matchMedia('(min-width: 801px)').addEventListener('change', closeMenu);
+  document.addEventListener('keydown', event => {
+    if (toggle.getAttribute('aria-expanded') !== 'true') return;
+    if (event.key === 'Escape') { event.preventDefault(); closeMenu(); }
+    if (event.key === 'Tab') {
+      const controls = [toggle, ...navigation.querySelectorAll<HTMLAnchorElement>('a[href]')];
+      const first = controls[0]; const last = controls[controls.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    }
+  });
+  mobile.addEventListener('change', () => closeMenu(false));
 }
 const packageSelect = document.querySelector<HTMLSelectElement>('#package');
 document.querySelectorAll<HTMLAnchorElement>('[data-package]').forEach(link => {
@@ -103,4 +133,19 @@ syncCase();
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(entries => entries.forEach(entry => entry.target.classList.toggle('is-current', entry.isIntersecting)), { threshold: .8 });
   document.querySelectorAll('[data-process]').forEach(element => observer.observe(element));
+}
+
+// Progressive, once-only entrance cues. Nothing is hidden before enhancement,
+// and native transform animation avoids loading another initial JS dependency.
+if ('IntersectionObserver' in window && !reducedMotion.matches) {
+  const reveal = new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting || !(entry.target instanceof HTMLElement)) continue;
+      entry.target.dataset.revealed = 'true';
+      entry.target.animate({ transform: ['translateY(14px)', 'translateY(0)'] }, { duration: 550, easing: 'cubic-bezier(.22,.7,.24,1)' });
+      reveal.unobserve(entry.target);
+    }
+  }, { threshold: .12 });
+  document.querySelectorAll<HTMLElement>('main h2, .section-intro>p, .project-preview, .about-copy>p, .manifesto>div>p:not(.eyebrow)').forEach(element => { element.dataset.reveal = ''; reveal.observe(element); });
+  reducedMotion.addEventListener('change', () => { if (reducedMotion.matches) reveal.disconnect(); });
 }

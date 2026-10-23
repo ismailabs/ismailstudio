@@ -57,7 +57,7 @@ for (const width of [320, 360, 390, 430, 768, 1024, 1440, 1920]) {
 
 test('metadata, anchors, external links and published routes', async ({ page, request }) => {
   await page.goto('/');
-  await expect(page).toHaveTitle('Ismail Studio | Web Design & Frontend Development in Melaka, Malaysia');
+  await expect(page).toHaveTitle('Ismail Studio');
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://www.ismailstudio.my/');
   await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', 'https://www.ismailstudio.my/og-image.png');
   const badAnchors = await page.locator('a[href^="#"]').evaluateAll((links) => links.map((link) => link.getAttribute('href') ?? '').filter((href) => !document.getElementById(href.slice(1))));
@@ -91,7 +91,7 @@ test('package selection, native FAQ and keyboard skip link', async ({ page }) =>
 test('mobile menu opens, closes on Escape and follows anchors', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/');
-  const toggle = page.getByRole('button', { name: 'Menu' });
+  const toggle = page.locator('.menu-toggle');
   await toggle.click();
   await expect(toggle).toHaveAttribute('aria-expanded', 'true');
   await page.keyboard.press('Escape');

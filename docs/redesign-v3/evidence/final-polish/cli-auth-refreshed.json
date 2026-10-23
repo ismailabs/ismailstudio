@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-23T10:11:42.796765+00:00",
+  "method": "Existing official Wrangler session refresh; helper passes current token to pinned cf process without printing it",
+  "readCommand": "cf workers deployments list --worker ismailstudio",
+  "exitCode": 0,
+  "websiteVersion": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+  "trafficPercentage": 100,
+  "scope": "Existing authorized session only; no new permission grants or infrastructure changes",
+  "uploadCapability": "Still verified by actual later version upload, not inferred from read"
+}

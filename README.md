@@ -1,8 +1,8 @@
 # Ismail Studio
 
-Astro + Tailwind v4 + TypeScript marketing website for an independent frontend developer in Melaka, Malaysia. V3 uses the approved cinematic hero, original rounded vector identity and predominantly light content, with four case-study dialogs and static `/work/{slug}/` fallbacks. Approved offers: Starter from RM599 / 1 page / 1 revision; Business from RM1,299 / up to 5 pages / 2 revisions; Premium from RM2,999 / up to 12 pages / 2 revisions. All four portfolio sites are concept projects.
+Astro + Tailwind v4 + TypeScript marketing website for an independent frontend developer in Melaka, Malaysia. The approved V3 final polish uses the desktop workspace/skyline and mobile option A hero, original rounded vector identity and predominantly light content, with four case-study dialogs and static `/work/{slug}/` fallbacks. Approved offers: Starter from RM599 / 1 page / 1 revision; Business from RM1,299 / up to 5 pages / 2 revisions; Premium from RM2,999 / up to 12 pages / 2 revisions. All four portfolio sites are concept projects.
 
-Canonical site: https://www.ismailstudio.my/. Apex permanently redirects to HTTPS www. Current [release status](docs/redesign-v3/execution/release-record.md), [visual reviews](docs/redesign-v3/execution/design-and-visual-review.md), [measured performance](docs/redesign-v3/execution/performance-review.md) and [implementation progress](docs/implementation-progress.md) distinguish preview from production evidence. V1/V2 records are historical.
+Canonical site: https://www.ismailstudio.my/. Active scope: [final-polish handoff](docs/ismailstudio-v3-final-polish/START_HERE.md), with the [working-day amendment](docs/redesign-v3/execution/final-polish/owner-amendment.md). Estimated build times are 2/3/7 working days after all four prerequisites, not guaranteed deadlines. Apex permanently redirects to HTTPS www. Prior V3 [release status](docs/redesign-v3/execution/release-record.md), [visual reviews](docs/redesign-v3/execution/design-and-visual-review.md), [measured performance](docs/redesign-v3/execution/performance-review.md) and [implementation progress](docs/implementation-progress.md) distinguish preview from production evidence. V1/V2 records are historical.
 
 ## Local development
 
@@ -49,5 +49,7 @@ The owner has authorized GitHub push and Cloudflare deployment after gates pass.
 - `npm run capture:projects`: genuine project captures; `node scripts/v3-capture.mjs <round>`: repeatable isolated page screenshots.
 - `scripts/v3-smoke.mjs <https-url> <runtime-sha> <phase>`: exact asset/source/headers/privacy/redirect verification against the packaged manifest.
 - `scripts/v3-form-delivery.mjs <https-url> <preview|production>`: initiates **one real test** per environment, guarded by a private intent receipt. Do not include in CI or repeat after a failed or uncertain send; independent Zoho evidence remains necessary.
+
+Use [current progress](docs/implementation-progress.md) and final-polish evidence before any new release. The legacy brand/V3 image generators fail closed to protect approved artwork; `node scripts/prepare-final-polish-assets.mjs` only encodes the two checksum-approved hero sources. Real final-polish delivery uses `scripts/final-polish-form-delivery.mjs`, with a private one-send-per-environment guard and independent Zoho confirmation. Never run real delivery in CI.
 
 Follow AGENTS.md. Preserve installed skills and unrelated work. Never commit credentials, personal phone numbers, mailbox content or customer submissions.

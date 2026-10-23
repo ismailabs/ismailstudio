@@ -1,5 +1,5 @@
 ---
-import { packages } from '../data/packages';
+import { optionalIntegrations, packages } from '../data/packages';
 import Arrow from './Arrow.astro';
 import Icon from './Icon.astro';
 ---
@@ -8,9 +8,14 @@ import Icon from './Icon.astro';
   <div class="pricing-canvas">{packages.map((plan) => <article class:list={['plan', { 'plan-business': plan.name === 'Business' }]}>
     <div class="plan-title"><span class="plan-icon"><Icon name={plan.icon}/></span><div><h3>{plan.name}</h3><p>{plan.description}</p></div></div>
     <p class="price"><span>From</span> <strong>RM{plan.price}</strong></p><div class="plan-scope"><p class="page-scope">{plan.pages}</p><p>{plan.revisions}</p><p class="seo-tier">{plan.seo}</p></div>
+    <p class="plan-fit"><strong>Suited to</strong> {plan.suitability}</p>
+    <ul class="plan-deliverables" aria-label={`${plan.name} website deliverables`}>{plan.deliverables.map(item => <li>{item}</li>)}</ul>
+    <p class="plan-estimate">Estimated build: <strong>{plan.estimate}</strong></p>
     <details class="seo-details"><summary>One-time SEO scope <span aria-hidden="true">+</span></summary><p>{plan.seoDetail}</p></details>
     <a href="#contact" data-package={plan.name} class="plan-link" aria-label={`Enquire about ${plan.name}`}>Enquire about {plan.name} <Arrow diagonal/></a>
   </article>)}</div>
-  <div class="scope-context"><h3>Clear scope.<br/>A considered quote.</h3><p>Every package includes responsive layouts and clear contact actions. Starter uses template-informed design; Business and Premium allow more extensive reusable layouts.</p><p>SEO is one-time work for the agreed pages. Search engines control indexing and rankings; results are not guaranteed.</p></div>
-  <p class="pricing-note">Prices are starting estimates in Malaysian ringgit (RM), not fixed quotes. Content, complexity and functionality affect the final quote. Backend systems, databases, e-commerce checkout and operational booking systems are excluded. Domain registration, hosting and recurring third-party costs, ongoing maintenance and paid services are separately scoped unless agreed in writing. Search engine rankings are not guaranteed.</p>
+  <div class="scope-context"><h3>Clear scope.<br/>A considered quote.</h3><p>Choose Starter for a single-page introduction, Business when services need their own pages, or Premium for a wider content hierarchy. Every plan includes responsive layouts and clear contact actions.</p><p>SEO is one-time setup and audit work for the agreed pages. Search engines control indexing and rankings; results are not guaranteed. These packages do not include monthly SEO management.</p></div>
+  <p class="timeline-note">Working days are Monday–Friday, excluding applicable Malaysian public holidays. Estimates begin only after the scope is agreed, all required materials and the agreed initial payment are received, and a written start date is confirmed. Your written quote confirms the estimated completion date. These are estimates, not guaranteed deadlines; complexity, review delays and changes can affect timing.</p>
+  <p class="pricing-note">Prices are starting estimates in Malaysian ringgit (RM), not fixed quotes. You provide the agreed business text, logo and images; content needs, complexity and functionality affect the final quote. Backend systems, databases, e-commerce checkout and operational booking systems are excluded. Domain registration, hosting, ongoing maintenance and licensed third-party services are separate unless the written quote includes them.</p>
+  <details class="integration-details"><summary>Optional integrations, quoted separately <span aria-hidden="true">+</span></summary><p>Each option is assessed for your project and quoted separately. Third-party fees, account eligibility, consent and privacy requirements may apply.</p><dl class="integration-list">{optionalIntegrations.map(item => <div><dt>{item.name}</dt><dd>{item.detail}</dd></div>)}</dl></details>
 </section>

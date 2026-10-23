@@ -1,0 +1,105 @@
+{
+  "utc": "2026-10-23T10:20:34.262Z",
+  "base": "http://127.0.0.1:4327",
+  "sha": "b65a208f03dfd01d535eb4a865ad00e2d8fc4146",
+  "diffSha256": "e67b797137b97ecc1e642b900ea75318e1eacee750c98601b79993e9d959dadf",
+  "browser": "155.0.4283.62",
+  "captures": [
+    {
+      "width": 390,
+      "height": 320,
+      "state": "hero",
+      "file": "390-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 320,
+      "state": "menu",
+      "file": "390-menu.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "state": "hero",
+      "file": "667-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "state": "menu",
+      "file": "667-menu.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 780,
+      "height": 390,
+      "state": "hero",
+      "file": "780-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 780,
+      "height": 390,
+      "state": "menu",
+      "file": "780-menu.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "state": "hero",
+      "file": "844-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "outputs": [
+    {
+      "file": "index.html",
+      "sha256": "42292f41f29511aab1c8aa5e55be72a5efbcc3e972914752894d7561e73991e1"
+    },
+    {
+      "file": "_astro\\BaseLayout.astro_astro_type_script_index_0_lang.CDDUPsCy.js",
+      "sha256": "b72e0915aa4391f411f34d7da4741785ec7fc9cb9df91b6474612922c63189ff"
+    },
+    {
+      "file": "_astro\\mini.BUt3Uaz0.js",
+      "sha256": "a30bb69c78e19426745c38c33856f5b97444187d84030281106a5e7dba7b703a"
+    },
+    {
+      "file": "_astro\\studies.BnhlYeXi.css",
+      "sha256": "393dbb8a5d41c9f986bf8522b506dc55ee557cc170c905d48d09e9827242490d"
+    },
+    {
+      "file": "work\\malaysia\\index.html",
+      "sha256": "5a13524c0dac248dfe94458c3afda13ba64f748d7e178cfbe677cec642363cdc"
+    },
+    {
+      "file": "work\\makansedap\\index.html",
+      "sha256": "fd0db08c3b475745bc5cb3a74fedcdbcdf9639b4648b7f9df2778b802a6d1203"
+    },
+    {
+      "file": "work\\kopikita\\index.html",
+      "sha256": "2e2cd1771ba40a64baff35f5d7b17319c193930adae6b9ca24e9912824aaaf59"
+    },
+    {
+      "file": "work\\kilatmoto\\index.html",
+      "sha256": "4f3c4a431207585f9c3f7ffaa87fe998db8790489baf06bd3a879f567a10b3d0"
+    }
+  ],
+  "complete": true
+}

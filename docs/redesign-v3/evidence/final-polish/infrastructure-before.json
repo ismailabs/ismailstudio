@@ -1,0 +1,173 @@
+{
+  "capturedAt": "2026-10-23T09:44:25.800Z",
+  "extraCapturedAt": "2026-10-23T09:45:19.602Z",
+  "stage": "before",
+  "method": "Cloudflare connector GET only; all 17 requests HTTP 200/success true",
+  "website": "ismailstudio",
+  "canonicalUrl": "https://www.ismailstudio.my/",
+  "workerCount": 9,
+  "customDomainCount": 6,
+  "routeCount": 3,
+  "dnsCount": 17,
+  "mailAndCaaCount": 7,
+  "normalization": "Sorted resource lists; DNS id/type/name/content/ttl/proxied/priority/data/settings/tags/comment; canonical JSON sorted keys, compact UTF-8",
+  "dnsSha256": "df7f71b6b6adc1e0f9ff948340240c52d168f6853ad455176dfa7719785d6623",
+  "mailAndCaaSha256": "d0c848ad688c6b969268e85a5b9c89eabae509d80dcc8120ff3f49e40ae82526",
+  "routesSha256": "f1001c808530488d4c696b708b1456344bb044a479b85da119f5f5ae91b2ba10",
+  "domainsSha256": "bbda32ae62cef0ff9639f79d1a08b5b3489d533c82c90a214e4b308c91c26d3f",
+  "apexDeploymentsSha256": "ccd87d7232a1782e433e544d26e3877bb0415a71c8bce3b6360af52703f0bea9",
+  "apexSettingsSha256": "76c0c6bff3f140b218f942748201eefa7ef6363bb2cdfc271713899af4765b66",
+  "apexSubdomainSha256": "81d85b2e35295c30a89a15cfce655824db618966f23be5b068d6f55c545429f3",
+  "otherWorkersSha256": "d9206c9f2a5069abd3b809d421d315b859a7f5564422b452c0213ac3e3b1557c",
+  "otherWorkers": [
+    {
+      "name": "civolyn",
+      "modifiedOn": "2026-10-17T07:06:22.104107Z"
+    },
+    {
+      "name": "ismailstudio-apex",
+      "modifiedOn": "2026-10-21T12:08:00.449595Z"
+    },
+    {
+      "name": "kilatmoto",
+      "modifiedOn": "2026-10-17T01:12:04.327506Z"
+    },
+    {
+      "name": "kopikita",
+      "modifiedOn": "2026-10-20T07:28:15.082794Z"
+    },
+    {
+      "name": "makansedap",
+      "modifiedOn": "2026-10-20T14:15:29.707302Z"
+    },
+    {
+      "name": "malaysia-between-places",
+      "modifiedOn": "2026-10-19T19:51:24.695211Z"
+    },
+    {
+      "name": "malaysia-between-places-preview",
+      "modifiedOn": "2026-10-19T19:45:02.101441Z"
+    },
+    {
+      "name": "proworks",
+      "modifiedOn": "2026-10-17T07:39:14.241234Z"
+    }
+  ],
+  "websiteRoutes": [
+    {
+      "id": "69b87e8c352248dc9ac8143067f9e982",
+      "pattern": "ismailstudio.my/*",
+      "script": "ismailstudio-apex",
+      "request_limit_fail_open": false
+    },
+    {
+      "id": "9c8c90fe1b81492fb236b10be8bd81b9",
+      "pattern": "http://www.ismailstudio.my/*",
+      "script": "ismailstudio-apex",
+      "request_limit_fail_open": false
+    },
+    {
+      "id": "e93eb7ccf5b74019bedf670c884bfe8b",
+      "pattern": "www.ismailstudio.my/*",
+      "script": "ismailstudio",
+      "request_limit_fail_open": false
+    }
+  ],
+  "websiteDeployments": [
+    {
+      "id": "76513860-4004-41d7-ac33-786f0d005a64",
+      "strategy": "percentage",
+      "versions": [
+        {
+          "version_id": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-22T09:32:57.542937Z"
+    },
+    {
+      "id": "573f6883-09a9-4883-9a34-64be843350bb",
+      "strategy": "percentage",
+      "versions": [
+        {
+          "version_id": "559ca179-d268-4db7-a486-181df5238e66",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T21:33:51.14378Z"
+    },
+    {
+      "id": "224c085a-9853-40bd-9943-955c62ef8f7f",
+      "strategy": "percentage",
+      "versions": [
+        {
+          "version_id": "4317599d-6080-4ac6-9237-3503bc0971e9",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T12:17:16.863707Z"
+    },
+    {
+      "id": "b5e35fef-a548-45bb-b2f9-c4b3daeed9f9",
+      "strategy": "percentage",
+      "versions": [
+        {
+          "version_id": "884270fc-00d9-4264-9c97-cb065432ad33",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T12:04:26.999697Z"
+    }
+  ],
+  "apexDeployments": [
+    {
+      "id": "98aa3e69-71d6-4ffe-83f3-45385afd301d",
+      "strategy": "percentage",
+      "versions": [
+        {
+          "version_id": "b1fb9bf9-8597-4210-b782-4a951bc1e820",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T12:05:42.020535Z"
+    }
+  ],
+  "websiteVersionReadable": true,
+  "websiteVersionId": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+  "websiteVersionCreatedOn": "2026-10-22T09:17:58.542827Z",
+  "websiteHasPreview": true,
+  "runtimeSourceCommit": "6393bf7ada13c089f3ed7e7c12a781fafb440e50",
+  "websiteBindings": [],
+  "websiteBuildTriggerCount": 0,
+  "websiteBuildCount": 0,
+  "apexBuildTriggerCount": 0,
+  "buildTriggerLookup": "Actual system Worker tag from scripts list, not human script name",
+  "websiteScriptSettings": {
+    "logpush": false,
+    "tags": null,
+    "tail_consumers": null,
+    "observability": null
+  },
+  "websiteSubdomain": {
+    "enabled": true,
+    "previews_enabled": true
+  },
+  "apexSubdomain": {
+    "enabled": true,
+    "previews_enabled": true
+  },
+  "mutationsPerformed": [],
+  "rollback": {
+    "worker": "ismailstudio",
+    "versionId": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+    "trafficPercentage": 100,
+    "versionReadable": true,
+    "dryRunValidated": false,
+    "liveDrillPerformed": false
+  },
+  "privateReceipts": [
+    ".local/final-polish/infrastructure-before.raw.json",
+    ".local/final-polish/infrastructure-before-extra.raw.json"
+  ],
+  "historicalFingerprintNote": "This explicit normalization differs from the earlier V3 receipt. Compare new snapshots using this same projection; do not infer mutation from different hash algorithms."
+}

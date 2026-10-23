@@ -1,0 +1,71 @@
+{
+  "utc": "2026-10-23T10:19:45.089Z",
+  "stage": "preupload",
+  "comparison": "PASS",
+  "method": "Fresh Cloudflare connector GET only, normalized identically to infrastructure-before.json",
+  "dnsCount": 17,
+  "workerCount": 9,
+  "routeCount": 3,
+  "protectedFingerprints": {
+    "dnsSha256": "df7f71b6b6adc1e0f9ff948340240c52d168f6853ad455176dfa7719785d6623",
+    "mailAndCaaSha256": "d0c848ad688c6b969268e85a5b9c89eabae509d80dcc8120ff3f49e40ae82526",
+    "routesSha256": "f1001c808530488d4c696b708b1456344bb044a479b85da119f5f5ae91b2ba10",
+    "domainsSha256": "bbda32ae62cef0ff9639f79d1a08b5b3489d533c82c90a214e4b308c91c26d3f",
+    "apexDeploymentsSha256": "ccd87d7232a1782e433e544d26e3877bb0415a71c8bce3b6360af52703f0bea9",
+    "apexSettingsSha256": "76c0c6bff3f140b218f942748201eefa7ef6363bb2cdfc271713899af4765b66",
+    "apexSubdomainSha256": "81d85b2e35295c30a89a15cfce655824db618966f23be5b068d6f55c545429f3",
+    "otherWorkersSha256": "d9206c9f2a5069abd3b809d421d315b859a7f5564422b452c0213ac3e3b1557c"
+  },
+  "otherWorkersUnchanged": true,
+  "websiteBindingsUnchanged": true,
+  "globalSettingsUnchanged": true,
+  "buildTriggersUnchanged": true,
+  "websiteDeployments": [
+    {
+      "id": "76513860-4004-41d7-ac33-786f0d005a64",
+      "strategy": "percentage",
+      "versions": [
+        {
+          "version_id": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-22T09:32:57.542937Z"
+    },
+    {
+      "id": "573f6883-09a9-4883-9a34-64be843350bb",
+      "strategy": "percentage",
+      "versions": [
+        {
+          "version_id": "559ca179-d268-4db7-a486-181df5238e66",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T21:33:51.14378Z"
+    },
+    {
+      "id": "224c085a-9853-40bd-9943-955c62ef8f7f",
+      "strategy": "percentage",
+      "versions": [
+        {
+          "version_id": "4317599d-6080-4ac6-9237-3503bc0971e9",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T12:17:16.863707Z"
+    },
+    {
+      "id": "b5e35fef-a548-45bb-b2f9-c4b3daeed9f9",
+      "strategy": "percentage",
+      "versions": [
+        {
+          "version_id": "884270fc-00d9-4264-9c97-cb065432ad33",
+          "percentage": 100
+        }
+      ],
+      "created_on": "2026-10-21T12:04:26.999697Z"
+    }
+  ],
+  "rollbackVersionReadable": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+  "privateSnapshot": ".local/final-polish/infrastructure-preupload.raw.json"
+}

@@ -2,7 +2,7 @@ name: Website quality
 
 on:
   push:
-    branches: [main, codex/ismailstudio-v2-creative-redesign, codex/ismailstudio-v3-redesign]
+    branches: [main, codex/ismailstudio-v2-creative-redesign, codex/ismailstudio-v3-redesign, codex/ismailstudio-v3-final-polish]
     paths:
       - 'src/**'
       - 'public/**'

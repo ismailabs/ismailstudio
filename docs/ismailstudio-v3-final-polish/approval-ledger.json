@@ -1,0 +1,104 @@
+{
+  "document": "Ismail Studio V3 final polish — approved requirements and asset ledger",
+  "approved_at_local_date": "2026-10-23",
+  "timezone": "Asia/Kuala_Lumpur",
+  "repository": "ismailabs/ismailstudio",
+  "canonical_site": "https://www.ismailstudio.my/",
+  "site_work_target": "ismailstudio",
+  "approval": {
+    "requirements_confirmation_summary": "approved",
+    "desktop_hero": "approved 01+06 combination, exact original unchanged",
+    "mobile_hero": "approved Option A; background and preview supplied",
+    "release": "scoped conditional production release following all current gates",
+    "cleanup": "manual owner action; do not commit/delete/restore their uncommitted historical changes"
+  },
+  "business": {
+    "headline": "BUILT FOR BIGGER PROBLEMS.",
+    "home_html_title": "Ismail Studio",
+    "location": "Melaka, Malaysia",
+    "serves": "SMEs across Malaysia",
+    "email": "contact@ismailstudio.my",
+    "plans": [
+      {
+        "name": "Starter",
+        "from_myr": 599,
+        "pages": "1 page",
+        "revision_rounds": 1,
+        "seo": "one-time Basic On-Page SEO",
+        "estimated_duration": "48 hours"
+      },
+      {
+        "name": "Business",
+        "from_myr": 1299,
+        "pages": "up to 5 pages",
+        "revision_rounds": 2,
+        "seo": "one-time Technical SEO setup",
+        "estimated_duration": "3 days"
+      },
+      {
+        "name": "Premium",
+        "from_myr": 2999,
+        "pages": "up to 12 pages",
+        "revision_rounds": 2,
+        "seo": "one-time Advanced On-Site SEO",
+        "estimated_duration": "7 days"
+      }
+    ],
+    "concept_slugs": [
+      "kilatmoto",
+      "makansedap",
+      "kopikita",
+      "malaysia"
+    ]
+  },
+  "unresolved": [
+    {
+      "item": "day_basis",
+      "impact": "public estimated-duration copy must not imply working vs calendar days without confirmation; block that publication criterion until owner clarifies"
+    },
+    {
+      "item": "deposit_policy",
+      "impact": "no invented fixed payment percentages or milestones; quote-specific neutral wording; professional review"
+    },
+    {
+      "item": "ownership_terms",
+      "impact": "written agreement needed before any binding rights/hand-over promise"
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/hero-desktop-approved-original.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1778207,
+      "sha256": "1b65fd0024b9011e966b7c90e8babdfee2cc1cba890e871d943aec897141bbd6"
+    },
+    {
+      "file": "assets/hero-mobile-option-A-background.png",
+      "width": 750,
+      "height": 1500,
+      "bytes": 580625,
+      "sha256": "4b7f7ec88e1c5a4f898addd8fef61c5c25e24ad48fcec72d218a01e22c9a6739"
+    },
+    {
+      "file": "assets/mobile-option-A-approval-preview.png",
+      "width": 390,
+      "height": 780,
+      "bytes": 206109,
+      "sha256": "df109056ca5a024cf738e472b340fab3236ab35d29f062290ad23c55c44feeee"
+    }
+  ],
+  "baseline": {
+    "owner_local_git_head_short": "b65a208",
+    "owner_local_verify": "V3 handoff PASS; source boundaries PASS; 0 Astro diagnostics; 5 pages; 3/3 redirects; 38/38 browser tests",
+    "owner_preexisting_unstaged_deletions": "historical docs/ entries, deliberately preserve",
+    "owner_local_skill_count": 21,
+    "github_tracked_skill_count": 19
+  },
+  "warnings": [
+    "Generated desktop image depicts an illustrative workspace and skyline, not proof of a real KL office.",
+    "Mobile UI preview contains raster typography; do not use it as production UI.",
+    "Do not assume local Git changes are committed or included in remote HEAD.",
+    "Do not publish before fresh form, browser, source, Cloudflare and infrastructure gates."
+  ]
+}

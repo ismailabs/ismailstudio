@@ -1,0 +1,15 @@
+{
+  "capturedAt": "2026-10-23T09:51:19.544Z",
+  "installedCliVersion": "1.0.0-beta.19",
+  "command": "cf auth whoami",
+  "exitCode": 0,
+  "result": {
+    "authenticated": false,
+    "error": "Not logged in"
+  },
+  "existingHelperOAuthExpiration": "2026-10-22T10:10:51.591Z",
+  "tokenValuePrinted": false,
+  "loginOrAuthChangePerformed": false,
+  "connectorReadAccessVerified": true,
+  "cliUploadAccessVerified": false
+}

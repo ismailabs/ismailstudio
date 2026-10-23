@@ -9,6 +9,10 @@ try:
     runpy.run_path(str(root / 'docs/redesign-v3/tools/validate_handoff.py'), run_name='__main__')
 except SystemExit as result:
     if result.code: raise
+try:
+    runpy.run_path(str(root / 'docs/ismailstudio-v3-final-polish/tools/verify_handoff.py'), run_name='__main__')
+except SystemExit as result:
+    if result.code: raise
 required = ['AGENTS.md', 'src/components/Hero.astro', 'src/data/packages.ts', 'src/data/projects.ts', 'src/lib/form-config.ts', 'public/favicon.svg']
 errors = [f'Missing {p}' for p in required if not (root / p).is_file()]
 hero = (root / 'src/components/Hero.astro').read_text('utf-8')

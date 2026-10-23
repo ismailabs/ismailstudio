@@ -1,0 +1,377 @@
+{
+  "utc": "2026-10-23T10:11:31.091Z",
+  "base": "http://127.0.0.1:4327",
+  "sha": "b65a208f03dfd01d535eb4a865ad00e2d8fc4146",
+  "diffSha256": "f0c8c8ff16bc8507bb584242377a27f286e2add28cfa371aa6c7501e61bf921a",
+  "browser": "155.0.4283.62",
+  "captures": [
+    {
+      "width": 320,
+      "height": 700,
+      "state": "hero",
+      "file": "320-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "state": "menu",
+      "file": "320-menu.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "hero",
+      "file": "390-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "work",
+      "file": "390-work.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "offers",
+      "file": "390-offers.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "about",
+      "file": "390-about.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "faq",
+      "file": "390-faq.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "contact",
+      "file": "390-contact.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "offer-deliverables",
+      "file": "390-offer-deliverables.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "integrations-open",
+      "file": "390-integrations-open.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "faq-timing-open",
+      "file": "390-faq-timing-open.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "study",
+      "file": "390-study.png",
+      "url": "http://127.0.0.1:4327/?case=kilatmoto",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "study-limitations",
+      "file": "390-study-limitations.png",
+      "url": "http://127.0.0.1:4327/?case=makansedap",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-kilatmoto",
+      "file": "390-page-kilatmoto.png",
+      "url": "http://127.0.0.1:4327/work/kilatmoto/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-makansedap",
+      "file": "390-page-makansedap.png",
+      "url": "http://127.0.0.1:4327/work/makansedap/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-kopikita",
+      "file": "390-page-kopikita.png",
+      "url": "http://127.0.0.1:4327/work/kopikita/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-malaysia",
+      "file": "390-page-malaysia.png",
+      "url": "http://127.0.0.1:4327/work/malaysia/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "form-needs",
+      "file": "390-form-needs.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "form-review",
+      "file": "390-form-review.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "form-success-MOCK",
+      "file": "390-form-success-MOCK.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "menu",
+      "file": "390-menu.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "hero",
+      "file": "768-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "menu",
+      "file": "768-menu.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "hero",
+      "file": "1440-hero.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "work",
+      "file": "1440-work.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "offers",
+      "file": "1440-offers.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "about",
+      "file": "1440-about.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "faq",
+      "file": "1440-faq.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact",
+      "file": "1440-contact.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "offer-deliverables",
+      "file": "1440-offer-deliverables.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "integrations-open",
+      "file": "1440-integrations-open.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "faq-timing-open",
+      "file": "1440-faq-timing-open.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "study",
+      "file": "1440-study.png",
+      "url": "http://127.0.0.1:4327/?case=kilatmoto",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "study-limitations",
+      "file": "1440-study-limitations.png",
+      "url": "http://127.0.0.1:4327/?case=makansedap",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-kilatmoto",
+      "file": "1440-page-kilatmoto.png",
+      "url": "http://127.0.0.1:4327/work/kilatmoto/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-makansedap",
+      "file": "1440-page-makansedap.png",
+      "url": "http://127.0.0.1:4327/work/makansedap/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-kopikita",
+      "file": "1440-page-kopikita.png",
+      "url": "http://127.0.0.1:4327/work/kopikita/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-malaysia",
+      "file": "1440-page-malaysia.png",
+      "url": "http://127.0.0.1:4327/work/malaysia/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "form-needs",
+      "file": "1440-form-needs.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "form-review",
+      "file": "1440-form-review.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "form-success-MOCK",
+      "file": "1440-form-success-MOCK.png",
+      "url": "http://127.0.0.1:4327/",
+      "source": null
+    }
+  ],
+  "errors": [],
+  "outputs": [
+    {
+      "file": "index.html",
+      "sha256": "92f0ed4f406dec74480c26f8621407479187a42e61ab9a579eb5a1aee62a6879"
+    },
+    {
+      "file": "_astro\\BaseLayout.astro_astro_type_script_index_0_lang.CDDUPsCy.js",
+      "sha256": "b72e0915aa4391f411f34d7da4741785ec7fc9cb9df91b6474612922c63189ff"
+    },
+    {
+      "file": "_astro\\mini.BUt3Uaz0.js",
+      "sha256": "a30bb69c78e19426745c38c33856f5b97444187d84030281106a5e7dba7b703a"
+    },
+    {
+      "file": "_astro\\studies.DkUa0R-v.css",
+      "sha256": "b237697dd1defad45847b3bdd856a3375f4234f7f10ba41aa27558df41565a1b"
+    },
+    {
+      "file": "work\\malaysia\\index.html",
+      "sha256": "1d1bc636a73c135d268bddd3d5593e89643f573cbe3e43128882cae876d3b91a"
+    },
+    {
+      "file": "work\\makansedap\\index.html",
+      "sha256": "1d526a0c3ac52f6192a731ace904b1c6bf2e20036223064afe063c1d917c6541"
+    },
+    {
+      "file": "work\\kopikita\\index.html",
+      "sha256": "3c3d6085847cfa70addd070759ea52df76f0cb08c2bd94c86c091dc867d84ffd"
+    },
+    {
+      "file": "work\\kilatmoto\\index.html",
+      "sha256": "bb3d68383f107c721efc507ef8c6ac75d5ce0db4326c77f7dd1abb76b3ef6380"
+    }
+  ],
+  "complete": true
+}

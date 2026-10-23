@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-23T15:49:53.671226+00:00",
+  "parentSource": "5adbba15828dce0854b53b5e7ed9b1337676fb82",
+  "change": "Build-time SHA256 URL revisions for the three hero assets; no client JavaScript",
+  "astroCheck": "0 errors / 0 warnings / 0 hints",
+  "build": "5 pages",
+  "focusedBrowserStats": {
+    "startTime": "2026-10-23T15:47:37.458Z",
+    "duration": 34812.049,
+    "expected": 11,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "compiledClientJavaScriptUnchanged": true,
+  "existingAssertionsOrTimeoutsChanged": false
+}

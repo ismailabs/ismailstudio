@@ -1,8 +1,19 @@
 ---
 import Arrow from './Arrow.astro';
+import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
+
+// Build-time revisions invalidate previously cached hero pixels without client JS.
+const heroAsset = (filename: string) => {
+  const revision = createHash('sha256').update(readFileSync(`public/assets/${filename}`)).digest('hex').slice(0, 12);
+  return `/assets/${filename}?v=${revision}`;
+};
+const desktop = heroAsset('hero-desktop.webp');
+const mobile = heroAsset('hero-mobile.webp');
+const mobileLarge = heroAsset('hero-mobile-large.webp');
 ---
 <section class="hero" aria-labelledby="hero-heading">
-  <picture class="hero-scene" aria-hidden="true"><source media="(max-width: 600px)" srcset="/assets/hero-mobile.webp 768w, /assets/hero-mobile-large.webp 960w" sizes="100vw" width="768" height="576"/><img src="/assets/hero-desktop.webp" width="1672" height="941" alt="" fetchpriority="high" loading="eager"/></picture>
+  <picture class="hero-scene" aria-hidden="true"><source media="(max-width: 600px)" srcset={`${mobile} 768w, ${mobileLarge} 960w`} sizes="100vw" width="768" height="576"/><img src={desktop} width="1672" height="941" alt="" fetchpriority="high" loading="eager"/></picture>
   <div class="hero-content shell"><p class="hero-eyebrow">Website design &amp; development <span>Melaka, Malaysia</span></p>
     <h1 id="hero-heading"><span>BUILT FOR</span> <span class="iridescent">BIGGER</span> <span>PROBLEMS.</span></h1>
     <p class="hero-description">I design and build websites that help Malaysian businesses explain what they do, earn trust and make it easier to get in touch.</p>

@@ -1,0 +1,79 @@
+{
+  "at": "2026-10-23T16:25:06.410Z",
+  "result": "PASS",
+  "currentBase": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev",
+  "currentSource": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "priorExactVersion": "https://b767642c-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+  "priorExactSource": "eef2185fb3590a60e9c267794609efe3b6a6001c",
+  "unchangedSources": [
+    {
+      "path": "src/components/Contact.astro",
+      "sha256": "c31b68e4d5db04e38b688ca53a00977c991b3d211912b1be88078282be1bc605",
+      "unchanged": true
+    },
+    {
+      "path": "src/scripts/contact.ts",
+      "sha256": "3ed4b24e55011ca74a33c086682fe95e4d9a54f0a319ec3fa47c943edfe291f9",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/form-config.ts",
+      "sha256": "3dc96be513953e116fc64d28da02da88c2889a0b6363d1c7b953d2a4d69a72f6",
+      "unchanged": true
+    },
+    {
+      "path": "src/scripts/site.ts",
+      "sha256": "f07bd448e39292f5863fbc9294dade04e0ba8a100caffec8af0c14fa1a125d2f",
+      "unchanged": true
+    },
+    {
+      "path": "src/layouts/BaseLayout.astro",
+      "sha256": "bdf75b55f63cae1b5f7811c126f0891db544112c015726655e36672d1ff26b11",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/index.astro",
+      "sha256": "6ae319a7edf0ca132597012f540bc8ae34d8dc29879c2a25460b03cab1288e3a",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/build-headers.mjs",
+      "sha256": "302eb27bb378e69c272ade9eb5b10949223d5c7ebfaf18ed31e394aeae297fd6",
+      "unchanged": true
+    },
+    {
+      "path": "cloudflare.config.ts",
+      "sha256": "d6ba1945306399bcb8babdb5af3e1bc90a6fda1caec96267b554a66c46e1b4be",
+      "unchanged": true
+    },
+    {
+      "path": "package.json",
+      "sha256": "c1474fe0aec6a94b29ff0a23421bd3f01b24ecd28cf4049384777a7620f94bfb",
+      "unchanged": true
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "80defa5397a3ae925dcdff4a58b328293b524e40a6f42dbc093381d43d243bd6",
+      "unchanged": true
+    }
+  ],
+  "unchangedServedScripts": [
+    {
+      "path": "_astro/mini.BUt3Uaz0.js",
+      "sha256": "a30bb69c78e19426745c38c33856f5b97444187d84030281106a5e7dba7b703a",
+      "unchanged": true
+    },
+    {
+      "path": "_astro/BaseLayout.astro_astro_type_script_index_0_lang.CDDUPsCy.js",
+      "sha256": "b72e0915aa4391f411f34d7da4741785ec7fc9cb9df91b6474612922c63189ff",
+      "unchanged": true
+    }
+  ],
+  "formMarkupSha256": "555c1ebdcb218b7649504cb5f186ad5322acb7f2b4e684574f3473014bf68e93",
+  "cspSha256": "743ebddae1b46580cc253057140f157e0bc3056ade5b04b779b1c43e3786fc92",
+  "formMarkupAndCspUnchanged": true,
+  "confirmedPreviewMarker": "ISM-FINAL-POLISH-PREVIEW-20261023105053",
+  "realPreviewSendsThisRelease": 1,
+  "additionalPreviewSends": 0,
+  "boundary": "The real preview send and owner inbox confirmation occurred on the prior exact version. Current version equivalence and isolated UI are separate evidence; this new version was not sent another email. Production send and independent Zoho receipt remain required."
+}

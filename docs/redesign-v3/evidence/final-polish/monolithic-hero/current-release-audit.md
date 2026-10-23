@@ -1,0 +1,39 @@
+# Current Monolithic release audit
+
+Audit recorded: 2026-10-23T16:35:46.801Z (UTC; Malaysia date is 24 October 2026). Bounded read-only review of current authority, source/package and existing receipts in the isolated worktree. No browser/test-suite runs, account/mail access, remote calls, source edits, Git publication or Cloudflare mutation. This is the only file written by this audit.
+
+## Disposition
+
+**No additional material release blocker found in the frozen source/package or the current preview evidence reviewed.** This is not a promotion clearance: the running hosted browser/matrix gates and fresh final prepromotion comparison are still required. The one canonical production send/independent Zoho receipt and public postpromotion verification remain required before completion.
+
+Frozen runtime source: `a21e78718f216d9c700e56fb940035bf91a83eb4`. Current immutable preview/version: `https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/` / `2209bc13-8c8b-41a4-bd6c-1e4e9db054b7`. Use only the nested `docs/redesign-v3/evidence/final-polish/monolithic-hero/` receipts as current for this amended runtime; several parent-level files deliberately retain the earlier `eef2185/b767642c` checkpoint.
+
+## Evidence checked
+
+- HEAD is the frozen source; read-only `git diff HEAD -- src public scripts tests tools package.json package-lock.json cloudflare.config.ts .github/workflows/quality.yml` returns no runtime paths. Remaining working changes are evidence/docs.
+- Actual website Build Output has only `workers/default`, named `ismailstudio`, no apex or triggers, and the expected static HTML handling. Account/mode config matches the existing website target.
+- Independently hashed all 50 manifest files, including nonpublic `_headers`, against both current `dist` and packaged website assets: zero size/hash mismatches. Current public count is 49 because the additional responsive large hero export is intentional.
+- Independently recomputed the archive: 1,146,673 bytes, SHA-256 `0527c415e218d62edc554c200c3e0f36822b9c1877743c6cd875c5d3a00e4a72`, matching `package-archive.json`. ZIP has 52 entries, exactly one Worker config, no apex/source/docs/dependencies/private extension entries.
+- `source-ci.json` binds successful run 39981641908 and 58 cases to this exact source. `local-verify.json` records 58 expected, zero skipped/unexpected/flaky, zero Astro diagnostics, five pages and three redirect unit passes; no real sends.
+- Current `form-preview-equivalence.json` binds this exact immutable preview/source to ten unchanged form/config/layout/header/dependency sources, two unchanged served JS assets, complete equal form markup and equal CSP. It truthfully retains the real preview email on prior `b767642c/eef2185`, marker `ISM-FINAL-POLISH-PREVIEW-20261023105053`, with owner-confirmed Zoho receipt. No new preview email is required or allowed merely to refresh evidence.
+- Latest preview infrastructure receipt at 16:26:02 UTC passes the protected fingerprints, zero new bindings/build triggers/global settings changes, eight unrelated Worker timestamps, and unchanged 100% production traffic on `b46cfec0`. It records that rollback version readable. Root must still perform the fresh final prepromotion comparison.
+- Current `rollback-ready.json` appeared during this audit and records successful 16:33:43 UTC exact website dry runs for promotion to `2209bc13...` at 100% and rollback to `b46cfec0...` at 100%, with no bypass/query/mutation. Actual `.local/final-polish/promote-versions.json` now pins the new version, and rollback JSON pins the current old-good version. Do not use the parent-level older promotion receipt/payload as current proof.
+- `performance-disposition.json` binds the frozen source to a qualified PASS: no consistent material product regression established, broad overlapping ranges and pre-page host benchmark/memory confounding preserved. It discloses the mixed paired medians and rejected experiments, no field CWV claim, and no experimental animation changes adopted. No additional performance experiment is justified by this bounded review.
+- Current source delta since the confirmed preview is seven hero-related source/asset/generator files. It does not change contact code, copy, other sections, dependencies or infrastructure config. The latest direct owner image amendment and restored conditional release authority apply; old original-image approval records remain historical.
+- The current owner preservation receipt at 16:22:49 UTC records all 328 preexisting owner paths excluded, 24 existing-file hash matches, new input hash preserved and no owner changes staged/committed. This audit read that receipt; it did not independently rehash the original checkout.
+
+## Known pending gates: keep them real
+
+At the final file inspection, nested `preview-browser.json`, `prepromotion-gates.json` and `monolithic-preview-matrix/receipt.json` were not present. The root assignment describes those hosted tasks as running. Do not treat old parent-level 58-case/50-capture results as the current run, and do not mark these pending gates passed until receipts bind the final immutable URL and source with zero unresolved/skipped/flaky/unexpected cases and the completed current captures.
+
+The existing private `prepromotion-gates.py` correctly targets the nested current source/version, package count 50/public49 and current form evidence; it requires the current hosted, final infrastructure and rollback receipts before producing PASS. Current exact dry-run request proof is now available. Before actual promotion, keep the same source/package frozen and explicitly inspect the exact pinning JSON/command with no generic deploy, trigger, apex, DNS/mail or bypass action.
+
+The separate production workflow is unchanged: exact canonical/source/asset/header/redirect/private-path checks, current browser/visual checks, one guarded synthetic canonical form send and independent exact-marker Zoho confirmation, plus protected after-comparison. No preview result establishes a production inbox receipt. Do not resend on uncertainty.
+
+## Concrete closeout hygiene remaining
+
+1. The main delivery report `docs/redesign-v3/execution/final-polish/delivery-report.md` is still an earlier checkpoint: it describes old hero artwork, `eef2185/b767642c` and pending preview Zoho confirmation. Rewrite the current delivery/remaining-issue narrative around the Monolithic source/version and actual gate outcomes before closure; preserve old receipts as historical rather than changing their identities. This is a documentation discrepancy, not a newly discovered runtime defect.
+2. Current nested `publication-scan.json` is the 15:33:59 UTC 26-path staged scan, predating the final cache URL commit and the accumulated new evidence/performance diagnostics. It cannot serve as the final documentation publication review. Root should explicitly review/stage only authorized new evidence/docs, run its required scoped scan and cached-diff check over that final set, and keep raw private diagnostics, credentials and submissions ignored. The final runtime package itself passed this audit's bounded path/hash review; this observation is not a request for Gitleaks, dependencies, extra browser runs or a wholesale security audit.
+3. Before any normal main update, inspect actual advertised remote refs and applicable protections; preserve the currently published feature source, use only ordinary allowed fast-forward publication and independently compare the final advertised SHA. A later documentation-only commit may differ from runtime S only with an explicit runtime diff proof. The actual deployed source/version remains S/2209bc13 unless a new runtime change forces the affected gates to be redone.
+
+No owner question, new account access, unrelated section change, additional preview email or further speculative polish is needed from this review.

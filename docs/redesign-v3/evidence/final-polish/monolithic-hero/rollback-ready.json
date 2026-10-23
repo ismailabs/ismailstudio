@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-23T16:33:43.220127+00:00",
+  "worker": "ismailstudio",
+  "dryRunsPassed": true,
+  "rollbackVersion": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+  "versionGetReadable": true,
+  "versionReadEvidence": "infrastructure-preview.json",
+  "requests": [
+    {
+      "purpose": "promotion",
+      "method": "POST",
+      "path": "/accounts/<approved-account>/workers/scripts/ismailstudio/deployments",
+      "body": {
+        "strategy": "percentage",
+        "versions": [
+          {
+            "version_id": "2209bc13-8c8b-41a4-bd6c-1e4e9db054b7",
+            "percentage": 100
+          }
+        ]
+      },
+      "command": "cf workers deployments create --worker ismailstudio --strategy percentage --versions @.local/final-polish/promote-versions.json --dry-run",
+      "exitCode": 0,
+      "networkMutationSent": false
+    },
+    {
+      "purpose": "rollback",
+      "method": "POST",
+      "path": "/accounts/<approved-account>/workers/scripts/ismailstudio/deployments",
+      "body": {
+        "strategy": "percentage",
+        "versions": [
+          {
+            "version_id": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+            "percentage": 100
+          }
+        ]
+      },
+      "command": "cf workers deployments create --worker ismailstudio --strategy percentage --versions @.local/final-polish/rollback-versions.json --dry-run",
+      "exitCode": 0,
+      "networkMutationSent": false
+    }
+  ],
+  "liveRollbackPerformed": false,
+  "triggerOrApexMutation": false,
+  "useCondition": "Rollback only a confirmed website regression, after reconfirming version readability/current traffic. Remove only --dry-run from the recorded rollback request. Never use bypass-deployment-checks, generic deploy, triggers, apex or DNS."
+}

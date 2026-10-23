@@ -1,17 +1,32 @@
 # Current measured performance
 
-The final approved Monolithic Landscape uses the same pinned toolchain as the starting runtime. Twelve alternating cold baseline/candidate Lighthouse runs are retained in lighthouse-monolithic-controlled.json. A bounded mobile layer experiment is retained in lighthouse-monolithic-mobile-frame.json. It preserved the visible composition but did not materially improve LCP. Final density-aware exports and the image layer were measured in six fresh cold runs, three mobile and three desktop, in lighthouse-monolithic-responsive-final.json. Each final run records the actual served HTML hash; all match the final build. No concurrent local browser suite ran during measurement.
+Final source a21e78718f216d9c700e56fb940035bf91a83eb4 was measured in six fresh cold profiles, three mobile and three desktop, with pinned Lighthouse 13.5.0 and Edge 155. No concurrent local browser suite ran. Every final response HTML hash matches the release build. Initial twelve alternating baseline/candidate runs and all frame/density diagnostics remain available, including outliers. Final six runs: lighthouse-monolithic-release-final.json.
 
-| Lab median | Starting runtime | Final responsive hero |
+| Lab metric | Starting median | Final median | Starting range | Final range |
+|---|---:|---:|---:|---:|
+| mobile largest-contentful-paint | 2567.3010 | 2803.2650 | 2514.9650 to 2599.3980 | 2801.9640 to 3353.3240 |
+| mobile total-blocking-time | 342.0000 | 528.0000 | 20.0000 to 607.0995 | 252.5000 to 652.0000 |
+| mobile cumulative-layout-shift | 0.0147 | 0.0000 | 0.0147 to 0.1750 | 0.0000 to 0.1750 |
+| desktop largest-contentful-paint | 651.0070 | 670.9024 | 639.7250 to 656.9620 | 656.3320 to 692.7780 |
+| desktop total-blocking-time | 27.5035 | 23.1390 | 24.8625 to 33.4810 | 0.0000 to 130.7988 |
+| desktop cumulative-layout-shift | 0.0025 | 0.0000 | 0.0025 to 0.0025 | 0.0000 to 0.0704 |
+
+LCP/TBT are milliseconds; CLS is unitless. Mobile image payload is 42,842 bytes at regular density or 73,404 bytes at higher density; desktop is 107,190 bytes. Actual browser requests confirm exactly one responsive image. Content-derived query revisions ensure returning browsers fetch the approved image. No client JavaScript or dependency was added.
+
+All six final runs score 100 for automated accessibility, SEO and best practices. Performance scores by run: [{"formFactor": "mobile", "run": 1, "performance": 87}, {"formFactor": "mobile", "run": 2, "performance": 70}, {"formFactor": "mobile", "run": 3, "performance": 69}, {"formFactor": "desktop", "run": 1, "performance": 94}, {"formFactor": "desktop", "run": 2, "performance": 94}, {"formFactor": "desktop", "run": 3, "performance": 97}].
+
+Measured low-end mobile headroom and intermittent loading shifts remain limitations. Initial baseline also recorded CLS 0.1749696; all outliers are retained, and their cause is not asserted. These results are not field INP/CWV, certified WCAG conformance, physical-device results or rankings evidence. Exact settings and statistics are in monolithic-hero/performance-summary.json.
+
+## Constrained-host disposition
+
+No material consistent product regression established. Alternating paired median increases are137.5ms LCP/38.4ms TBT, mixed directions and broad overlapping ranges. Candidate pre-page host benchmark throughput is consistently lower; this is a constrained comparison, not statistical equivalence. Independent review found no concrete defect requiring animation changes or additional remote measurement. Proceed with remaining gates; preserve all outliers and low-memory limits.
+
+Three additional alternating baseline/current mobile pairs use the exact final HTML.
+
+| Metric | Baseline median (range) | Current median (range) |
 |---|---:|---:|
-| Mobile LCP |2.567s|2.359s|
-| Mobile TBT |342.0ms|375.5ms|
-| Mobile CLS |0.0147|0.0112|
-| Desktop LCP |0.651s|0.645s|
-| Desktop TBT |27.50ms|27.56ms|
+| largest-contentful-paint | 2747.8840 (2732.1485 to 3193.8712) | 2885.4175 (2720.4814 to 3948.9260) |
+| total-blocking-time | 336.3243 (277.5580 to 998.0000) | 374.7330 (266.0000 to 613.5000) |
+| cumulative-layout-shift | 0.0000 (0.0000 to 0.0147) | 0.0000 (0.0000 to 0.0000) |
 
-The first landscape candidate had mobile LCP2.738s. LCP attribution changed from baseline headline text to the semantic decorative image. A smaller768w mobile variant reduced its payload from73,404to42,842bytes;960w remains available to denser screens. Desktop is107,190bytes. Actual requests select exactly one image; the same approved crop/composition is preserved. No client JavaScript or dependency was added.
-
-Final mobile LCP range2.308–2.995s, TBT292.1–909.5ms. The initial frame experiment's4.257s/938.7ms outlier is retained. Final desktop LCP0.639–0.652s, TBT12.73–31.13ms. Final mobile CLS ranges0–0.17497; the starting baseline also recorded the same0.17497 maximum. The final median improves; the outlier remains an explicit loading-layout limitation rather than being omitted. The raw layout-shift audit is retained for diagnosis.
-
-Assessment: final loading median improves, desktop remains stable, and no material regression is established. Mobile TBT median is33.5ms higher with broad overlapping ranges and unchanged JavaScript; low-end interactivity headroom remains a limitation. Final automated accessibility/SEO/best-practices categories score100 in all six runs; mobile performance scores80/91/70 and all desktop scores100 are reported without replacing them with a preferred run. This is lab evidence, not field INP/CWV, WCAG certification or ranking evidence. Physical hardware/assistive technology and Search Console remain unmeasured. Exact statistics/settings/raw pointers are in monolithic-hero/performance-summary.json. Earlier V3/first-polish records remain historical.
+Memory and pre-page benchmark distributions differ and are fully recorded. No claim of matched hardware load, statistical equivalence or proven gradient causality is made. Installed Lighthouse obtains its benchmark on about:blank before target navigation. The CSP-blocked inline experiment is invalid optimization evidence; the stylesheet layer showed no gain; the cadence experiment was not adopted. All raw diagnostic results remain available. All production source/styles/animations remain exactly the CI-tested a21e787 snapshot.

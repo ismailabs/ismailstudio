@@ -1,0 +1,721 @@
+{
+  "utc": "2026-10-23T16:38:44.338078+00:00",
+  "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "base": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+  "command": "Existing quality.yml workflow_dispatch: npm run verify followed by TEST_BASE_URL=<exact environment URL> npm test",
+  "run": 39987766181,
+  "job": 120531308337,
+  "ciUrl": "https://github.com/ismailabs/ismailstudio/actions/runs/39987766181",
+  "stats": {
+    "startTime": "2026-10-23T16:35:29.984Z",
+    "duration": 87040.448,
+    "expected": 58,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "title": "approved hero remains semantic and usable at 320\u00d7700",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 811,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "approved hero remains semantic and usable at 360\u00d7780",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 612,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "approved hero remains semantic and usable at 390\u00d7780",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 526,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "approved hero remains semantic and usable at 430\u00d7932",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 504,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "approved hero remains semantic and usable at 667\u00d7375",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 621,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "approved hero remains semantic and usable at 844\u00d7390",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 630,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "approved hero remains semantic and usable at 768\u00d71024",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 522,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "approved hero remains semantic and usable at 1024\u00d7768",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 655,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "approved hero remains semantic and usable at 1440\u00d7900",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 527,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "approved hero remains semantic and usable at 1920\u00d71080",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 671,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "mobile overlay contains keyboard focus, locks background and restores the trigger",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1208,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "mobile overlay closes by trigger, backdrop, anchor and desktop resize",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1986,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "short landscape menu keeps final link and close action available",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 706,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "entrance cues keep text visible and reveal each section only once",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1097,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "reduced motion shows all content and changes mobile navigation without running animation",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 784,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "working-day delivery estimates retain all conditions and commercial boundaries",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 538,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "FAQ disclosures work by keyboard and cover the approved decision points",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 956,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "homepage and authentic concept routes expose truthful unique search metadata",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1533,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "blocked decorative images leave the hero and primary enquiry action usable",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1957,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "no-JavaScript mobile content, menu and estimate conditions remain readable without imagery",
+      "file": "final-polish.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1606,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "content, layout and accessibility at 320px",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 3611,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "content, layout and accessibility at 360px",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 3535,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "content, layout and accessibility at 390px",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 3704,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "content, layout and accessibility at 430px",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 3591,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "content, layout and accessibility at 768px",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 3714,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "content, layout and accessibility at 1024px",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 3972,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "content, layout and accessibility at 1440px",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 3384,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "content, layout and accessibility at 1920px",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 4007,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "metadata, anchors, external links and published routes",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1323,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "package selection, native FAQ and keyboard skip link",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 792,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "mobile menu opens, closes on Escape and follows anchors",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 933,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "form rejects invalid, too short and oversized values without network",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1772,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "simulated provider acceptance has loading, one request, reset and accessible success",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 962,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "simulated provider failure preserves content and offers retry",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1652,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "simulated network failure preserves content and offers retry",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 989,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "simulated unconfirmed failure preserves content and offers retry",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 751,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "no-JavaScript content, navigation, FAQ and native provider POST survive",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 2676,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "reduced motion, forced colors, 200% equivalent reflow and privacy",
+      "file": "site.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 491,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "kilatmoto case supports keyboard, focus and accessibility",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1005,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "kilatmoto case history, direct entry and static fallback",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1066,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "makansedap case supports keyboard, focus and accessibility",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1003,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "makansedap case history, direct entry and static fallback",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1079,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "kopikita case supports keyboard, focus and accessibility",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 985,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "kopikita case history, direct entry and static fallback",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1113,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "malaysia case supports keyboard, focus and accessibility",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1049,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "malaysia case history, direct entry and static fallback",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1086,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "three steps preserve values, exact payload, editing and deliberate package choice",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 3876,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "timeout preserves review and retry without false success",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1002,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "no-JS full native form sends unchanged provider fields through isolated transport",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 2509,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "no-JS direct study fallback remains readable",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 499,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "mobile dialogs, landscape and 400-percent equivalent reflow retain controls",
+      "file": "v2.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1202,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "floating navigation remains reachable and identifies the current section",
+      "file": "v3.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1029,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "motion is deferred until navigation interaction and honors reduced motion",
+      "file": "v3.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1311,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "tablet and mobile navigation opens without obstruction, closes outside and at resize",
+      "file": "v3.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1866,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "offers explain one-time tiers and facts without unsupported comparison claims",
+      "file": "v3.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 656,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "short-height mobile disclosure keeps the final link and Escape reachable",
+      "file": "v3.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 826,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "original scalable identity and favicon assets are served consistently",
+      "file": "v3.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 1577,
+          "retry": 0
+        }
+      ]
+    },
+    {
+      "title": "approved dark-to-light silhouette and semantic artwork stay usable with reduced motion",
+      "file": "v3.spec.ts",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "duration": 650,
+          "retry": 0
+        }
+      ]
+    }
+  ],
+  "realFormSends": 0,
+  "artifactId": 12517255263,
+  "artifactZipSha256": "4e899dd8904db621f2a272712993d036412733a65f0890457ff30b148b85765f",
+  "artifactDigestVerified": true,
+  "privateRaw": ".local/monolithic-hero/preview-ci-hosted-results.json",
+  "localDuplicate": "Windows hosted duplicate stopped after25 visible passing cases under constrained memory. Its copied JSON was a stale prior local report, detected by startTime and excluded. Full current hosted58-case evidence is the verified CI artifact, not the interrupted local run."
+}

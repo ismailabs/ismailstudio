@@ -1,0 +1,14 @@
+{
+  "verifiedAt": "2026-10-23T16:49:42.758Z",
+  "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "worker": "ismailstudio",
+  "workerId": "128d5b2374444f61a98b1c666132f208",
+  "versionId": "2209bc13-8c8b-41a4-bd6c-1e4e9db054b7",
+  "deploymentId": "01e6f5e9-b642-4418-a9e1-e972d7a80adb",
+  "createdOn": "2026-10-23T16:49:06.489999Z",
+  "trafficPercent": 100,
+  "method": "Exact reviewed cf percentage deployment; authoritative API GET confirms active deployment and100% exact version",
+  "priorVersion": "b46cfec0-8728-4c4d-8031-92d354f10a19",
+  "authRecovery": "Initial CLI request rejected401; API confirmed unchanged production. Existing official cached session refreshed, authenticated GET verified, full protected snapshot rechecked, same request retried. No scope/token creation or bypass.",
+  "productionVerification": "PASS: canonical49hashes/headers/redirects/private paths, hosted58,50captures, protected infrastructure and owner-confirmed exact production Zoho marker"
+}

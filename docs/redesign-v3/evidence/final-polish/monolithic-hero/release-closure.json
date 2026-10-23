@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-23T21:20:31.407686+00:00",
+  "status": "PASS / RELEASED",
+  "runtimeSource": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "versionId": "2209bc13-8c8b-41a4-bd6c-1e4e9db054b7",
+  "deploymentId": "01e6f5e9-b642-4418-a9e1-e972d7a80adb",
+  "trafficPercent": 100,
+  "sourceAndMainCI": "PASS",
+  "previewCases": 58,
+  "productionCases": 58,
+  "skipsFailuresFlakes": 0,
+  "previewCaptures": 50,
+  "productionCaptures": 50,
+  "publicAssetHashesPerEnvironment": 49,
+  "bothExactMarkersIndependentlyOwnerConfirmed": true,
+  "protectedInfrastructure": "PASS unchanged",
+  "rollback": "Readable and reviewed dry-run only",
+  "noRuntimeDeltaAfterSource": true,
+  "mandatoryIssues": [],
+  "ownerActionRequired": false,
+  "remainingClosureWork": "Publish reviewed documentation/evidence-only commit normally and independently compare final advertised refs; final SHA reported to owner"
+}

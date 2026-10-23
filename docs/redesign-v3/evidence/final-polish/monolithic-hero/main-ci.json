@@ -1,0 +1,14 @@
+{
+  "id": 39988702860,
+  "url": "https://github.com/ismailabs/ismailstudio/actions/runs/39988702860",
+  "head_sha": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "branch": "main",
+  "status": "completed",
+  "conclusion": "success",
+  "createdAt": "2026-10-23T16:40:14Z",
+  "completedObservedAt": "2026-10-23T16:52:36Z",
+  "job": 120534542137,
+  "testPasses": 58,
+  "logEvidence": ".local/monolithic-hero/main-ci.log",
+  "atPromotion": "Pending browser installation; completed exact-S source and hosted preview CI already satisfied documented gate; this additional run subsequently passed"
+}

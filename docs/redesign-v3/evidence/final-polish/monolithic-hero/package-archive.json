@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-23T16:24:17.458715+00:00",
+  "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "archive": ".local/monolithic-hero/website-a21e787.zip",
+  "bytes": 1146673,
+  "sha256": "0527c415e218d62edc554c200c3e0f36822b9c1877743c6cd875c5d3a00e4a72",
+  "method": "Sorted fixed-timestamp ZIP of only reviewed website Build Output v0; no source/apex/triggers",
+  "workerCount": 1
+}

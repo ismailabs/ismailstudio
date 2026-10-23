@@ -1,15 +1,16 @@
 {
-  "at": "2026-10-23T15:08:29.225804+00:00",
-  "command": "TEST_BASE_URL=http://127.0.0.1:4330 npm run verify",
+  "at": "2026-10-23T16:04:10.289544+00:00",
+  "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "command": "RELEASE_COMMIT=<source> TEST_BASE_URL=http://127.0.0.1:4330 npm run verify",
   "stats": {
-    "startTime": "2026-10-23T15:02:26.964Z",
-    "duration": 264467.615,
+    "startTime": "2026-10-23T15:51:38.861Z",
+    "duration": 391465.947,
     "expected": 58,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
   },
-  "handoff": "both checksum verifiers PASS",
+  "handoff": "Both checksum verifiers passed",
   "astroCheck": "0 errors / 0 warnings / 0 hints",
   "build": "5 static pages",
   "redirectUnits": {
@@ -17,5 +18,5 @@
     "failed": 0
   },
   "realFormSends": 0,
-  "sourceState": "Monolithic Landscape exact source bytes, commit bound after this run"
+  "harnessDiagnostic": "After full verification and capture passed, comparison initially rejected an updated agent-owned evidence JSON. Only that exact evidence path was allowlisted; all runtime/source/layout/owner assertions remained unchanged and passed. Full verification was not repeated to erase this diagnostic."
 }

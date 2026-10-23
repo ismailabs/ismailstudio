@@ -1,14 +1,16 @@
 {
-  "at": "2026-10-23T15:30:56.569Z",
+  "at": "2026-10-23T16:01:25.018Z",
   "result": "PASS",
   "rows": [
     {
       "width": 390,
       "deviceScaleFactor": 1,
       "src": "/assets/hero-mobile.webp",
+      "revision": "8ec34401a392",
       "requests": [
         {
           "path": "/assets/hero-mobile.webp",
+          "revision": "8ec34401a392",
           "bytes": 42842
         }
       ]
@@ -17,9 +19,11 @@
       "width": 412,
       "deviceScaleFactor": 1.75,
       "src": "/assets/hero-mobile.webp",
+      "revision": "8ec34401a392",
       "requests": [
         {
           "path": "/assets/hero-mobile.webp",
+          "revision": "8ec34401a392",
           "bytes": 42842
         }
       ]
@@ -28,9 +32,11 @@
       "width": 390,
       "deviceScaleFactor": 2,
       "src": "/assets/hero-mobile-large.webp",
+      "revision": "f9872ee0144f",
       "requests": [
         {
           "path": "/assets/hero-mobile-large.webp",
+          "revision": "f9872ee0144f",
           "bytes": 73404
         }
       ]
@@ -39,9 +45,11 @@
       "width": 390,
       "deviceScaleFactor": 3,
       "src": "/assets/hero-mobile-large.webp",
+      "revision": "f9872ee0144f",
       "requests": [
         {
           "path": "/assets/hero-mobile-large.webp",
+          "revision": "f9872ee0144f",
           "bytes": 73404
         }
       ]

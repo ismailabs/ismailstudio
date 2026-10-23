@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-23T16:49:58.210Z",
+  "phase": "production",
+  "base": "https://www.ismailstudio.my",
+  "marker": "ISM-FINAL-POLISH-PRODUCTION-20261023164949",
+  "providerStatus": 200,
+  "providerAccepted": true,
+  "browserSuccess": true,
+  "recipientReceipt": "OWNER_CONFIRMED exact marker arrived in Zoho",
+  "confirmationRecordedAt": "2026-10-23T21:14:07.332320+00:00",
+  "confirmationMethod": "Owner direct response to the exact-marker question in this active task",
+  "ownerConfirmation": "Yes, that exact marker arrived in Zoho",
+  "agentMailboxAccess": false,
+  "repeatSubmissions": 0,
+  "runtimeSource": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "workerVersion": "2209bc13-8c8b-41a4-bd6c-1e4e9db054b7",
+  "deploymentId": "01e6f5e9-b642-4418-a9e1-e972d7a80adb"
+}

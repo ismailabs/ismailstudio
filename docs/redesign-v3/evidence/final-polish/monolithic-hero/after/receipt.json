@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T15:25:51.684Z",
+  "at": "2026-10-23T15:58:15.732Z",
   "base": "http://127.0.0.1:4330",
   "phase": "after",
   "browser": "155.0.4283.62",
@@ -10,6 +10,7 @@
       "overflow": false,
       "image": {
         "url": "/assets/hero-mobile.webp",
+        "revision": "8ec34401a392",
         "naturalWidth": 320,
         "naturalHeight": 240,
         "fetchPriority": "high",
@@ -58,8 +59,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-mobile.webp",
+          "revision": "8ec34401a392",
           "bytes": 42842,
-          "duration": 95.19999999925494
+          "duration": 89.10000000149012
         }
       ]
     },
@@ -69,6 +71,7 @@
       "overflow": false,
       "image": {
         "url": "/assets/hero-mobile.webp",
+        "revision": "8ec34401a392",
         "naturalWidth": 390,
         "naturalHeight": 292,
         "fetchPriority": "high",
@@ -117,8 +120,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-mobile.webp",
+          "revision": "8ec34401a392",
           "bytes": 42842,
-          "duration": 47.899999998509884
+          "duration": 64.79999999701977
         }
       ],
       "axe": {
@@ -131,6 +135,7 @@
       "overflow": false,
       "image": {
         "url": "/assets/hero-mobile.webp",
+        "revision": "8ec34401a392",
         "naturalWidth": 430,
         "naturalHeight": 322,
         "fetchPriority": "high",
@@ -179,8 +184,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-mobile.webp",
+          "revision": "8ec34401a392",
           "bytes": 42842,
-          "duration": 37.70000000298023
+          "duration": 31.700000002980232
         }
       ]
     },
@@ -190,6 +196,7 @@
       "overflow": false,
       "image": {
         "url": "/assets/hero-desktop.webp",
+        "revision": "cd0f99118556",
         "naturalWidth": 1672,
         "naturalHeight": 941,
         "fetchPriority": "high",
@@ -238,8 +245,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-desktop.webp",
+          "revision": "cd0f99118556",
           "bytes": 107190,
-          "duration": 47.899999998509884
+          "duration": 53.100000001490116
         }
       ]
     },
@@ -249,6 +257,7 @@
       "overflow": false,
       "image": {
         "url": "/assets/hero-desktop.webp",
+        "revision": "cd0f99118556",
         "naturalWidth": 1672,
         "naturalHeight": 941,
         "fetchPriority": "high",
@@ -297,8 +306,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-desktop.webp",
+          "revision": "cd0f99118556",
           "bytes": 107190,
-          "duration": 37.600000001490116
+          "duration": 37.70000000298023
         }
       ]
     },
@@ -308,6 +318,7 @@
       "overflow": false,
       "image": {
         "url": "/assets/hero-desktop.webp",
+        "revision": "cd0f99118556",
         "naturalWidth": 1672,
         "naturalHeight": 941,
         "fetchPriority": "high",
@@ -356,8 +367,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-desktop.webp",
+          "revision": "cd0f99118556",
           "bytes": 107190,
-          "duration": 47.30000000074506
+          "duration": 36.30000000447035
         }
       ]
     },
@@ -367,6 +379,7 @@
       "overflow": false,
       "image": {
         "url": "/assets/hero-desktop.webp",
+        "revision": "cd0f99118556",
         "naturalWidth": 1672,
         "naturalHeight": 941,
         "fetchPriority": "high",
@@ -415,8 +428,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-desktop.webp",
+          "revision": "cd0f99118556",
           "bytes": 107190,
-          "duration": 39.79999999701977
+          "duration": 40.69999999552965
         }
       ],
       "axe": {
@@ -429,6 +443,7 @@
       "overflow": false,
       "image": {
         "url": "/assets/hero-desktop.webp",
+        "revision": "cd0f99118556",
         "naturalWidth": 1672,
         "naturalHeight": 941,
         "fetchPriority": "high",
@@ -477,8 +492,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-desktop.webp",
+          "revision": "cd0f99118556",
           "bytes": 107190,
-          "duration": 41
+          "duration": 59.79999999701977
         }
       ]
     }

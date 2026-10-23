@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-23T15:33:02.692796+00:00",
-  "method": "Pinned Lighthouse13.5.0/Edge155, fresh profile+port each cold navigation,3runs/form factor; initial12 baseline/candidate alternating runs,3frame diagnostics,6final candidate runs; no concurrent local browser suite",
+  "at": "2026-10-23T16:06:48.720847+00:00",
+  "method": "Pinned Lighthouse13.5.0/Edge155, fresh profile+port each cold navigation,3runs/form factor; initial12 baseline/candidate alternating runs,3frame diagnostics,6final candidate runs; no concurrent local browser suite;6additional alternating mobile runs plus3fresh baseline controls; rejected private experiments retained and excluded from product pass evidence",
   "baselineSource": "b65a208f03dfd01d535eb4a865ad00e2d8fc4146",
-  "finalHtmlSha256": "b90ed1a8832398561d02112d3e3a59b2c14fde8c83dca07b27c10b01e31d1618",
+  "finalHtmlSha256": "60d7b425eb21dfb5d73498e130eba30c7997d605f9f4d21cf8cf42805e24e057",
   "metrics": {
     "mobile": {
       "baseline": {
@@ -24,17 +24,17 @@
       },
       "final": {
         "largest-contentful-paint": {
-          "median": 2358.9125999999997,
-          "min": 2307.5016588629096,
-          "max": 2995.0312999999996
+          "median": 2803.2649999999994,
+          "min": 2801.964,
+          "max": 3353.3240000000005
         },
         "total-blocking-time": {
-          "median": 375.4999999999998,
-          "min": 292.1254147157274,
-          "max": 909.5
+          "median": 528.0000000000005,
+          "min": 252.5,
+          "max": 652.0000000000002
         },
         "cumulative-layout-shift": {
-          "median": 0.01117685104255956,
+          "median": 0,
           "min": 0,
           "max": 0.1749696233292831
         }
@@ -60,29 +60,67 @@
       },
       "final": {
         "largest-contentful-paint": {
-          "median": 645.2306055404208,
-          "min": 638.9149444061181,
-          "max": 652.2571540364709
+          "median": 670.9024279902978,
+          "min": 656.332,
+          "max": 692.778
         },
         "total-blocking-time": {
-          "median": 27.564288509117716,
-          "min": 12.728736101529535,
-          "max": 31.134697229789595
+          "median": 23.13900000000001,
+          "min": 0,
+          "max": 130.79878600485108
         },
         "cumulative-layout-shift": {
-          "median": 0.001519094727320589,
-          "min": 0.001266717193321282,
-          "max": 0.001571054807849858
+          "median": 0,
+          "min": 0,
+          "max": 0.07041198501872659
         }
       }
     }
   },
-  "assessment": "Final LCP median improves and desktop remains stable. Mobile TBT median increases33.5ms amid overlapping broad ranges and unchanged served JavaScript; no material regression established. Retain shared-host headroom and CLS outlier as measured limitations, not field compliance.",
+  "assessment": "No material consistent product regression established. Alternating paired median increases are137.5ms LCP/38.4ms TBT, mixed directions and broad overlapping ranges. Candidate pre-page host benchmark throughput is consistently lower; this is a constrained comparison, not statistical equivalence. Independent review found no concrete defect requiring animation changes or additional remote measurement. Proceed with remaining gates; preserve all outliers and low-memory limits.",
   "rawPrivate": ".local/lighthouse/monolithic-*",
   "diagnosticPublic": [
     "../lighthouse-monolithic-controlled.json",
     "../lighthouse-monolithic-mobile-frame.json",
-    "../lighthouse-monolithic-responsive-final.json"
+    "../lighthouse-monolithic-responsive-final.json",
+    "../lighthouse-monolithic-release-final.json"
   ],
-  "fieldCwvMeasured": false
+  "fieldCwvMeasured": false,
+  "additionalAlternatingMobileComparison": {
+    "baseline": {
+      "largest-contentful-paint": {
+        "median": 2747.884,
+        "min": 2732.1485000000002,
+        "max": 3193.8712499999997
+      },
+      "total-blocking-time": {
+        "median": 336.3242500000001,
+        "min": 277.558,
+        "max": 998
+      },
+      "cumulative-layout-shift": {
+        "median": 0,
+        "min": 0,
+        "max": 0.01469194231350937
+      }
+    },
+    "candidate": {
+      "largest-contentful-paint": {
+        "median": 2885.4175,
+        "min": 2720.481375,
+        "max": 3948.9259999999995
+      },
+      "total-blocking-time": {
+        "median": 374.7329999999997,
+        "min": 266,
+        "max": 613.5
+      },
+      "cumulative-layout-shift": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "disposition": "performance-disposition.json"
 }

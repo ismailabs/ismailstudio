@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-23T16:42:14.002485+00:00",
+  "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "base": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev",
+  "result": "PASS",
+  "viewportStates": 50,
+  "viewportSizes": 10,
+  "allPngDimensionsMatched": true,
+  "allSourceHeadersMatched": true,
+  "pageErrors": 0,
+  "heroHorizontalOverflow": 0,
+  "realFormSends": 0,
+  "visualDisposition": "Approved right-side mountain and dark readable left text; mobile retains the dark upper text area and lower landscape. Original hero layout/type/gradient/navigation/buttons/animations remain unchanged. Short landscape menu scrolls vertically, with final link reachable by keyboard/scroll in hosted tests. No additional product repair indicated.",
+  "inspectedScreenshots": [
+    "1440-hero.png",
+    "390-hero.png",
+    "1920-hero.png",
+    "667-menu.png",
+    "390-offers.png"
+  ],
+  "limitations": "Browser captures are not physical-device or assistive-technology certification"
+}

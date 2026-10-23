@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-23T16:44:06.399Z",
+  "method": "Actual Edge browser GET navigation; all POSTs blocked; no form actions",
+  "earlierDiagnostic": "Python urllib request was403 and did not establish visitor availability",
+  "rows": [
+    {
+      "url": "https://kopikita.ismailstudio.my/",
+      "status": 200,
+      "title": "KopiKita — Malaysian Kopitiam Culture | Ismail Studio",
+      "bodyText": "Skip to content\nKopiKita\n•\nAn imagined café. A shared culture.\nThe menu\nThe story\nIsmail Studio ↗\n\nA fictional Malaysian café concept\n\nBy Ismail Studio ↗\nKOPI.\n"
+    },
+    {
+      "url": "https://kilatmoto.ismailstudio.my/",
+      "status": 200,
+      "title": "Precision in every finish. | KILAT MOTORWORKS — Fictional Concept",
+      "bodyText": "Skip to main content\nFictional automotive detailing concept by ISMAIL ↗\nKUALA LUMPUR / KLANG VALLEY\nKILAT\nMOTORWORKS\nHome\nAbout\nServices\nProjects\nContact\nWebsit"
+    },
+    {
+      "url": "https://makansedap.ismailstudio.my/",
+      "status": 200,
+      "title": "MakanSedap | Good Food Brings Us Closer",
+      "bodyText": "Skip to content\n\nFictional restaurant. No real restaurant, orders or reservations.\n\nA concept by ISMAIL Studio ↗\nStudio website enquiry ↗\nMakanSedap\nA living Ma"
+    },
+    {
+      "url": "https://malaysia.ismailstudio.my/",
+      "status": 200,
+      "title": "Malaysia — Between Places | A photographic journey",
+      "bodyText": "Skip to content\nBetween\nPlaces.\nThe journey\nAll places\nThe studio\n↗\nPause movement\nKuala Lumpur\n↗\nGeorge Town\n↗\nLangkawi\n↗\nSabah\n↗\nPeninsular Malaysia\nSouth Chi"
+    }
+  ]
+}

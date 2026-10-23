@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-23T16:40:40.435Z",
+  "repository": "https://github.com/ismailabs/ismailstudio",
+  "startingSource": "b65a208f03dfd01d535eb4a865ad00e2d8fc4146",
+  "runtimeSource": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "branch": "codex/ismailstudio-v3-final-polish",
+  "localHead": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "trackingFeature": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "advertisedFeature": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "trackingMain": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "advertisedMain": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "method": "Normal permitted main fast-forward after preview gates; independent git ls-remote and local/tracking SHA comparison",
+  "forceUsed": false,
+  "protectionObserved": "Both branch resources unprotected; inherited rulesets empty. Administrative protection-detail endpoint unavailable403, no bypass attempted.",
+  "ownerCheckoutTouched": false,
+  "sourceCI": 39981641908,
+  "previewCI": 39987766181
+}

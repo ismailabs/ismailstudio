@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-23T16:25:19.849Z",
+  "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "worker": "ismailstudio",
+  "workerId": "128d5b2374444f61a98b1c666132f208",
+  "versionId": "2209bc13-8c8b-41a4-bd6c-1e4e9db054b7",
+  "createdOn": "2026-10-23T16:24:33.940922Z",
+  "immutablePreview": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+  "previewAlias": "https://v3-final-polish-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+  "sourceHeaderVerified": true,
+  "bindings": 0,
+  "productionPromoted": false,
+  "method": "Pinned cf website-only unpromoted version upload; API GET verified version assets headers; exact public hashes checked separately"
+}

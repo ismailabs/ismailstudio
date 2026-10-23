@@ -1,0 +1,455 @@
+{
+  "utc": "2026-10-23T16:34:51.405Z",
+  "base": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev",
+  "sha": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "diffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "browser": "155.0.4283.62",
+  "captures": [
+    {
+      "width": 320,
+      "height": 700,
+      "state": "hero",
+      "file": "320-hero.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "state": "menu",
+      "file": "320-menu.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "state": "hero",
+      "file": "360-hero.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "height": 780,
+      "state": "menu",
+      "file": "360-menu.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "hero",
+      "file": "390-hero.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "work",
+      "file": "390-work.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "offers",
+      "file": "390-offers.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "about",
+      "file": "390-about.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "faq",
+      "file": "390-faq.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "contact",
+      "file": "390-contact.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "offer-deliverables",
+      "file": "390-offer-deliverables.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "integrations-open",
+      "file": "390-integrations-open.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "faq-timing-open",
+      "file": "390-faq-timing-open.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "study",
+      "file": "390-study.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/?case=kilatmoto",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "study-limitations",
+      "file": "390-study-limitations.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/?case=makansedap",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-kilatmoto",
+      "file": "390-page-kilatmoto.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/work/kilatmoto/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-makansedap",
+      "file": "390-page-makansedap.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/work/makansedap/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-kopikita",
+      "file": "390-page-kopikita.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/work/kopikita/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "page-malaysia",
+      "file": "390-page-malaysia.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/work/malaysia/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "form-needs",
+      "file": "390-form-needs.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "form-review",
+      "file": "390-form-review.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "form-success-MOCK",
+      "file": "390-form-success-MOCK.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "state": "menu",
+      "file": "390-menu.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "hero",
+      "file": "430-hero.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "state": "menu",
+      "file": "430-menu.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "state": "hero",
+      "file": "667-hero.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+      "overflow": false
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "state": "menu",
+      "file": "667-menu.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "state": "hero",
+      "file": "844-hero.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "hero",
+      "file": "768-hero.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "menu",
+      "file": "768-menu.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "state": "hero",
+      "file": "1024-hero.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "hero",
+      "file": "1440-hero.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "work",
+      "file": "1440-work.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "offers",
+      "file": "1440-offers.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "about",
+      "file": "1440-about.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "faq",
+      "file": "1440-faq.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "contact",
+      "file": "1440-contact.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "offer-deliverables",
+      "file": "1440-offer-deliverables.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "integrations-open",
+      "file": "1440-integrations-open.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "faq-timing-open",
+      "file": "1440-faq-timing-open.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "study",
+      "file": "1440-study.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/?case=kilatmoto",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "study-limitations",
+      "file": "1440-study-limitations.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/?case=makansedap",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-kilatmoto",
+      "file": "1440-page-kilatmoto.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/work/kilatmoto/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-makansedap",
+      "file": "1440-page-makansedap.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/work/makansedap/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-kopikita",
+      "file": "1440-page-kopikita.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/work/kopikita/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "page-malaysia",
+      "file": "1440-page-malaysia.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/work/malaysia/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "form-needs",
+      "file": "1440-form-needs.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "form-review",
+      "file": "1440-form-review.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "state": "form-success-MOCK",
+      "file": "1440-form-success-MOCK.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4"
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "state": "hero",
+      "file": "1920-hero.png",
+      "url": "https://2209bc13-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev/",
+      "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "outputs": [
+    {
+      "file": "index.html",
+      "sha256": "60d7b425eb21dfb5d73498e130eba30c7997d605f9f4d21cf8cf42805e24e057"
+    },
+    {
+      "file": "_astro\\BaseLayout.astro_astro_type_script_index_0_lang.CDDUPsCy.js",
+      "sha256": "b72e0915aa4391f411f34d7da4741785ec7fc9cb9df91b6474612922c63189ff"
+    },
+    {
+      "file": "_astro\\mini.BUt3Uaz0.js",
+      "sha256": "a30bb69c78e19426745c38c33856f5b97444187d84030281106a5e7dba7b703a"
+    },
+    {
+      "file": "_astro\\studies.B2nOM6jE.css",
+      "sha256": "7b0df5e8de3f3f7571aa38620c83a6f9c35bb426bf407ce85423e6d1e6d7f039"
+    },
+    {
+      "file": "work\\malaysia\\index.html",
+      "sha256": "80e88b0e5677767301a4b60cdad793d13dc006fab3d6d480e2298f0c5138e000"
+    },
+    {
+      "file": "work\\makansedap\\index.html",
+      "sha256": "59b6df00b76b0a9ebff28f8b9bbd03c166fc6c5d2607d30b766b7aead920d686"
+    },
+    {
+      "file": "work\\kopikita\\index.html",
+      "sha256": "e499c28a04418159f0ef7a23acfdddd86afa8323a3012d7a4d99fd0b6b75ede6"
+    },
+    {
+      "file": "work\\kilatmoto\\index.html",
+      "sha256": "1f3668148164c71a8dc6f2c31002db2b5dc26ef85657499843e02e27aecd8bac"
+    }
+  ],
+  "complete": true
+}

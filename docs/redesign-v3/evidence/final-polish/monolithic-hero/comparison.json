@@ -7,6 +7,7 @@
       "geometryCopyNavigationGradientUnchanged": true,
       "selectedImage": {
         "url": "/assets/hero-mobile.webp",
+        "revision": "8ec34401a392",
         "naturalWidth": 320,
         "naturalHeight": 240,
         "fetchPriority": "high",
@@ -16,8 +17,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-mobile.webp",
+          "revision": "8ec34401a392",
           "bytes": 42842,
-          "duration": 95.19999999925494
+          "duration": 89.10000000149012
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -28,6 +30,7 @@
       "geometryCopyNavigationGradientUnchanged": true,
       "selectedImage": {
         "url": "/assets/hero-mobile.webp",
+        "revision": "8ec34401a392",
         "naturalWidth": 390,
         "naturalHeight": 292,
         "fetchPriority": "high",
@@ -37,8 +40,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-mobile.webp",
+          "revision": "8ec34401a392",
           "bytes": 42842,
-          "duration": 47.899999998509884
+          "duration": 64.79999999701977
         }
       ],
       "axeViolations": 0
@@ -49,6 +53,7 @@
       "geometryCopyNavigationGradientUnchanged": true,
       "selectedImage": {
         "url": "/assets/hero-mobile.webp",
+        "revision": "8ec34401a392",
         "naturalWidth": 430,
         "naturalHeight": 322,
         "fetchPriority": "high",
@@ -58,8 +63,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-mobile.webp",
+          "revision": "8ec34401a392",
           "bytes": 42842,
-          "duration": 37.70000000298023
+          "duration": 31.700000002980232
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -70,6 +76,7 @@
       "geometryCopyNavigationGradientUnchanged": true,
       "selectedImage": {
         "url": "/assets/hero-desktop.webp",
+        "revision": "cd0f99118556",
         "naturalWidth": 1672,
         "naturalHeight": 941,
         "fetchPriority": "high",
@@ -79,8 +86,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-desktop.webp",
+          "revision": "cd0f99118556",
           "bytes": 107190,
-          "duration": 47.899999998509884
+          "duration": 53.100000001490116
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -91,6 +99,7 @@
       "geometryCopyNavigationGradientUnchanged": true,
       "selectedImage": {
         "url": "/assets/hero-desktop.webp",
+        "revision": "cd0f99118556",
         "naturalWidth": 1672,
         "naturalHeight": 941,
         "fetchPriority": "high",
@@ -100,8 +109,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-desktop.webp",
+          "revision": "cd0f99118556",
           "bytes": 107190,
-          "duration": 37.600000001490116
+          "duration": 37.70000000298023
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -112,6 +122,7 @@
       "geometryCopyNavigationGradientUnchanged": true,
       "selectedImage": {
         "url": "/assets/hero-desktop.webp",
+        "revision": "cd0f99118556",
         "naturalWidth": 1672,
         "naturalHeight": 941,
         "fetchPriority": "high",
@@ -121,8 +132,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-desktop.webp",
+          "revision": "cd0f99118556",
           "bytes": 107190,
-          "duration": 47.30000000074506
+          "duration": 36.30000000447035
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -133,6 +145,7 @@
       "geometryCopyNavigationGradientUnchanged": true,
       "selectedImage": {
         "url": "/assets/hero-desktop.webp",
+        "revision": "cd0f99118556",
         "naturalWidth": 1672,
         "naturalHeight": 941,
         "fetchPriority": "high",
@@ -142,8 +155,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-desktop.webp",
+          "revision": "cd0f99118556",
           "bytes": 107190,
-          "duration": 39.79999999701977
+          "duration": 40.69999999552965
         }
       ],
       "axeViolations": 0
@@ -154,6 +168,7 @@
       "geometryCopyNavigationGradientUnchanged": true,
       "selectedImage": {
         "url": "/assets/hero-desktop.webp",
+        "revision": "cd0f99118556",
         "naturalWidth": 1672,
         "naturalHeight": 941,
         "fetchPriority": "high",
@@ -163,8 +178,9 @@
       "imageRequests": [
         {
           "url": "/assets/hero-desktop.webp",
+          "revision": "cd0f99118556",
           "bytes": 107190,
-          "duration": 41
+          "duration": 59.79999999701977
         }
       ],
       "axeViolations": "Covered by existing responsive suite"
@@ -176,10 +192,7 @@
   "ownerOriginalCheckoutUnchanged": true,
   "nothingStaged": true,
   "changedTrackedPaths": [
-    "public/assets/hero-mobile.webp",
-    "scripts/prepare-final-polish-assets.mjs",
-    "src/components/Hero.astro",
-    "src/styles/global.css"
+    "docs/redesign-v3/evidence/final-polish/monolithic-hero/local-verify.json"
   ],
   "newSourceImage": "src/assets/hero/monolithic-landscape.png"
 }

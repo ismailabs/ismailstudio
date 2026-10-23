@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-23T16:49:00.967840+00:00",
+  "result": "PASS",
+  "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "versionId": "2209bc13-8c8b-41a4-bd6c-1e4e9db054b7",
+  "worker": "ismailstudio",
+  "previewAssets": 49,
+  "previewBrowserCases": 58,
+  "previewCaptures": 50,
+  "realPreviewSends": 1,
+  "previewZoho": "Owner confirmed exact prior-version marker; final version integration equivalence separately proved",
+  "productionSendConsumed": false,
+  "performance": "PASS with recorded constrained-host limitations",
+  "scope": "Only exact tested website version may be promoted at100%; protected apex/DNS/mail/routes/otherWorkers/settings unchanged",
+  "completedExactSourceCIRuns": [
+    39981641908,
+    39987766181
+  ],
+  "additionalMainRun": {
+    "id": 39988702860,
+    "status": "Pending browser download at last observation; tracked separately",
+    "gateInterpretation": "Runbook requires a successful fresh CI run, not completion of an additional same-S main run; completed exact-S source and hosted-preview runs satisfy it. Unprotected branches/empty inherited rulesets observed; no bypass.",
+    "eventualConclusion": "success",
+    "finalEvidence": "main-ci.json"
+  }
+}

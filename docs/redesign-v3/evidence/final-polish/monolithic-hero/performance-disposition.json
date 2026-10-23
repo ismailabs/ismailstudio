@@ -1,0 +1,99 @@
+{
+  "utc": "2026-10-23T16:24:16.931194+00:00",
+  "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "gate": "PASS with measured limitations",
+  "assessment": "No material consistent product regression established. Alternating paired median increases are137.5ms LCP/38.4ms TBT, mixed directions and broad overlapping ranges. Candidate pre-page host benchmark throughput is consistently lower; this is a constrained comparison, not statistical equivalence. Independent review found no concrete defect requiring animation changes or additional remote measurement. Proceed with remaining gates; preserve all outliers and low-memory limits.",
+  "stats": {
+    "baseline": {
+      "largest-contentful-paint": {
+        "median": 2747.884,
+        "min": 2732.1485000000002,
+        "max": 3193.8712499999997
+      },
+      "total-blocking-time": {
+        "median": 336.3242500000001,
+        "min": 277.558,
+        "max": 998
+      },
+      "cumulative-layout-shift": {
+        "median": 0,
+        "min": 0,
+        "max": 0.01469194231350937
+      }
+    },
+    "candidate": {
+      "largest-contentful-paint": {
+        "median": 2885.4175,
+        "min": 2720.481375,
+        "max": 3948.9259999999995
+      },
+      "total-blocking-time": {
+        "median": 374.7329999999997,
+        "min": 266,
+        "max": 613.5
+      },
+      "cumulative-layout-shift": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "conditions": [
+    {
+      "variant": "baseline",
+      "run": 1,
+      "freeBytes": 361005056,
+      "prePageBenchmark": 1141
+    },
+    {
+      "variant": "candidate",
+      "run": 1,
+      "freeBytes": 161046528,
+      "prePageBenchmark": 603
+    },
+    {
+      "variant": "baseline",
+      "run": 2,
+      "freeBytes": 122122240,
+      "prePageBenchmark": 1488.5
+    },
+    {
+      "variant": "candidate",
+      "run": 2,
+      "freeBytes": 89968640,
+      "prePageBenchmark": 890
+    },
+    {
+      "variant": "baseline",
+      "run": 3,
+      "freeBytes": 11931648,
+      "prePageBenchmark": 1587
+    },
+    {
+      "variant": "candidate",
+      "run": 3,
+      "freeBytes": 27176960,
+      "prePageBenchmark": 861
+    }
+  ],
+  "benchmarkEvidence": "Installed Lighthouse navigation-runner resets about:blank and obtains BaseArtifacts benchmark before target navigation; benchmark difference cannot be attributed to target gradient",
+  "experiments": {
+    "inlineLayer": "CSP blocked; invalid optimization evidence; all3diagnostics retained",
+    "stylesheetLayer": "No gain; rejected; all3retained",
+    "gradientCadence": "Private diagnostic only; not adopted to preserve approved animation"
+  },
+  "sourceChangesAfterFinalCI": false,
+  "fieldCwvMeasured": false,
+  "rawPublicFiles": [
+    "lighthouse-monolithic-controlled.json",
+    "lighthouse-monolithic-gradient-cadence-diagnostic.json",
+    "lighthouse-monolithic-gradient-layer-diagnostic.json",
+    "lighthouse-monolithic-gradient-layer-valid.json",
+    "lighthouse-monolithic-mobile-frame.json",
+    "lighthouse-monolithic-release-baseline-control.json",
+    "lighthouse-monolithic-release-final.json",
+    "lighthouse-monolithic-release-matched-mobile.json",
+    "lighthouse-monolithic-responsive-final.json"
+  ]
+}

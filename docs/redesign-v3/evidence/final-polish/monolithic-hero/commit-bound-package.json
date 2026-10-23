@@ -1,0 +1,265 @@
+{
+  "utc": "2026-10-23T16:24:17.458715+00:00",
+  "source": "a21e78718f216d9c700e56fb940035bf91a83eb4",
+  "worker": "ismailstudio",
+  "workerCount": 1,
+  "apexExcluded": true,
+  "triggersOmitted": true,
+  "manifestSha256": "3af65ee5086117f9356599cc3a511bb3e831f36e9e19f0fe7988df3510be5489",
+  "fileCountIncludingHeaders": 50,
+  "publishedAssetCount": 49,
+  "countChangeReason": "One additional responsive high-density hero export; same five HTML routes",
+  "performanceHtmlHashMatched": true,
+  "assets": [
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 3500,
+      "sha256": "acc32038c72475cc9d03e23c17c645103d9b7fa564a0df9ec2aee1a6c54e2826"
+    },
+    {
+      "path": "assets/brand/symbol-accent.svg",
+      "bytes": 342,
+      "sha256": "27d93d01713c9322821a436ab6e1609ae5b4324a84089b53ece19f31b3fad87a"
+    },
+    {
+      "path": "assets/brand/symbol-black.svg",
+      "bytes": 337,
+      "sha256": "d66462effd0002526bffbbc1ad86593a3637f8be032ccc7774e903214e3eaff9"
+    },
+    {
+      "path": "assets/brand/symbol-white.svg",
+      "bytes": 337,
+      "sha256": "a29ac86f6c4d5a1985e435e4f02bbc78b1099d846458f3de73b323b26cecc46f"
+    },
+    {
+      "path": "assets/brand/wordmark-inline-accent.svg",
+      "bytes": 498,
+      "sha256": "47d44865b72c1304b7d2329df7fc885ba75c6042322dd203a5b41f261d941441"
+    },
+    {
+      "path": "assets/brand/wordmark-inline-black.svg",
+      "bytes": 488,
+      "sha256": "e1ce1f10a92ee857d3c59360583e34d30e1156f4943e8a044990a1b3f60fb6e1"
+    },
+    {
+      "path": "assets/brand/wordmark-inline-white.svg",
+      "bytes": 488,
+      "sha256": "bc1ef1faf88f7eec278ca73d68d74b025e7809f75cdde608aec5f5574a1feb31"
+    },
+    {
+      "path": "assets/brand/wordmark-stacked-accent.svg",
+      "bytes": 539,
+      "sha256": "53e7df3d4c72aaebd6926b927779512da108faa5f4aa93c684b478892707812f"
+    },
+    {
+      "path": "assets/brand/wordmark-stacked-black.svg",
+      "bytes": 529,
+      "sha256": "9719b23555f56cb8707c1eb9a686b0d09fe03f4c24433c0bde28bd572d561756"
+    },
+    {
+      "path": "assets/brand/wordmark-stacked-white.svg",
+      "bytes": 529,
+      "sha256": "aabc93d9f92cb0a8fde0ad75a1252905066b31495e1eeaa318fe4d75a0291c5e"
+    },
+    {
+      "path": "assets/hero-desktop.webp",
+      "bytes": 107190,
+      "sha256": "cd0f99118556de7bdf19c3351ecfa2141d9ff38f31a97b885c821c25785dbcc7"
+    },
+    {
+      "path": "assets/hero-mobile-large.webp",
+      "bytes": 73404,
+      "sha256": "f9872ee0144f413379a2a98c8c52e92e17d38553917ca6f03cbee1f2b1b37df5"
+    },
+    {
+      "path": "assets/hero-mobile.webp",
+      "bytes": 42842,
+      "sha256": "8ec34401a392f5038f8489242c1187ee4b69d07db0f83a77e53fcdc04bf1986e"
+    },
+    {
+      "path": "assets/lucide-LICENSE.txt",
+      "bytes": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "assets/projects/kilatmoto-1200.webp",
+      "bytes": 85862,
+      "sha256": "d10fdbcb97b2bfb6675df831bd514b255f30816d771dc24ea9e0600988bc3dc4"
+    },
+    {
+      "path": "assets/projects/kilatmoto-400.webp",
+      "bytes": 16058,
+      "sha256": "c9e32c568ca5969d7e84e378c8c31650b97dfdc596881947658a8967bbe6ffdd"
+    },
+    {
+      "path": "assets/projects/kilatmoto-640.webp",
+      "bytes": 34328,
+      "sha256": "1c06cccc5ef762d96db2ae0e22f106015be3503c2278f3b56f84ff07e9afc3f1"
+    },
+    {
+      "path": "assets/projects/kilatmoto-800.webp",
+      "bytes": 46978,
+      "sha256": "2476c6c74de0348983b32a348ec3cdb3b87fb3d8a3ba53b6cd2b4ccdfee61fea"
+    },
+    {
+      "path": "assets/projects/kopikita-1200.webp",
+      "bytes": 134876,
+      "sha256": "4851857e140652d21eb6d3d718ff66615d64086f3dbf9cf553f4bb2823045e17"
+    },
+    {
+      "path": "assets/projects/kopikita-400.webp",
+      "bytes": 29006,
+      "sha256": "58dd21f62257da0c75890f9cd3e123d1e913b69b835f416a942a9cf90ebbbf16"
+    },
+    {
+      "path": "assets/projects/kopikita-640.webp",
+      "bytes": 58338,
+      "sha256": "729fb6e86319711a9487fe5c1028b97a3710b561b70c15f5e176af13d4b08123"
+    },
+    {
+      "path": "assets/projects/kopikita-800.webp",
+      "bytes": 79556,
+      "sha256": "714f48c47e0363f6921942a0bdb5eb89d86212263cfdef84e26948a94cdf42a8"
+    },
+    {
+      "path": "assets/projects/makansedap-1200.webp",
+      "bytes": 85860,
+      "sha256": "424efac32a2188158361bf55656b6656e3254286256764fbe5278ae608a0e837"
+    },
+    {
+      "path": "assets/projects/makansedap-400.webp",
+      "bytes": 16572,
+      "sha256": "690d82f31c68922840ea507fa19a4aff62da9818d970ef7b831b3a0561ee3a25"
+    },
+    {
+      "path": "assets/projects/makansedap-640.webp",
+      "bytes": 33742,
+      "sha256": "0002a11518f3905bc833dda6f1059da92489f408c5b83b6e86872cdee9017035"
+    },
+    {
+      "path": "assets/projects/makansedap-800.webp",
+      "bytes": 48208,
+      "sha256": "b048e7cbbbc2b1b8e8e119824aa9d5959a56b1052cdaa935104aafece02d93ca"
+    },
+    {
+      "path": "assets/projects/malaysia-1200.webp",
+      "bytes": 53196,
+      "sha256": "a89ef07c30b0b952f363ea9cb4adfa2904495e2dd24cfff0a667e37823e53ed5"
+    },
+    {
+      "path": "assets/projects/malaysia-400.webp",
+      "bytes": 10704,
+      "sha256": "cd87bb600f44d5920c1249567d25fd1acbe31e2502c9c5909ccd6023ca7822bb"
+    },
+    {
+      "path": "assets/projects/malaysia-640.webp",
+      "bytes": 21936,
+      "sha256": "0e02d329bd6232669be9902d3682d238b731fa0f2afeb081e785e3e0da4f4f24"
+    },
+    {
+      "path": "assets/projects/malaysia-800.webp",
+      "bytes": 30162,
+      "sha256": "4769b8c1e782ecb8da2e199adae0a0f2c7c7d83efe145fda4f786ab8117707d5"
+    },
+    {
+      "path": "favicon-16.png",
+      "bytes": 342,
+      "sha256": "0c77ee534958574f54f0acc27018b7c1c7b79a5ebc738a40e3fda4c92ffcb584"
+    },
+    {
+      "path": "favicon-32.png",
+      "bytes": 598,
+      "sha256": "99ef9e66bfe7eb16e7532f4c0834a29e0bf7f362fe2439813e109d1bf80f3780"
+    },
+    {
+      "path": "favicon-48.png",
+      "bytes": 884,
+      "sha256": "d09cc4119774c133bbbf009b3245be7cab27b69ae7d1ae89b2bd2f7a9d53f159"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 620,
+      "sha256": "111fdf67d9840430517a978b0f40a71cb3f683a4b75125a2b7bb196b1b4dee8c"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 308,
+      "sha256": "2d523729c506c73375bfc37a593097e9937a6f8513c4ffb25293bd3afe5f6503"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 3847,
+      "sha256": "bc068596433bceaa4d925f816627b0cff545932b9884e558104cb5d2894ced43"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 13678,
+      "sha256": "2d25ead2fad8b3f08a0529e81b14209d4624e9114ab1d663ea5e0ed7fb953a88"
+    },
+    {
+      "path": "index.html",
+      "bytes": 47575,
+      "sha256": "60d7b425eb21dfb5d73498e130eba30c7997d605f9f4d21cf8cf42805e24e057"
+    },
+    {
+      "path": "og-image.png",
+      "bytes": 51935,
+      "sha256": "8822179ee71ffbe414a109a9746b0816a840da76f9b0f4bc0241164f3f67452f"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 73,
+      "sha256": "b20f577766720a628dcdb1277af17de84a54fb3cf233b16575ad001af871220f"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 418,
+      "sha256": "cde945b92fb066639f628ca89f29900fcf28d301a994af6cfe8a14ceb188bf8b"
+    },
+    {
+      "path": "work/kilatmoto/index.html",
+      "bytes": 4798,
+      "sha256": "1f3668148164c71a8dc6f2c31002db2b5dc26ef85657499843e02e27aecd8bac"
+    },
+    {
+      "path": "work/kopikita/index.html",
+      "bytes": 4636,
+      "sha256": "e499c28a04418159f0ef7a23acfdddd86afa8323a3012d7a4d99fd0b6b75ede6"
+    },
+    {
+      "path": "work/makansedap/index.html",
+      "bytes": 4918,
+      "sha256": "59b6df00b76b0a9ebff28f8b9bbd03c166fc6c5d2607d30b766b7aead920d686"
+    },
+    {
+      "path": "work/malaysia/index.html",
+      "bytes": 4772,
+      "sha256": "80e88b0e5677767301a4b60cdad793d13dc006fab3d6d480e2298f0c5138e000"
+    },
+    {
+      "path": "_astro/BaseLayout.astro_astro_type_script_index_0_lang.CDDUPsCy.js",
+      "bytes": 11139,
+      "sha256": "b72e0915aa4391f411f34d7da4741785ec7fc9cb9df91b6474612922c63189ff"
+    },
+    {
+      "path": "_astro/geist-latin-wght-normal.BgDaEnEv.woff2",
+      "bytes": 29400,
+      "sha256": "19f9c92546aa300c312235e3125af1b81394d8db9a4bc4a425cd5b641d2d54e1"
+    },
+    {
+      "path": "_astro/mini.BUt3Uaz0.js",
+      "bytes": 12026,
+      "sha256": "a30bb69c78e19426745c38c33856f5b97444187d84030281106a5e7dba7b703a"
+    },
+    {
+      "path": "_astro/studies.B2nOM6jE.css",
+      "bytes": 33061,
+      "sha256": "7b0df5e8de3f3f7571aa38620c83a6f9c35bb426bf407ce85423e6d1e6d7f039"
+    },
+    {
+      "path": "_headers",
+      "bytes": 1029,
+      "sha256": "68251284e3b47eb1540b520cb8a956c25d63316921f6381dce6e3f08625887c4"
+    }
+  ]
+}

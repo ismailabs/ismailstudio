@@ -1,0 +1,425 @@
+{
+  "at": "2026-10-23T15:03:24.629494+00:00",
+  "base": "http://127.0.0.1:4330",
+  "snapshot": "Monolithic Landscape amendment, source committed separately after these unchanged bytes",
+  "firstRun": {
+    "stats": {
+      "startTime": "2026-10-23T14:50:54.034Z",
+      "duration": 360592.238,
+      "expected": 28,
+      "skipped": 0,
+      "unexpected": 1,
+      "flaky": 0
+    },
+    "tests": [
+      {
+        "file": "final-polish.spec.ts",
+        "title": "approved hero remains semantic and usable at 320\u00d7700",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 11033,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "approved hero remains semantic and usable at 360\u00d7780",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 11113,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "approved hero remains semantic and usable at 390\u00d7780",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 5314,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "approved hero remains semantic and usable at 430\u00d7932",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 7120,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "approved hero remains semantic and usable at 667\u00d7375",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 6712,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "approved hero remains semantic and usable at 844\u00d7390",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 6698,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "approved hero remains semantic and usable at 768\u00d71024",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 5727,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "approved hero remains semantic and usable at 1024\u00d7768",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 3761,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "approved hero remains semantic and usable at 1440\u00d7900",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 5562,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "approved hero remains semantic and usable at 1920\u00d71080",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 5960,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "mobile overlay contains keyboard focus, locks background and restores the trigger",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 17820,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "mobile overlay closes by trigger, backdrop, anchor and desktop resize",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 9302,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "short landscape menu keeps final link and close action available",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 5580,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "entrance cues keep text visible and reveal each section only once",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 8519,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "reduced motion shows all content and changes mobile navigation without running animation",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 5704,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "blocked decorative images leave the hero and primary enquiry action usable",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 6132,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "final-polish.spec.ts",
+        "title": "no-JavaScript mobile content, menu and estimate conditions remain readable without imagery",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 11320,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "site.spec.ts",
+        "title": "content, layout and accessibility at 320px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 31824,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "site.spec.ts",
+        "title": "content, layout and accessibility at 360px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 10127,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "site.spec.ts",
+        "title": "content, layout and accessibility at 390px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 11900,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "site.spec.ts",
+        "title": "content, layout and accessibility at 430px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 12882,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "site.spec.ts",
+        "title": "content, layout and accessibility at 768px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 8166,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "site.spec.ts",
+        "title": "content, layout and accessibility at 1024px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 12968,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "site.spec.ts",
+        "title": "content, layout and accessibility at 1440px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 25028,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "site.spec.ts",
+        "title": "content, layout and accessibility at 1920px",
+        "status": "unexpected",
+        "results": [
+          {
+            "status": "timedOut",
+            "duration": 79418,
+            "retry": 0,
+            "errors": [
+              "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "site.spec.ts",
+        "title": "mobile menu opens, closes on Escape and follows anchors",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 4106,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "site.spec.ts",
+        "title": "reduced motion, forced colors, 200% equivalent reflow and privacy",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 2206,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "v3.spec.ts",
+        "title": "motion is deferred until navigation interaction and honors reduced motion",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 5103,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      },
+      {
+        "file": "v3.spec.ts",
+        "title": "approved dark-to-light silhouette and semantic artwork stay usable with reduced motion",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 2897,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      }
+    ]
+  },
+  "focusedRerun": {
+    "stats": {
+      "startTime": "2026-10-23T14:59:22.220Z",
+      "duration": 20171.978,
+      "expected": 1,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "tests": [
+      {
+        "file": "site.spec.ts",
+        "title": "content, layout and accessibility at 1920px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 13968,
+            "retry": 0,
+            "errors": []
+          }
+        ]
+      }
+    ]
+  },
+  "disposition": "All29 selected cases have passing evidence; first1920 accessibility execution timeout retained and resolved unchanged in14s",
+  "assertionsOrTimeoutsChanged": false,
+  "privateTrace": ".local/monolithic-hero/1920-first-trace.zip",
+  "realFormSends": 0
+}

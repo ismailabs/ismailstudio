@@ -1,12 +1,14 @@
 {
-  "at": "2026-10-23T10:52:50.016073+00:00",
+  "at": "2026-10-23T15:08:28.945241+00:00",
   "originalCheckout": "C:\\Users\\moham\\OneDrive\\Desktop\\ismailstudio",
   "head": "b65a208f03dfd01d535eb4a865ad00e2d8fc4146",
   "branch": "codex/ismailstudio-v3-redesign",
-  "statusExactMatch": true,
+  "preexistingOwnerStatusPreserved": true,
+  "currentOwnerStatusExactMatch": true,
   "existingFileHashMatches": 24,
-  "ownerPathsExcluded": 328,
-  "originalHandoffUnchanged": true,
+  "preexistingOwnerPathsExcluded": 328,
+  "newOwnerInputPreserved": "Dramatic Mountain Valley at Golden Dusk.png",
+  "inputSha256": "8096e7eb92492c8d630efda52bba969bf898db0dd91f84f342c9847d8810d886",
   "ownerChangesStagedOrCommitted": false,
   "destructiveGitCommandsUsed": false
 }

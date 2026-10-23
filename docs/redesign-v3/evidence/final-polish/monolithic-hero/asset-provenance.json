@@ -1,0 +1,41 @@
+{
+  "utc": "2026-10-23T14:41:33.587Z",
+  "authority": "Owner-supplied Monolithic Landscape, 23 October 2026; local hero-only replacement",
+  "source": "src/assets/hero/monolithic-landscape.png",
+  "sourceSha256": "8096e7eb92492c8d630efda52bba969bf898db0dd91f84f342c9847d8810d886",
+  "sourceBytes": 2017119,
+  "sourceWidth": 1672,
+  "sourceHeight": 941,
+  "encoder": {
+    "sharp": "0.35.5",
+    "webp": "1.6.0"
+  },
+  "assets": [
+    {
+      "output": "public/assets/hero-desktop.webp",
+      "width": 1672,
+      "height": 941,
+      "framing": "Full approved landscape; no crop",
+      "bytes": 107190,
+      "sha256": "cd0f99118556de7bdf19c3351ecfa2141d9ff38f31a97b885c821c25785dbcc7",
+      "encoding": {
+        "format": "webp",
+        "quality": 80,
+        "effort": 6
+      }
+    },
+    {
+      "output": "public/assets/hero-mobile.webp",
+      "width": 960,
+      "height": 720,
+      "framing": "Right-aligned 4:3 crop, mountain on the right",
+      "bytes": 73404,
+      "sha256": "f9872ee0144f413379a2a98c8c52e92e17d38553917ca6f03cbee1f2b1b37df5",
+      "encoding": {
+        "format": "webp",
+        "quality": 80,
+        "effort": 6
+      }
+    }
+  ]
+}

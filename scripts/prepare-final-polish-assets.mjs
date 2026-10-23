@@ -3,29 +3,30 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
 
-// Resize/encode the exact approved pixels only. Brand and genuine project
-// screenshots are deliberately outside this tool's write scope.
-const sources = [
-  ['hero-desktop-approved-original.png', '1b65fd0024b9011e966b7c90e8babdfee2cc1cba890e871d943aec897141bbd6', 'hero-desktop.webp', 1672, 941],
-  ['hero-mobile-option-A-background.png', '4b7f7ec88e1c5a4f898addd8fef61c5c25e24ad48fcec72d218a01e22c9a6739', 'hero-mobile.webp', 750, 1500],
-];
+// Encode the owner's approved Monolithic Landscape. Only the mobile export is
+// cropped, toward the right-hand mountain. No generated or retouched pixels.
+const source = 'src/assets/hero/monolithic-landscape.png';
+const sourceSha256 = '8096e7eb92492c8d630efda52bba969bf898db0dd91f84f342c9847d8810d886';
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
+const original = await readFile(source);
+assert.equal(hash(original), sourceSha256, 'Unapproved hero source');
+const metadata = await sharp(original).metadata();
+assert.equal(metadata.width, 1672); assert.equal(metadata.height, 941);
+const encoding = { quality: 80, effort: 6 };
+const variants = [
+  { output: 'public/assets/hero-desktop.webp', width: 1672, height: 941, framing: 'Full approved landscape; no crop', buffer: await sharp(original).webp(encoding).toBuffer(), budget: 250000 },
+  { output: 'public/assets/hero-mobile.webp', width: 960, height: 720, framing: 'Right-aligned 4:3 crop, mountain on the right', buffer: await sharp(original).resize({ width: 960, height: 720, fit: 'cover', position: 'right', withoutEnlargement: true }).webp(encoding).toBuffer(), budget: 150000 },
+];
+for (const variant of variants) assert.ok(variant.buffer.length < variant.budget, 'Hero export exceeds image budget');
 const assets = [];
-for (const [file, expected, output, width, height] of sources) {
-  const source = `docs/ismailstudio-v3-final-polish/assets/${file}`;
-  const bytes = await readFile(source);
-  assert.equal(hash(bytes), expected, `Unapproved source: ${source}`);
-  const metadata = await sharp(bytes).metadata();
-  assert.equal(metadata.width, width); assert.equal(metadata.height, height);
-  const derived = await sharp(bytes).webp({ quality: 82, effort: 6 }).toBuffer();
-  const destination = `public/assets/${output}`;
-  await writeFile(destination, derived);
-  assets.push({ source, sourceSha256: expected, sourceWidth: width, sourceHeight: height, output: destination, width, height, bytes: derived.length, sha256: hash(derived), encoding: { format: 'webp', quality: 82, effort: 6 } });
+for (const { buffer, budget, ...variant } of variants) {
+  await writeFile(variant.output, buffer);
+  assets.push({ ...variant, bytes: buffer.length, sha256: hash(buffer), encoding: { format: 'webp', ...encoding } });
 }
-await mkdir('docs/redesign-v3/evidence/final-polish', { recursive: true });
-await writeFile('docs/redesign-v3/evidence/final-polish/asset-provenance.json', JSON.stringify({
-  utc: new Date().toISOString(), encoder: sharp.versions,
-  authority: 'Owner-approved desktop 01+06 and mobile option A, 23 October 2026. Illustrated scenery; not an office photograph or project screenshot.',
-  transformations: 'WebP encoding only; no crop, redraw, recolor, UI overlay or generated replacement. Source originals preserved byte-for-byte.', assets,
+await mkdir('.local/monolithic-hero', { recursive: true });
+await writeFile('.local/monolithic-hero/asset-provenance.json', JSON.stringify({
+  utc: new Date().toISOString(), authority: 'Owner-supplied Monolithic Landscape, 23 October 2026; local hero-only replacement',
+  source, sourceSha256, sourceBytes: original.length, sourceWidth: metadata.width, sourceHeight: metadata.height,
+  encoder: { sharp: sharp.versions.sharp, webp: sharp.versions.webp }, assets,
 }, null, 2));
 console.log(JSON.stringify(assets));

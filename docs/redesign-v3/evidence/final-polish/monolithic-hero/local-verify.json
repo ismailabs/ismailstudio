@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-23T15:08:29.225804+00:00",
+  "command": "TEST_BASE_URL=http://127.0.0.1:4330 npm run verify",
+  "stats": {
+    "startTime": "2026-10-23T15:02:26.964Z",
+    "duration": 264467.615,
+    "expected": 58,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "handoff": "both checksum verifiers PASS",
+  "astroCheck": "0 errors / 0 warnings / 0 hints",
+  "build": "5 static pages",
+  "redirectUnits": {
+    "passed": 3,
+    "failed": 0
+  },
+  "realFormSends": 0,
+  "sourceState": "Monolithic Landscape exact source bytes, commit bound after this run"
+}

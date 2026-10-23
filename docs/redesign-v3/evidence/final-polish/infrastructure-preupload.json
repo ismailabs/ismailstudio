@@ -1,5 +1,5 @@
 {
-  "utc": "2026-10-23T10:19:45.089Z",
+  "utc": "2026-10-23T15:04:43.997Z",
   "stage": "preupload",
   "comparison": "PASS",
   "method": "Fresh Cloudflare connector GET only, normalized identically to infrastructure-before.json",

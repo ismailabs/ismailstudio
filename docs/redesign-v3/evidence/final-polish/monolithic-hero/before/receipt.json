@@ -1,0 +1,489 @@
+{
+  "at": "2026-10-23T14:42:59.107Z",
+  "base": "http://127.0.0.1:4327",
+  "phase": "before",
+  "browser": "155.0.4283.62",
+  "captures": [
+    {
+      "width": 320,
+      "height": 700,
+      "overflow": false,
+      "image": {
+        "url": "/assets/hero-mobile.webp",
+        "naturalWidth": 750,
+        "naturalHeight": 1500,
+        "fetchPriority": "high",
+        "alt": "",
+        "loading": "eager"
+      },
+      "geometry": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 820
+        },
+        "heading": {
+          "x": 20,
+          "y": 194.1875,
+          "width": 280,
+          "height": 122.671875
+        },
+        "description": {
+          "x": 20,
+          "y": 340.859375,
+          "width": 280,
+          "height": 102
+        },
+        "actions": {
+          "x": 20,
+          "y": 468.859375,
+          "width": 280,
+          "height": 118
+        },
+        "header": {
+          "x": 20,
+          "y": 12,
+          "width": 280,
+          "height": 76
+        }
+      },
+      "nonHero": "f4dc73629fa3cf52113521358df364b1221fff58db98d1221535f36a270d2e4a",
+      "heroCopy": "Website design & development\nMelaka, Malaysia\n\nBUILT FOR\nBIGGER\nPROBLEMS.\n\nI design and build websites that help Malaysian businesses explain what they do, earn trust and make it easier to get in touch.\n\nGet a website quote\n↘\nExplore my work\nIdeas. Interfaces. Solutions.\nDiscover the work\n↓",
+      "header": "8cdc9cc6acdc7fcc7e8e46224d4d7a4060f51d39ecd88efaa50388e83a032ee4",
+      "style": {
+        "headline": "",
+        "gradient": "linear-gradient(105deg, rgb(177, 158, 255) 0%, rgb(130, 172, 255) 50%, rgb(255, 115, 226) 100%)"
+      },
+      "imageRequests": [
+        {
+          "url": "/assets/hero-mobile.webp",
+          "bytes": 45380,
+          "duration": 110.19999999925494
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 780,
+      "overflow": false,
+      "image": {
+        "url": "/assets/hero-mobile.webp",
+        "naturalWidth": 750,
+        "naturalHeight": 1500,
+        "fetchPriority": "high",
+        "alt": "",
+        "loading": "eager"
+      },
+      "geometry": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 820
+        },
+        "heading": {
+          "x": 20,
+          "y": 194.1875,
+          "width": 350,
+          "height": 149.578125
+        },
+        "description": {
+          "x": 20,
+          "y": 367.765625,
+          "width": 350,
+          "height": 76.5
+        },
+        "actions": {
+          "x": 20,
+          "y": 470.265625,
+          "width": 350,
+          "height": 118
+        },
+        "header": {
+          "x": 20,
+          "y": 12,
+          "width": 350,
+          "height": 76
+        }
+      },
+      "nonHero": "f4dc73629fa3cf52113521358df364b1221fff58db98d1221535f36a270d2e4a",
+      "heroCopy": "Website design & development\nMelaka, Malaysia\n\nBUILT FOR\nBIGGER\nPROBLEMS.\n\nI design and build websites that help Malaysian businesses explain what they do, earn trust and make it easier to get in touch.\n\nGet a website quote\n↘\nExplore my work\nIdeas. Interfaces. Solutions.\nDiscover the work\n↓",
+      "header": "8cdc9cc6acdc7fcc7e8e46224d4d7a4060f51d39ecd88efaa50388e83a032ee4",
+      "style": {
+        "headline": "",
+        "gradient": "linear-gradient(105deg, rgb(177, 158, 255) 0%, rgb(130, 172, 255) 50%, rgb(255, 115, 226) 100%)"
+      },
+      "imageRequests": [
+        {
+          "url": "/assets/hero-mobile.webp",
+          "bytes": 45380,
+          "duration": 59.80000000074506
+        }
+      ],
+      "axe": {
+        "violations": []
+      }
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "image": {
+        "url": "/assets/hero-mobile.webp",
+        "naturalWidth": 750,
+        "naturalHeight": 1500,
+        "fetchPriority": "high",
+        "alt": "",
+        "loading": "eager"
+      },
+      "geometry": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 820
+        },
+        "heading": {
+          "x": 20,
+          "y": 194.1875,
+          "width": 390,
+          "height": 164.90625
+        },
+        "description": {
+          "x": 20,
+          "y": 383.09375,
+          "width": 360.671875,
+          "height": 76.5
+        },
+        "actions": {
+          "x": 20,
+          "y": 485.59375,
+          "width": 390,
+          "height": 118
+        },
+        "header": {
+          "x": 20,
+          "y": 12,
+          "width": 390,
+          "height": 76
+        }
+      },
+      "nonHero": "f4dc73629fa3cf52113521358df364b1221fff58db98d1221535f36a270d2e4a",
+      "heroCopy": "Website design & development\nMelaka, Malaysia\n\nBUILT FOR\nBIGGER\nPROBLEMS.\n\nI design and build websites that help Malaysian businesses explain what they do, earn trust and make it easier to get in touch.\n\nGet a website quote\n↘\nExplore my work\nIdeas. Interfaces. Solutions.\nDiscover the work\n↓",
+      "header": "8cdc9cc6acdc7fcc7e8e46224d4d7a4060f51d39ecd88efaa50388e83a032ee4",
+      "style": {
+        "headline": "",
+        "gradient": "linear-gradient(105deg, rgb(177, 158, 255) 0%, rgb(130, 172, 255) 50%, rgb(255, 115, 226) 100%)"
+      },
+      "imageRequests": [
+        {
+          "url": "/assets/hero-mobile.webp",
+          "bytes": 45380,
+          "duration": 56.19999999925494
+        }
+      ]
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "overflow": false,
+      "image": {
+        "url": "/assets/hero-desktop.webp",
+        "naturalWidth": 1672,
+        "naturalHeight": 941,
+        "fetchPriority": "high",
+        "alt": "",
+        "loading": "eager"
+      },
+      "geometry": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 667,
+          "height": 780
+        },
+        "heading": {
+          "x": 24,
+          "y": 206.390625,
+          "width": 619,
+          "height": 190.875
+        },
+        "description": {
+          "x": 24,
+          "y": 425.265625,
+          "width": 429.609375,
+          "height": 81
+        },
+        "actions": {
+          "x": 24,
+          "y": 536.265625,
+          "width": 619,
+          "height": 54.390625
+        },
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 619,
+          "height": 76
+        }
+      },
+      "nonHero": "f4dc73629fa3cf52113521358df364b1221fff58db98d1221535f36a270d2e4a",
+      "heroCopy": "Website design & development Melaka, Malaysia\n\nBUILT FOR\nBIGGER\nPROBLEMS.\n\nI design and build websites that help Malaysian businesses explain what they do, earn trust and make it easier to get in touch.\n\nGet a website quote\n↘\nExplore my work\n\nBased in Melaka. Serving businesses across Malaysia.\n\nIdeas. Interfaces. Solutions.\nDiscover the work\n↓",
+      "header": "8cdc9cc6acdc7fcc7e8e46224d4d7a4060f51d39ecd88efaa50388e83a032ee4",
+      "style": {
+        "headline": "",
+        "gradient": "linear-gradient(105deg, rgb(177, 158, 255) 0%, rgb(130, 172, 255) 50%, rgb(255, 115, 226) 100%)"
+      },
+      "imageRequests": [
+        {
+          "url": "/assets/hero-desktop.webp",
+          "bytes": 99264,
+          "duration": 49.600000001490116
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "image": {
+        "url": "/assets/hero-desktop.webp",
+        "naturalWidth": 1672,
+        "naturalHeight": 941,
+        "fetchPriority": "high",
+        "alt": "",
+        "loading": "eager"
+      },
+      "geometry": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 780
+        },
+        "heading": {
+          "x": 24,
+          "y": 206.390625,
+          "width": 650,
+          "height": 219.796875
+        },
+        "description": {
+          "x": 24,
+          "y": 454.1875,
+          "width": 429.609375,
+          "height": 81
+        },
+        "actions": {
+          "x": 24,
+          "y": 565.1875,
+          "width": 720,
+          "height": 54.390625
+        },
+        "header": {
+          "x": 24,
+          "y": 16,
+          "width": 720,
+          "height": 76
+        }
+      },
+      "nonHero": "f4dc73629fa3cf52113521358df364b1221fff58db98d1221535f36a270d2e4a",
+      "heroCopy": "Website design & development Melaka, Malaysia\n\nBUILT FOR\nBIGGER\nPROBLEMS.\n\nI design and build websites that help Malaysian businesses explain what they do, earn trust and make it easier to get in touch.\n\nGet a website quote\n↘\nExplore my work\n\nBased in Melaka. Serving businesses across Malaysia.\n\nIdeas. Interfaces. Solutions.\nDiscover the work\n↓",
+      "header": "8cdc9cc6acdc7fcc7e8e46224d4d7a4060f51d39ecd88efaa50388e83a032ee4",
+      "style": {
+        "headline": "",
+        "gradient": "linear-gradient(105deg, rgb(177, 158, 255) 0%, rgb(130, 172, 255) 50%, rgb(255, 115, 226) 100%)"
+      },
+      "imageRequests": [
+        {
+          "url": "/assets/hero-desktop.webp",
+          "bytes": 99264,
+          "duration": 52.30000000074506
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "image": {
+        "url": "/assets/hero-desktop.webp",
+        "naturalWidth": 1672,
+        "naturalHeight": 941,
+        "fetchPriority": "high",
+        "alt": "",
+        "loading": "eager"
+      },
+      "geometry": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 740
+        },
+        "heading": {
+          "x": 32,
+          "y": 182.390625,
+          "width": 700,
+          "height": 232.21875
+        },
+        "description": {
+          "x": 32,
+          "y": 442.609375,
+          "width": 465.421875,
+          "height": 81
+        },
+        "actions": {
+          "x": 32,
+          "y": 553.609375,
+          "width": 960,
+          "height": 54.390625
+        },
+        "header": {
+          "x": 32,
+          "y": 24,
+          "width": 960,
+          "height": 76
+        }
+      },
+      "nonHero": "f4dc73629fa3cf52113521358df364b1221fff58db98d1221535f36a270d2e4a",
+      "heroCopy": "Website design & development Melaka, Malaysia\n\nBUILT FOR\nBIGGER\nPROBLEMS.\n\nI design and build websites that help Malaysian businesses explain what they do, earn trust and make it easier to get in touch.\n\nGet a website quote\n↘\nExplore my work\n\nBased in Melaka. Serving businesses across Malaysia.\n\nIdeas. Interfaces. Solutions.\nDiscover the work\n↓",
+      "header": "8cdc9cc6acdc7fcc7e8e46224d4d7a4060f51d39ecd88efaa50388e83a032ee4",
+      "style": {
+        "headline": "",
+        "gradient": "linear-gradient(105deg, rgb(177, 158, 255) 0%, rgb(130, 172, 255) 50%, rgb(255, 115, 226) 100%)"
+      },
+      "imageRequests": [
+        {
+          "url": "/assets/hero-desktop.webp",
+          "bytes": 99264,
+          "duration": 40.100000001490116
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "image": {
+        "url": "/assets/hero-desktop.webp",
+        "naturalWidth": 1672,
+        "naturalHeight": 941,
+        "fetchPriority": "high",
+        "alt": "",
+        "loading": "eager"
+      },
+      "geometry": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 789.8125
+        },
+        "heading": {
+          "x": 56,
+          "y": 182.390625,
+          "width": 700,
+          "height": 289.640625
+        },
+        "description": {
+          "x": 56,
+          "y": 500.03125,
+          "width": 465.421875,
+          "height": 81
+        },
+        "actions": {
+          "x": 56,
+          "y": 611.03125,
+          "width": 1328,
+          "height": 54.390625
+        },
+        "header": {
+          "x": 56,
+          "y": 24,
+          "width": 1328,
+          "height": 76
+        }
+      },
+      "nonHero": "f4dc73629fa3cf52113521358df364b1221fff58db98d1221535f36a270d2e4a",
+      "heroCopy": "Website design & development Melaka, Malaysia\n\nBUILT FOR\nBIGGER\nPROBLEMS.\n\nI design and build websites that help Malaysian businesses explain what they do, earn trust and make it easier to get in touch.\n\nGet a website quote\n↘\nExplore my work\n\nBased in Melaka. Serving businesses across Malaysia.\n\nIdeas. Interfaces. Solutions.\nDiscover the work\n↓",
+      "header": "8cdc9cc6acdc7fcc7e8e46224d4d7a4060f51d39ecd88efaa50388e83a032ee4",
+      "style": {
+        "headline": "",
+        "gradient": "linear-gradient(105deg, rgb(177, 158, 255) 0%, rgb(130, 172, 255) 50%, rgb(255, 115, 226) 100%)"
+      },
+      "imageRequests": [
+        {
+          "url": "/assets/hero-desktop.webp",
+          "bytes": 99264,
+          "duration": 41.29999999701977
+        }
+      ],
+      "axe": {
+        "violations": []
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "image": {
+        "url": "/assets/hero-desktop.webp",
+        "naturalWidth": 1672,
+        "naturalHeight": 941,
+        "fetchPriority": "high",
+        "alt": "",
+        "loading": "eager"
+      },
+      "geometry": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 890
+        },
+        "heading": {
+          "x": 296,
+          "y": 250.390625,
+          "width": 700,
+          "height": 318.5625
+        },
+        "description": {
+          "x": 296,
+          "y": 596.953125,
+          "width": 465.421875,
+          "height": 81
+        },
+        "actions": {
+          "x": 296,
+          "y": 707.953125,
+          "width": 1328,
+          "height": 54.390625
+        },
+        "header": {
+          "x": 296,
+          "y": 24,
+          "width": 1328,
+          "height": 76
+        }
+      },
+      "nonHero": "f4dc73629fa3cf52113521358df364b1221fff58db98d1221535f36a270d2e4a",
+      "heroCopy": "Website design & development Melaka, Malaysia\n\nBUILT FOR\nBIGGER\nPROBLEMS.\n\nI design and build websites that help Malaysian businesses explain what they do, earn trust and make it easier to get in touch.\n\nGet a website quote\n↘\nExplore my work\n\nBased in Melaka. Serving businesses across Malaysia.\n\nIdeas. Interfaces. Solutions.\nDiscover the work\n↓",
+      "header": "8cdc9cc6acdc7fcc7e8e46224d4d7a4060f51d39ecd88efaa50388e83a032ee4",
+      "style": {
+        "headline": "",
+        "gradient": "linear-gradient(105deg, rgb(177, 158, 255) 0%, rgb(130, 172, 255) 50%, rgb(255, 115, 226) 100%)"
+      },
+      "imageRequests": [
+        {
+          "url": "/assets/hero-desktop.webp",
+          "bytes": 99264,
+          "duration": 32.099999997764826
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "complete": true
+}

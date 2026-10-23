@@ -6,5 +6,10 @@
   "providerStatus": 200,
   "providerAccepted": true,
   "browserSuccess": true,
-  "recipientReceipt": "PENDING independent Zoho evidence; provider acceptance is not delivery"
+  "recipientReceipt": "OWNER_CONFIRMED exact marker arrived in Zoho",
+  "confirmationRecordedAt": "2026-10-23T11:03:36Z",
+  "confirmationMethod": "Owner direct response to the exact-marker question in this active task",
+  "ownerConfirmation": "Yes, that exact marker arrived in Zoho",
+  "agentMailboxAccess": false,
+  "repeatSubmissions": 0
 }

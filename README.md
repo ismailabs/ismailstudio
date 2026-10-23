@@ -46,9 +46,9 @@ The owner has authorized GitHub push and Cloudflare deployment after gates pass.
 
 - `docs/redesign-v3/START_HERE.md`: approved V3 entrypoint and authority; `execution/acceptance-review.md` maps requirements to evidence.
 - `docs/redesign-v3/evidence/`: actual screenshots, viewport/asset/infrastructure receipts, provenance, skills and measured lab reports. Private raw snapshots remain ignored in `.local/`.
-- `npm run capture:projects`: genuine project captures; `node scripts/v3-capture.mjs <round>`: repeatable isolated page screenshots.
+- Historical `capture:projects` and `v3-capture.mjs` target earlier evidence locations, including owner-deleted history. Do not execute them during this mission without a separately reviewed output migration. Current isolated screenshots use `node scripts/final-polish-capture.mjs <scoped-phase>`.
 - `scripts/v3-smoke.mjs <https-url> <runtime-sha> <phase>`: exact asset/source/headers/privacy/redirect verification against the packaged manifest.
-- `scripts/v3-form-delivery.mjs <https-url> <preview|production>`: initiates **one real test** per environment, guarded by a private intent receipt. Do not include in CI or repeat after a failed or uncertain send; independent Zoho evidence remains necessary.
+- `v3-form-delivery.mjs` is historical. Current delivery uses the final-polish harness below and its separate private one-send guard; do not use an old harness to bypass a send intent.
 
 Use [current progress](docs/implementation-progress.md) and final-polish evidence before any new release. The legacy brand/V3 image generators fail closed to protect approved artwork; `node scripts/prepare-final-polish-assets.mjs` only encodes the two checksum-approved hero sources. Real final-polish delivery uses `scripts/final-polish-form-delivery.mjs`, with a private one-send-per-environment guard and independent Zoho confirmation. Never run real delivery in CI.
 

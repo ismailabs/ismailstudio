@@ -1,0 +1,66 @@
+{
+  "source": "eef2185fb3590a60e9c267794609efe3b6a6001c",
+  "runId": 39939250031,
+  "jobs": [
+    {
+      "id": 120366334088,
+      "name": "verify",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install locked dependencies without lifecycle scripts",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install the locked Playwright Chromium in this ephemeral runner",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify static build, redirects and all browser cases",
+          "conclusion": "success"
+        },
+        {
+          "name": "Preserve local browser receipt",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify the public production website",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Preserve hosted browser receipt",
+          "conclusion": "success"
+        },
+        {
+          "name": "Upload only isolated browser receipts and failure traces",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "boundary": "Hosted production step is correctly skipped for this feature push. Separate agent-run immutable preview/canonical browser tests provide hosted evidence."
+}

@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-23T10:30:24.614050+00:00",
+  "source": "eef2185fb3590a60e9c267794609efe3b6a6001c",
+  "package": ".local/final-polish/website-eef2185.zip",
+  "sha256": "247eba8bd5e09ed3e9ba518d4ea427646ddeaba67a75036950fc66c1da6d255d",
+  "bytes": 1066327,
+  "format": "Pinned cf Build Outputv0; deterministic sorted ZIP members with fixed timestamps; website default worker and static assets only",
+  "privateArtifact": true
+}

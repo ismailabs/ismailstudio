@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-23T10:40:30.091213+00:00",
+  "worker": "ismailstudio",
+  "source": "eef2185fb3590a60e9c267794609efe3b6a6001c",
+  "version": "b767642c-53d1-473d-8d00-277aa7fe5318",
+  "targetPercentage": 100,
+  "command": "cf workers deployments create --worker ismailstudio --strategy percentage --versions @.local/final-polish/promote-versions.json --dry-run",
+  "dryRun": "PASS",
+  "actualPromotion": "NOT EXECUTED",
+  "conditionsStillRequired": [
+    "Full immutable preview browser pass and visual captures",
+    "Single preview provider acceptance plus independent owner Zoho receipt",
+    "Fresh final protected-resource comparison"
+  ],
+  "rollbackVersion": "b46cfec0-8728-4c4d-8031-92d354f10a19"
+}

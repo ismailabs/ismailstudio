@@ -36,3 +36,9 @@ Before: `../../evidence/final-polish/round3-matrix/` (50captures across10viewpor
 5. Pass:1920composition retains the large DOM headline, monitor/laptop/skyline and light-body transition. No additional redesign or needless cosmetic change justified.
 
 Current defect disposition: all identified product fixes implemented. Final menu/landscape checks passed5/5 and disclosure checks2/2; recapture confirms one scrollable column. Performance/source/preview gates remain required before release. Every failed harness/diagnostic record is retained rather than relabeled as passing. Physical devices and screen-reader hardware are outside this browser evidence.
+
+## Immutable hosted preview confirmation
+
+Source `eef2185fb3590a60e9c267794609efe3b6a6001c`, version `b767642c-53d1-473d-8d00-277aa7fe5318`, captured 23 October at 10:49 UTC. [Hosted matrix receipt](../../evidence/final-polish/preview-final-matrix/receipt.json) records 50 states across ten viewport sizes, no page errors, no hero overflow and the exact source header in every state. Desktop/mobile hero, short-landscape menu and mobile offer-deliverable screenshots were directly inspected again. Approved artwork and readable semantic text match the final local review; the short menu remains one vertically scrollable column. No further source repair was indicated.
+
+All form sends in these captures were mocked. The separate real-delivery receipt must pass independently. Hosted browser verification records 57 initial passes and one Axe execution timeout, then a passing unchanged focused rerun with the same 30-second limit. This is passing evidence for all 58 cases across two invocations, not a claim that the first complete invocation was green. The initial trace and the initial no-tests-selected rerun diagnostic remain private/ignored.

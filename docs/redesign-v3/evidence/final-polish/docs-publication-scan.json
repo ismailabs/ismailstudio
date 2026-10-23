@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-23T10:55:38.410288+00:00",
+  "scope": "Only staged final-polish documentation/evidence",
+  "paths": 72,
+  "textFilesScanned": 20,
+  "selectedPatternFindings": 0,
+  "deletions": 0,
+  "ownerPathsIncluded": 0,
+  "stagedDiffCheck": "PASS",
+  "tool": "custom targeted regex/path review; not Gitleaks",
+  "runtimeSourceUnchangedFrom": "eef2185fb3590a60e9c267794609efe3b6a6001c"
+}

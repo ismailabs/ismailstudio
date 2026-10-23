@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-23T10:31:17.938Z",
+  "id": 39939250031,
+  "url": "https://github.com/ismailabs/ismailstudio/actions/runs/39939250031",
+  "headSha": "eef2185fb3590a60e9c267794609efe3b6a6001c",
+  "branch": "codex/ismailstudio-v3-final-polish",
+  "event": "push",
+  "status": "completed",
+  "conclusion": "success",
+  "startedAt": "2026-10-23T10:27:36Z",
+  "updatedAt": "2026-10-23T10:29:23Z",
+  "method": "Fresh source-branch GitHub Actions quality workflow; pinned install, handoff/type/build/redirect and all 58 browser cases",
+  "historicalEvidence": false
+}

@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-23T10:33:25.370665+00:00",
+  "worker": "ismailstudio",
+  "source": "eef2185fb3590a60e9c267794609efe3b6a6001c",
+  "versionId": "b767642c-53d1-473d-8d00-277aa7fe5318",
+  "immutablePreview": "https://b767642c-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev",
+  "alias": "https://v3-final-polish-ismailstudio.mohamad-ismail-mohd-izwan.workers.dev",
+  "command": "cf workers versions create --prebuilt --mode production --worker ismailstudio --preview-alias v3-final-polish",
+  "result": "Upload succeeded,9new/39already-uploaded assets",
+  "promoted": false,
+  "genericDeployOrTriggersUsed": false,
+  "sourceCI": "https://github.com/ismailabs/ismailstudio/actions/runs/39939250031",
+  "sourceCIResult": "success",
+  "package": "commit-bound-package.json"
+}

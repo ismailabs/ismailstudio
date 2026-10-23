@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-23T10:38:19.775301+00:00",
+  "branch": "codex/ismailstudio-v3-final-polish",
+  "commit": "eef2185fb3590a60e9c267794609efe3b6a6001c",
+  "localHead": "eef2185fb3590a60e9c267794609efe3b6a6001c",
+  "trackingRef": "eef2185fb3590a60e9c267794609efe3b6a6001c",
+  "advertisedRemoteBranch": "eef2185fb3590a60e9c267794609efe3b6a6001c",
+  "advertisedMain": "b65a208f03dfd01d535eb4a865ad00e2d8fc4146",
+  "mainUpdated": false,
+  "forceUsed": false,
+  "ownerPathsExcluded": 328,
+  "sourceCI": "source-ci.json"
+}
